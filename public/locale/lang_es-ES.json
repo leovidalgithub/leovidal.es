@@ -69,6 +69,26 @@
             }
         }
     },
+    "portfolio": {
+        "title" : "Check Out Some of My Lastest Works",
+        "login" : "Usuario",
+        "pass" : "Contraseña",
+        "tryme" : "Pruébame",
+        "apps" : {
+            "sipedi" : {
+                "title" : "Sistema de Pedido a Empresas de Distribución",
+                "note" : "(ideal for try the two users at the same time in different devices)"
+            },
+            "zemtime_ng1" : {
+                "title" : "Imputación de horas - Angular 1",
+                "note" : "()"
+            },
+            "zemtime_ng4" : {
+                "title" : "Imputación de horas - Angular 4",
+                "note" : "()"
+            }
+        }
+    },
     "email": {
         "ok" : "Mensaje enviado. Gracias!",
         "err" : "Oh! Tu mensaje no pudo enviarse"

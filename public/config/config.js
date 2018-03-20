@@ -20,15 +20,7 @@ const config = {
         tls: {
             rejectUnauthorized: false // process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
         }
-    }),
-    email: {
-        // host: 'smtp.zemsania.com',
-        // port: 25,
-        // user: 'gitlab@zemsania.com',
-        // pass: 'K1Y32Q8bKMbaG6q'
-    }
+    })
 }
 
 module.exports = { ...config }
-
-

@@ -93,8 +93,7 @@
       element: document.getElementById('mySkills'),
       handler: function() {
           let skills = [
-              'AngularJS',
-              'Angular4',
+              'Angular',
               'NodeJS',
               'ExpressJS',
               'JavaScript',

@@ -92,23 +92,22 @@
         background-color: rgba(black, .085);
         height: 22px;
         border-radius: 3px;
-        &:nth-child(1) { transform: rotate(.6deg); } // AngularJS
-        &:nth-child(2) { transform: rotate(-.9deg); } // Angular 4
-        &:nth-child(3) { transform: rotate(1.1deg); }
-        &:nth-child(4) { transform: rotate(.5deg); }
-        &:nth-child(5) { transform: rotate(-1deg); }
-        &:nth-child(6) { transform: rotate(-.3deg); }
-        &:nth-child(7) { transform: rotate(.8deg); }
-        &:nth-child(8) { transform: rotate(2deg); }
-        &:nth-child(9) { transform: rotate(-.8deg); }
-        &:nth-child(10) { transform: rotate(-.1deg); }
-        &:nth-child(11) { transform: rotate(1.1deg); }
-        &:nth-child(12) { transform: rotate(.2deg); }
-        &:nth-child(13) { transform: rotate(-2.1deg); }
-        &:nth-child(14) { transform: rotate(1deg); }
-        &:nth-child(15) { transform: rotate(-1.4deg); }
-        &:nth-child(16) { transform: rotate(-.7deg); }
-        &:nth-child(17) { transform: rotate(1.7deg); } // Webpack
+        &:nth-child(1) { transform: rotate(.6deg); } // Angular 1 & 2
+        &:nth-child(2) { transform: rotate(1.1deg); }
+        &:nth-child(3) { transform: rotate(.5deg); }
+        &:nth-child(4) { transform: rotate(-1deg); }
+        &:nth-child(5) { transform: rotate(-.3deg); }
+        &:nth-child(6) { transform: rotate(.8deg); }
+        &:nth-child(7) { transform: rotate(2deg); }
+        &:nth-child(8) { transform: rotate(-.8deg); }
+        &:nth-child(9) { transform: rotate(-.1deg); }
+        &:nth-child(10) { transform: rotate(1.1deg); }
+        &:nth-child(11) { transform: rotate(.2deg); }
+        &:nth-child(12) { transform: rotate(-2.1deg); }
+        &:nth-child(13) { transform: rotate(1deg); }
+        &:nth-child(14) { transform: rotate(-1.4deg); }
+        &:nth-child(15) { transform: rotate(-.7deg); }
+        &:nth-child(16) { transform: rotate(1.7deg); } // Webpack
     }
 }
 .bars li em {
@@ -134,13 +133,9 @@
     border-radius: 8px 8px 8px 8px;
 }
 
-.AngularJS {
-    width: $AngularJS;
-    animation: AngularJS 7s ease;
-}
-.Angular4 {
-    width: $Angular4;
-    animation: Angular4 6s ease;
+.Angular {
+    width: $Angular;
+    animation: Angular4 7s ease;
 }
 .NodeJS {
     width: $NodeJS;
@@ -203,11 +198,8 @@
     animation: Webpack 4s ease;
 }
 
-@keyframes AngularJS {
-    @include mySkillBarKeyframes($AngularJS);
-}
-@keyframes Angular4 {
-    @include mySkillBarKeyframes($Angular4);
+@keyframes Angular {
+    @include mySkillBarKeyframes($Angular);
 }
 @keyframes NodeJS {
     @include mySkillBarKeyframes($NodeJS);

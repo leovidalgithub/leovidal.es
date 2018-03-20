@@ -30,7 +30,7 @@ angular
             // });
     }])
     .run([function () { }]) // run is empty
-    .controller('mainController', ['$rootScope', '$translate', '$timeout', '$http', function ($rootScope, $translate, $timeout, $http) {
+    .controller('mainController', ['$rootScope', '$translate', '$timeout', '$http', '$window', function ($rootScope, $translate, $timeout, $http, $window) {
         let vm = this;
         vm.data = {};
 
@@ -40,6 +40,22 @@ angular
             $translate.use(currentIdom);
         });
 
+        vm.openUrl = (val) => {
+            switch (val) {
+                case 1:
+                    $window.open('http://sipedi.net', '_blank');                    
+                    break;
+                case 2:
+                    $window.open('http://zemtime.ngi.sipedi.net', '_blank');                    
+                    break;
+                case 3:
+                    $window.open('http://zemtime.ngiv.sipedi.net', '_blank');                    
+                    break;
+                default:
+                    break;
+            }
+        }
+        
         vm.submit = () => {
             vm.data.sending = true;
             let protocol = window.location.protocol;
