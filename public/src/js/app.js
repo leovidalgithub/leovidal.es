@@ -81,6 +81,10 @@ angular
         };
 
         vm.idiomChange = function (idiom) {
+            if (idiom == 'fr-FR') {
+                idiom = $translate.use(); // since french is not available, it takes the current idiom a set it
+                alert(`Désolé, la page n'est pas encore disponible en français.`);
+            }
             vm.myIdiom = idiom;
             $translate.use(idiom);
         };
