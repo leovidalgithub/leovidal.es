@@ -107,8 +107,7 @@
               'PHP',
               'Scrum',
               'NET',
-              'Jasmine',
-              'Webpack'
+              'Jasmine'
           ];
            $('#resume ul.skills li span').each(function( index ) {
                $(this).delay(3000).addClass(skills[index]);

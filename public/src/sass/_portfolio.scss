@@ -30,16 +30,16 @@
             width: 320px;
             height: 385px;
             padding: 15px;
-            background-color: darken($background-1, 1%);
-            border-radius: 5px;
+            background-color: darken($background-1, 10%);
+            border-radius: 7px;
             margin-right: 15px;
             margin-bottom: 15px;
             transition: all .2s ease;
             &:hover {
                 -webkit-transform: scale(1.005);
                 transform: scale(1.005);
-                background-color: darken($background-1, 2%);
-                color: lighten($grayText, 15%);
+                background-color: darken($background-1, 15%);
+                color: lighten($grayText, 25%);
                 cursor: pointer;
             }
             

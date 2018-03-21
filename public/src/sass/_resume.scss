@@ -92,7 +92,7 @@
         background-color: rgba(black, .085);
         height: 22px;
         border-radius: 3px;
-        &:nth-child(1) { transform: rotate(.6deg); } // Angular 1 & 2
+        &:nth-child(1) { transform: rotate(.6deg); } // Angular 1 & 4
         &:nth-child(2) { transform: rotate(1.1deg); }
         &:nth-child(3) { transform: rotate(.5deg); }
         &:nth-child(4) { transform: rotate(-1deg); }
@@ -107,7 +107,6 @@
         &:nth-child(13) { transform: rotate(1deg); }
         &:nth-child(14) { transform: rotate(-1.4deg); }
         &:nth-child(15) { transform: rotate(-.7deg); }
-        &:nth-child(16) { transform: rotate(1.7deg); } // Webpack
     }
 }
 .bars li em {
@@ -135,7 +134,7 @@
 
 .Angular {
     width: $Angular;
-    animation: Angular4 7s ease;
+    animation: Angular 7s ease;
 }
 .NodeJS {
     width: $NodeJS;
@@ -193,10 +192,6 @@
     width: $Jasmine;
     animation: Jasmine 6s ease;
 }
-.Webpack {
-    width: $Webpack;
-    animation: Webpack 4s ease;
-}
 
 @keyframes Angular {
     @include mySkillBarKeyframes($Angular);
@@ -242,7 +237,4 @@
 }
 @keyframes Jasmine {
     @include mySkillBarKeyframes($Jasmine);
-}
-@keyframes Webpack {
-    @include mySkillBarKeyframes($Webpack);
 }

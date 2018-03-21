@@ -84,8 +84,12 @@ gulp.task( 'watch', ['browser-sync'], function() {
 
  // ********************************* VENDOR:CSS *********************************
 gulp.task( 'vendor:css', function () {
-	return gulp.src( ['public/src/vendor/css/flexslider.css',
-					  'public/src/vendor/css/flags.min.css'] )
+	return gulp.src( [
+            // 'public/src/vendor/css/flexslider.css',
+            'public/src/vendor/css/bootstrap.min.css',
+            'public/src/vendor/css/font-awesome.min.css',
+            'public/src/vendor/css/flags.min.css'
+          ] )
 		.pipe( concat( 'vendor.css' ))
         // .pipe( minifyCSS())
         .pipe( gulp.dest( 'public/build/vendor/css' ));
@@ -101,8 +105,8 @@ gulp.task( 'vendor:js', function () {
                 'public/src/vendor/js/angular-translate-loader-static-files.min.js',
                 'public/src/vendor/js/waypoint/jquery.waypoints.min.js',
                 'public/src/vendor/js/jquery.fittext.js',
-                'public/src/vendor/js/parallax.min.js',
-                'public/src/vendor/js/jquery.flexslider-min.js',
+                'public/src/vendor/js/parallax.min.js'
+                // 'public/src/vendor/js/jquery.flexslider-min.js',
                     ])
 		.pipe( concat( 'vendor.js' ))
 		// .pipe( uglify() )

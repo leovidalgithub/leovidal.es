@@ -2,22 +2,18 @@
 <html ng-app="myAppCV">
 
 <head>
-    <!-- ?v=1.12 -->
+    <!-- ?v=1.14 no-cache-->
     <meta charset="utf-8">
     <title>Leo Resume</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta name="theme-color" content="black">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="./build/vendor/css/vendor.css?v=1.12">
-    <link rel="stylesheet" href="./build/css/default.css?v=1.12">
+    <link rel="stylesheet" href="./build/vendor/css/vendor.css?v=1.14">
+    <link rel="stylesheet" href="./build/css/default.css?v=1.14">
 </head>
 
 <body ng-controller="mainController as vm">
 
-    <!-- Header
+    <!-- HEADER
         ================================================== -->
     <header id="header">
         <nav id="nav-wrap">
@@ -60,12 +56,12 @@
                 <hr>
                 <ul class="social">
                     <li>
-                        <a href="#" title="facebook">
+                        <a href="https://www.facebook.com/leordgz" target="blank" title="facebook">
                             <i class="fa fa-facebook"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#" title="Twitter">
+                        <a href="https://twitter.com/LeoRdgzVidal" title="Twitter" target="blank">
                             <i class="fa fa-twitter"></i>
                         </a>
                     </li>
@@ -75,17 +71,17 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" title="Instagram">
+                        <a href="https://www.instagram.com/leoamiguo" target="blank" title="Instagram">
                             <i class="fa fa-instagram"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:info@leovidal.es?Subject=CV-" target="_top" title="eMail">
+                        <a href="mailto:info@leovidal.es?Subject=leordgz_CV-" target="_top" title="eMail">
                             <i class="fa fa-envelope-o"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#" title="Skype">
+                        <a href="skype:leordgz?call" title="Skype">
                             <i class="fa fa-skype"></i>
                         </a>
                     </li>
@@ -101,7 +97,7 @@
     </header>
     <!-- Header End -->
 
-    <!-- About Section
+    <!-- ABOUT SECTION
         ================================================== -->
     <section id="about">
         <div class="row main-col">
@@ -139,7 +135,7 @@
     </section>
     <!-- About Section End-->
 
-    <!-- Resume Section
+    <!-- RESUME SECTION
         ================================================== -->
     <section id="resume">
         <div class="content">
@@ -155,7 +151,7 @@
                 </div>
 
                 <div class="col-md-9 main-col">
-<!-- LASALLE -->
+                    <!-- LASALLE -->
                     <div class="row item">
                         <div class="col-xs-12">
                             <h3>{{'resume.education.lasalle.lasalle' | translate}} -
@@ -170,7 +166,7 @@
                     </div>
                     <!-- item end -->
 
-<!-- SKYLAB -->
+                    <!-- SKYLAB -->
                     <div class="row item">
                         <div class="col-xs-12">
                             <h3>{{'resume.education.skylab.skylab' | translate}} -
@@ -185,7 +181,7 @@
                     </div>
                     <!-- item end -->
 
-<!-- ABISA -->
+                    <!-- ABISA -->
                     <div class="row item">
                         <div class="col-xs-12">
                             <h3>{{'resume.education.abisa.abisa' | translate}} -
@@ -200,7 +196,7 @@
                     </div>
                     <!-- item end -->
 
-<!-- UNE -->
+                    <!-- UNE -->
                     <div class="row item">
                         <div class="col-xs-12">
                             <h3>{{'resume.education.une.une' | translate}} -
@@ -231,6 +227,7 @@
                 </div>
 
                 <div class="col-md-9 main-col">
+                    <!-- ZEMSANIA -->
                     <div class="row item">
                         <div class="col-xs-12">
 
@@ -246,6 +243,7 @@
                     </div>
                     <!-- item end -->
 
+                    <!-- ROLINE -->
                     <div class="row item">
                         <div class="col-xs-12">
                             <h3>{{'resume.work.roline.roline' | translate}} -
@@ -256,8 +254,23 @@
                                 <em class="date">{{'resume.work.roline.date' | translate}}</em>
                             </p>
                             <p>{{'resume.work.roline.content' | translate}}
-                                <a href="http://sipedi.net" target="blank">SiPEDI</a>
+                                <a class="smoothscroll" href="#portfolio">SiPEDI</a>
                             </p>
+                        </div>
+                    </div>
+                    <!-- item end -->
+
+                    <!-- REST OF THE JOBS -->
+                    <div class="row item">
+                        <div class="col-xs-12">
+                            <h3>{{'resume.work.others.others' | translate}} -
+                                <a href="http://mpcsys.com" target="blank">MPC Systems</a>
+                            </h3>
+                            <p class="info">{{'resume.work.others.position' | translate}}
+                                <span>&bull;</span>
+                                <em class="date">{{'resume.work.others.date' | translate}}</em>
+                            </p>
+                            <p>{{'resume.work.others.content' | translate}}</p>
                         </div>
                     </div>
                     <!-- item end -->
@@ -270,14 +283,12 @@
 
             <!-- Skills
            ================================================= -->
-
             <div class="col-md-3 header-col mySkills">
                 <h1>
-                    <span>Skills</span>
+                    <span>{{'resume.skills.skills' | translate}}</span>
                 </h1>
             </div>
             <!-- <br><br><br> -->
-
 <!-- TODO: VER POR QUÉ EL PARALLAX SE MONTA ENCIMA DEL SKILLS -->
 
             <!-- <div data-zIndex="10" class="parallax-window" data-speed=".4" data-parallax="scroll" data-image-src="./images/header-background.jpg"> -->
@@ -292,12 +303,8 @@
                             <ul class="skills">
                                 <li>
                                     <span class="bar-expand"></span>
-                                    <em>Angular 1 & 4</em>
+                                    <em>Angular 1 4</em>
                                 </li>
-                                <!-- <li>
-                                    <span class="bar-expand"></span>
-                                    <em>Angular 4</em>
-                                </li> -->
                                 <li>
                                     <span class="bar-expand"></span>
                                     <em>NodeJS</em>
@@ -336,7 +343,7 @@
                                 </li>
                                 <li>
                                     <span class="bar-expand"></span>
-                                    <em>Gulp - Grunt - Bower</em>
+                                    <em>Gulp - Webpack - Bower</em>
                                 </li>
                                 <li>
                                     <span class="bar-expand"></span>
@@ -353,10 +360,6 @@
                                 <li>
                                     <span class="bar-expand"></span>
                                     <em>Jasmine - Mocha - Karma</em>
-                                </li>
-                                <li>
-                                    <span class="bar-expand"></span>
-                                    <em>Webpack</em>
                                 </li>
                             </ul>
 
@@ -463,7 +466,7 @@
 
         <div class="section-head">
             <div class="touchIcon"></div>
-            <h1>Get In Touch</h1>
+            <h1>{{'contact.getintouch' | translate}}</h1>
         </div>
 
         <div class="row">
@@ -475,7 +478,7 @@
                     <fieldset>
                         <div class="row">
                             <div class="col-md-3">
-                                <label for="contactName">Name
+                                <label for="contactName">{{'contact.form.name' | translate}}
                                     <span class="required">*</span>
                                 </label>
                             </div>
@@ -485,7 +488,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-3">
-                                <label for="contactEmail">Email
+                                <label for="contactEmail">{{'contact.form.email' | translate}}
                                     <span class="required">*</span>
                                 </label>
                             </div>
@@ -495,7 +498,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-3">
-                                <label for="contactSubject">Subject</label>
+                                <label for="contactSubject">{{'contact.form.subject' | translate}}</label>
                             </div>
                             <div class="col-md-9">
                                 <input type="text" maxlength="50" ng-model="vm.data.subject">
@@ -503,7 +506,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-3">
-                                <label for="contactMessage">Message
+                                <label for="contactMessage">{{'contact.form.message' | translate}}
                                     <span class="required">*</span>
                                 </label>
                             </div>
@@ -516,7 +519,7 @@
                             <div class="col-md-offset-3 col-md-3">
                                 <button id="www" type="submit">
                                     <i class="fa" ng-class="{'fa-send':!vm.data.sending, 'fa-refresh fa-spin':vm.data.sending}"></i>
-                                    &nbsp;Submit
+                                    &nbsp;{{'contact.sending.submit' | translate}}
                                 </button>
                             </div>
                         </div>
@@ -542,12 +545,12 @@
 
                 <ul class="social-links">
                     <li>
-                        <a href="#" title="facebook">
+                        <a href="https://www.facebook.com/leordgz" target="blank" title="facebook">
                             <i class="fa fa-facebook"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#" title="Twitter">
+                        <a href="https://twitter.com/LeoRdgzVidal" title="Twitter" target="blank">
                             <i class="fa fa-twitter"></i>
                         </a>
                     </li>
@@ -557,17 +560,17 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" title="Instagram">
+                        <a href="https://www.instagram.com/leoamiguo" target="blank" title="Instagram">
                             <i class="fa fa-instagram"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="mailto:info@leovidal.es?Subject=CV-" target="_top" title="eMail">
+                        <a href="mailto:leo@leovidal.es?Subject=leordgz_CV-" target="_top" title="eMail">
                             <i class="fa fa-envelope-o"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#" title="Skype">
+                        <a href="skype:leordgz?call" title="Skype">
                             <i class="fa fa-skype"></i>
                         </a>
                     </li>
@@ -622,8 +625,8 @@
     <!-- ALERT MESSAGES -->
     <alert-message></alert-message>
 
-    <script src="./build/vendor/js/vendor.js?v=1.12"></script>
-    <script src="./build/js/built.js?v=1.12"></script>
+    <script src="./build/vendor/js/vendor.js?v=1.14"></script>
+    <script src="./build/js/built.js?v=1.14"></script>
 
 </body>
 
