@@ -3,7 +3,7 @@
         "navbar": {
             "home": "Home",
             "about": "About me",
-            "resume": "Summary",
+            "resume": "Résumé",
             "portfolio": "Portfolio",
             "contact": "Contact"
         },
@@ -14,14 +14,14 @@
             "intro": "I live in <span>Montreal</span> as a<span> Fullstack MEAN</span> Web developer, enjoying this spectacular corner of the world and doing what I love the most: developing <span>Applications and Web Pages,</span> always trying to exceed myself and giving the best I have.",
             "start": {
                 "start": "Start",
-                "navigate": "browse",
+                "navigate": "browsing",
                 "knowme": "and know a lot more about me."
             }
         }
     },
     "about": {
         "about-me": "About me",
-        "content": " Computers represent my career and my life. I have a degree in Computer Science. I am a versatile person who has performed in different areas, always associated with information technology. I consider myself a passionate of programming. Since a very young age, I have explored this field in languages, such as, Basic, Fortran, PL/1 and Cobol, among others. Subsequently, I began programming in Visual Basic (later, VB.NET).<br>My specialty - with six years of experience - is developing WEB Applications as MEAN FullStack Developer. I have a huge knowledge in this subject since I am an indefatigable self taught person .<br>In 2016, I participated in the (Skylab Coders Academy) <span>Bootcamp</span>  as “Web Development Fullstack MEAN”. This experience brought me a solid knowledge about new technologies and helped me reinforce important concepts. I am currently dedicated to receive a <span>DEC</span> (Diploma of College Studies) in <span>LaSalle College</span> as <span>“Computer Science - Administrative Data Processing“.</span><br>In my last job in Zemsania Tech Services, I worked as the lead programmer of an application based on <span>Angular 4</span> and <span>NodeJS</span>.<br>I have an excellent adapting capacity and I use to be very detail oriented and perfectionist in every aspect of my life. As a professional, my desire is to continue preparing myself and work among the best of the industry.",
+        "content": " Computers represent my career and my life. I have a degree in Computer Science. I am a versatile person who has performed in different areas, always associated with information technology. I consider myself a passionate of programming. Since a very young age, I have explored this field in languages, such as, Basic, Fortran, PL/1 and Cobol, among others. Subsequently, I began programming in Visual Basic (later, VB.NET).<br>My specialty - with six years of experience - is developing WEB Applications as MEAN FullStack Developer. I have a huge knowledge in this subject since I am an indefatigable self taught person.<br>In 2016, I participated in the Skylab Coders Academy <span>Bootcamp</span>  as “Web Development Fullstack MEAN”. This experience brought me a solid knowledge about new technologies and helped me reinforce important concepts. I am currently dedicated to receive a <span>DEC</span> (Diploma of College Studies) in <span>LaSalle College</span> as <span>“Computer Science - Administrative Data Processing“.</span><br>In my last job in Zemsania Tech Services, I worked as the lead programmer of an application based on <span>Angular 4</span> and <span>NodeJS</span>.<br>I have an excellent adapting capacity and I use to be very detail oriented and perfectionist in every aspect of my life. As a professional, my desire is to continue preparing myself and work among the best of the industry.",
         "contact-details": "Contact address",
         "contact-me": "Contact me"
     },
@@ -35,7 +35,7 @@
                 "content": "This program prepares the computer technician to locate, collect and analyze data on the users' information processing needs. Modeling and processing data to develop a code to create efficient applications according to the data collected and to anticipate needs regarding the network infrastructure."
             },
             "une": {
-                "une": "Universidad Nueva Esparta",
+                "une": "Nueva Esparta University",
                 "title": "Bachelor's Degree in Computer Science",
                 "date": "September 1998",
                 "content": "The Computer Science graduate manages current hardware and software to assist the needs of national and international companies, and professionals from other disciplines as well. This professional is well prepared to work in a team with information systems and to adapt to new trends. They also manage cutting-edge technologies for system analysis, development and implementation."
@@ -50,7 +50,7 @@
                 "abisa": "ABISA Institute & Inforbooks",
                 "title": "WEB Developers",
                 "date": "September 2013",
-                "content": "HTML5, CSS, jQuery, Javascript, Dreamweaver WEB development"
+                "content": "HTML5, CSS3, jQuery, Javascript and Dreamweaver WEB development course."
             }
         },
         "work": {
@@ -75,7 +75,7 @@
             }
         },
         "skills": {
-            "skills": "Abilities"
+            "skills": "Skills"
         }
     },
     "portfolio": {
