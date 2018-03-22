@@ -2,6 +2,7 @@ const express                       = require( 'express' );
 const bodyParser                    = require( 'body-parser');
 const app                           = express();
 const { port, header, transporter } = require(`./public/config/config`);
+const db                            = require('./public/config/db');
 
 app.use(header);
 
@@ -9,6 +10,7 @@ app.use( express.static('public'));
 app.use( bodyParser.json());
 app.use( bodyParser.urlencoded({ extended: true }));
 
+app.post('/tracking', db);
 app.post('/contact', (req,res,next) => {
     let contactData = req.body;
     let randomMS = Math.floor(Math.random() * (1500 - 400 + 1)) + 400;
