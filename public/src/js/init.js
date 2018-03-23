@@ -74,15 +74,16 @@
     /*----------------------------------------------------*/
     /* Waypoint - Highlight the current section in the navigation bar
     ------------------------------------------------------*/
-	let sections = $("section");
-	let navigation_links = $("#nav-wrap a");
+	let sections = $('section');
+	let navigation_links = $('#nav-wrap a');
 	sections.waypoint({
         handler: function(direction) {
+            sendTracking(this.element.id); // sending user tracking stage (about, portfolio, etc.)
             let active_section = $(this.element);
-    		if (direction === "up") active_section = active_section.prev();
+    		if (direction === 'up') active_section = active_section.prev();
     		let active_link = $('#nav-wrap a[href="#' + active_section.attr("id") + '"]');
-            navigation_links.parent().removeClass("current");
-    		active_link.parent().addClass("current");
+            navigation_links.parent().removeClass('current');
+    		active_link.parent().addClass('current');
 		},
 		offset: '18%'
 	});
@@ -95,18 +96,15 @@
           let skills = [
               'Angular',
               'NodeJS',
-              'ExpressJS',
               'JavaScript',
               'Sass',
               'jQuery',
               'MongoDB',
               'HTML_CSS',
-              'Bootstrap',
               'Git',
               'Gulp',
               'PHP',
               'Scrum',
-              'NET',
               'Jasmine'
           ];
            $('#resume ul.skills li span').each(function( index ) {

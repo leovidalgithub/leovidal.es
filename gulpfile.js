@@ -10,6 +10,7 @@ const bs           = require( 'browser-sync' ).create();
 const ngAnnotate   = require( 'gulp-ng-annotate' ); //Add angularjs dependency injection annotations
 const gutil        = require( 'gulp-util' ); // to catch errors
 const babel        = require( 'gulp-babel' );
+// const env       = require('gulp-env'); // for environment variables
 // ALL OF THESE (PACKAGE.JSON) ARE NECESSARY FOR GULP-BABEL
 // "babel-core": "^6.25.0",
 // "babel-loader": "^7.1.1",
@@ -26,7 +27,13 @@ gulp.task('browser-sync', ['nodemon'], function() {
 
 // ********************************* NODEMON *********************************
 gulp.task('nodemon', function (cb) {
-  var called = false;
+  // env({
+  //   // file: '.env.json',
+  //   vars: {
+  //     MYVAR : '1234'
+  //   }
+  // });
+  let called = false;
   return nodemon({
     script: 'app.js',
     ignore: [

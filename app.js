@@ -17,8 +17,6 @@ app.post('/contact', (req,res,next) => {
 
     sendThisMail(contactData, (err, data) => {
         if(err) {
-            console.log('err');
-            console.log(err);
             res.status(200).json({success:false,err:err});
         } else {
             setTimeout(() => {

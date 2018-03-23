@@ -104,9 +104,6 @@
         &:nth-child(10) { transform: rotate(1.1deg); }
         &:nth-child(11) { transform: rotate(.2deg); }
         &:nth-child(12) { transform: rotate(-2.1deg); }
-        &:nth-child(13) { transform: rotate(1deg); }
-        &:nth-child(14) { transform: rotate(-1.4deg); }
-        &:nth-child(15) { transform: rotate(-.7deg); }
     }
 }
 .bars li em {
@@ -140,10 +137,6 @@
     width: $NodeJS;
     animation: NodeJS 7s ease;
 }
-.ExpressJS {
-    width: $ExpressJS;
-    animation: ExpressJS 2s ease;
-}
 .JavaScript {
     width: $JavaScript;
     animation: JavaScript 6s ease;
@@ -164,10 +157,6 @@
   	width: $HTML_CSS;
     animation: HTML_CSS 2s ease;
 }
-.Bootstrap {
-  	width: $Bootstrap;
-    animation: Bootstrap 6s ease;
-}
 .Git {
   	width: $Git;
     animation: Git 4s ease;
@@ -184,10 +173,6 @@
   	width: $Scrum;
     animation: Scrum 2s ease;
 }
-.NET {
-  	width: $NET;
-    animation: NET 6s ease;
-}
 .Jasmine {
     width: $Jasmine;
     animation: Jasmine 6s ease;
@@ -198,9 +183,6 @@
 }
 @keyframes NodeJS {
     @include mySkillBarKeyframes($NodeJS);
-}
-@keyframes ExpressJS {
-    @include mySkillBarKeyframes($ExpressJS);
 }
 @keyframes JavaScript {
     @include mySkillBarKeyframes($JavaScript);
@@ -217,9 +199,6 @@
 @keyframes HTML_CSS {
     @include mySkillBarKeyframes($HTML_CSS);
 }
-@keyframes Bootstrap {
-    @include mySkillBarKeyframes($Bootstrap);
-}
 @keyframes Git {
     @include mySkillBarKeyframes($Git);
 }
@@ -231,9 +210,6 @@
 }
 @keyframes Scrum {
     @include mySkillBarKeyframes($Scrum);
-}
-@keyframes NET {
-    @include mySkillBarKeyframes($NET);
 }
 @keyframes Jasmine {
     @include mySkillBarKeyframes($Jasmine);

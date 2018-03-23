@@ -1,11 +1,9 @@
 {
-  "name": "myCV_SERVER",
-  "version": "1.2.21",
+  "name": "LeoCV",
+  "version": "1.3.13",
   "description": "Leo Rdgz-Vidal CV",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
@@ -22,6 +20,7 @@
     "babel-loader": "^7.1.1",
     "babel-preset-env": "^1.6.0",
     "browser-sync": "^2.18.13",
+    "cross-env": "^5.1.4",
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.0",
     "gulp-concat": "^2.6.1",

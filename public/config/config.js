@@ -1,4 +1,5 @@
 const nodemailer = require('nodemailer');
+const emailpass  = process.env.EMAILPASS;
 
 const config = {
     port: 5005,
@@ -15,7 +16,7 @@ const config = {
         secure: true, // use SSL
         auth: {
             user: 'webmaster@sipedi.net',
-            pass: 'Kcvq3VvrkaN9fW3DJ6'
+            pass: emailpass
         },
         tls: {
             rejectUnauthorized: false // process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
