@@ -8,8 +8,7 @@ module.exports = (req, res) => {
     MongoClient.connect(`mongodb://leovidaluser:${dbpass}@ds139352.mlab.com:39352/leovidal`, (err, database) => {
         if (database) {
             let db = database.db('leovidal');
-            let collection = db.collection('tracking');
-            
+            let collection = db.collection('tracking');            
             if(id) { // id already exists
                 collection.update(
                     { _id: new ObjectID(id) },

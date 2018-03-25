@@ -19,7 +19,7 @@ const babel        = require( 'gulp-babel' );
 // ********************************* BROWSER-SYNC *********************************
 gulp.task('browser-sync', ['nodemon'], function() {
   bs.init({
-    proxy: "http://localhost:5005",  // local node app address
+    proxy: "http://localhost:80",  // local node app address (80)
     port: 3000,  // use *different* port than above
     notify: true
   });

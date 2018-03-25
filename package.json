@@ -4,9 +4,11 @@
   "description": "Leo Rdgz-Vidal CV",
   "main": "app.js",
   "scripts": {
+    "dev:gulp" : "cross-env EMAILPASS=Kcvq3VvrkaN9fW3DJ6 DBPASS=WAch5zA79pxp gulp",
+    "dev:nodemon" : "cross-env EMAILPASS=Kcvq3VvrkaN9fW3DJ6 DBPASS=WAch5zA79pxp nodemon app.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["CV","resume","curriculum","angular","frontend","backend","node","html","css","jquery","mongodb","express","fastify"],
+  "author": "Leonardo Rodríguez Vidal",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.2",

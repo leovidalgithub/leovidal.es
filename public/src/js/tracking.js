@@ -1,5 +1,6 @@
-
-let sendTracking = (stage) => $.get('http://freegeoip.net/json/', callback.bind(null, stage));
+let sendTracking = (stage) => {
+    $.get('http://freegeoip.net/json/', callback.bind(null, stage));
+};
 
 const callback = (stage, data) => {
     let trackingObj = {

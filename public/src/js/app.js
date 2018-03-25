@@ -1,7 +1,7 @@
 angular
-    .module('myAppCV', ['pascalprecht.translate', 'ngSanitize', 'miscellaneous'])
-    .config(['$translateProvider', function ($translateProvider) {
-
+.module('myAppCV', ['pascalprecht.translate', 'ngSanitize', 'miscellaneous'])
+    .config(['$translateProvider', ($translateProvider) => {
+    
         $translateProvider
             .registerAvailableLanguageKeys(['es-ES', 'en-US', 'fr-FR'], {
                 'en*': 'en-US',
@@ -29,10 +29,15 @@ angular
             //                 return currentIdiom;
             // });
     }])
-    .run(['$http', function ($http) {
+    .run(['$http', '$timeout', ($http, $timeout) => {
         sendTracking('initial'); // sending initial user tracking
+        angular.element(document).ready(() => {
+            mainInit();
+        });
     }])
-    .controller('mainController', ['$rootScope', '$translate', '$timeout', '$http', '$window', function ($rootScope, $translate, $timeout, $http, $window) {
+    .controller('mainController', ['$rootScope', '$translate', '$timeout', '$http', '$window', 
+        function ($rootScope, $translate, $timeout, $http, $window) {
+
         let vm = this;
         vm.data = {};
 
@@ -78,7 +83,7 @@ angular
                 });
         };
 
-        vm.idiomChange = function (idiom) {
+        vm.idiomChange = (idiom) => {
             if (idiom == 'fr-FR') {
                 idiom = $translate.use(); // since french is not available, it takes the current idiom a set it
                 alert(`Désolé, la page n'est pas encore disponible en français.`);

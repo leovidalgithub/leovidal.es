@@ -2,7 +2,7 @@ const nodemailer = require('nodemailer');
 const emailpass  = process.env.EMAILPASS;
 
 const config = {
-    port: 5005,
+    port: 80,
     header: (req, res, next) => {
         res.setHeader('Access-Control-Allow-Origin', '*'); //res.header("Access-Control-Allow-Origin", "http://localhost");
         res.setHeader('Access-Control-Request-Method', '*');
