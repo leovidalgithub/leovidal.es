@@ -1,0 +1,66 @@
+/* screenwidth less than 900px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 991px) {
+
+    /* header styles
+   ------------------------------------------------------------------ */
+   header .banner { padding-bottom: 12px; }
+   header .banner-text h1 {
+    //   font: 78px/1.1em 'opensans-bold', sans-serif;
+      letter-spacing: -1px;
+   }
+   header .banner-text h3 {
+      font: 17px/1.9em 'librebaskerville-regular', serif;
+      width: 80%;
+   }
+   header .banner-text hr {
+      width: 65%;
+      margin: 12px auto;
+   }
+   /* nav-wrap */
+   #nav-wrap {
+    //   font: 13px 'opensans-bold', sans-serif;
+      letter-spacing: 1.5px;
+   }
+
+
+   /* About Section
+   ------------------------------------------------------------------- */
+   #about .main-col .about-me p { padding-right: 0; }
+   #about .download { margin-top: 30px; }
+
+   /* Resume Section
+   ------------------------------------------------------------------- */
+   #resume {
+       h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+      .main-col { padding-right: 5%; }
+      .header-col.mySkills { top: 22px; }
+   }
+
+   /* Testimonials Section
+   ------------------------------------------------------------------- */
+   #testimonials .header-col h1:before {
+      font-size: 66px;
+      line-height: 66px;
+   }
+   #testimonials blockquote p {
+      font-size: 22px;
+      line-height: 46px;
+   }
+
+    /* Call to Action Section
+   ------------------------------------------------------------------- */
+   #call-to-action .header-col h1:before {
+      font-size: 66px;
+      line-height: 66px;
+   }
+
+   /* Contact Section
+   ------------------------------------------------------------------- */
+   #contact .section-head { margin-bottom: 30px; }
+   #contact .header-col h1:before {
+      font-size: 66px;
+      line-height: 66px;
+   }
+   #contact .section-head p.lead { font: 17px/33px opensans-light, sans-serif; }
+}

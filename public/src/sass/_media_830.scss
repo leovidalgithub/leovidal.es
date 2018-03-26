@@ -1,99 +1,5 @@
-/* ==================================================================
 
-*   Ceevee Media Queries
-*   url: styleshout.com
-*   03-18-2014
-
-/* ================================================================== */
-
-
-/* screenwidth less than 1024px
---------------------------------------------------------------------- */
-@media only screen and (max-width: 1024px) {
-
-    /* header styles
-   ------------------------------------------------------------------ */
-   header .banner-text h1 {
-    //   font: 80px/1.1em 'opensans-bold', sans-serif;
-      letter-spacing: -1px;
-      margin: 0 auto 12px auto;
-   }
-
-}
-
-/* screenwidth less than 900px
---------------------------------------------------------------------- */
-@media only screen and (max-width: 991px) {
-
-    /* header styles
-   ------------------------------------------------------------------ */
-   header .banner { padding-bottom: 12px; }
-   header .banner-text h1 {
-    //   font: 78px/1.1em 'opensans-bold', sans-serif;
-      letter-spacing: -1px;
-   }
-   header .banner-text h3 {
-      font: 17px/1.9em 'librebaskerville-regular', serif;
-      width: 80%;
-   }
-   header .banner-text hr {
-      width: 65%;
-      margin: 12px auto;
-   }
-   /* nav-wrap */
-   #nav-wrap {
-    //   font: 13px 'opensans-bold', sans-serif;
-      letter-spacing: 1.5px;
-   }
-
-
-   /* About Section
-   ------------------------------------------------------------------- */
-   #about .main-col .about-me p { padding-right: 0; }
-   #about .download { margin-top: 30px; }
-
-   /* Resume Section
-   ------------------------------------------------------------------- */
-   #resume {
-       h1 { font: 16px/24px 'opensans-bold', sans-serif; }
-      .main-col { padding-right: 5%; }
-      .header-col.mySkills { top: 22px; }
-   }
-
-   /* Testimonials Section
-   ------------------------------------------------------------------- */
-   #testimonials .header-col h1:before {
-      font-size: 66px;
-      line-height: 66px;
-   }
-   #testimonials blockquote p {
-      font-size: 22px;
-      line-height: 46px;
-   }
-
-    /* Call to Action Section
-   ------------------------------------------------------------------- */
-   #call-to-action .header-col h1:before {
-      font-size: 66px;
-      line-height: 66px;
-   }
-
-   /* Contact Section
-   ------------------------------------------------------------------- */
-   #contact .section-head { margin-bottom: 30px; }
-   #contact .header-col h1:before {
-      font-size: 66px;
-      line-height: 66px;
-   }
-   #contact .section-head p.lead { font: 17px/33px opensans-light, sans-serif; }
-
-}
-
-/* mobile wide/smaller tablets
----------------------------------------------------------------------- */
-
-@media only screen and (max-width: 830px) { //767
-
+@media only screen and (max-width: 830px) {
    /* mobile navigation
    -------------------------------------------------------------------- */
    #nav-wrap {
@@ -106,16 +12,16 @@
       right: 0;
    }
    #nav-wrap > a {
-        width: 48px;
-        height: 48px;
+        width: 40px; //48px
+        height: 40px; //48px
         text-align: left;
         background-color: #CC5200;
         border: none;
         text-shadow: none;
         color: transparent;
         position: fixed;
-        top: 50px;
-        right: 7px;
+        top: 5px; // top: 50px;
+        left: 7px; // right: 7px;
         transition: background-color 8s ease;
    }
 
@@ -140,14 +46,15 @@
    #nav-wrap ul#nav {
         height: auto;
         // display: none;
-        // opacity: 0;
+        opacity: .9;
+        border-radius: 15px;
         visibility: hidden;
         clear: both;
         width: 30%;
         position: fixed;
         top: 55px;
-        right: 35px;
-        transition: all .4s ease;
+        left: 0px; // right: 35px;
+        transition: all .2s ease;
    }
 
    /* display menu panels */
@@ -187,6 +94,10 @@
 
    /* Header Styles
    -------------------------------------------------------------------- */
+      header .banner-text h1 {
+       font-size: 38px !important;
+   }
+
    header .banner {
       padding-bottom: 12px;
       padding-top: 6px;
@@ -341,72 +252,6 @@
    #portfolio {
        .flexslider {
            width: 65%;
-       }
-   }
-
-}
-
-/* mobile narrow
-  -------------------------------------------------------------------------- */
-
-@media only screen and (max-width: 480px) {
-
-   /* mobile navigation
-   -------------------------------------------------------------------- */
-   #nav-wrap ul#nav { width: auto; float: none; }
-
-   /* header styles
-   -------------------------------------------------------------------- */
-   header .banner { padding-top: 24px; }
-   header .banner-text h1 {
-    //   font: 40px/1.1em 'opensans-bold', sans-serif;
-      margin: 0 auto 24px auto;
-   }
-   header .banner-text h3 {
-      font: 14px/1.9em 'librebaskerville-regular', sans-serif;
-      width: 90%;
-   }
-
-   /* About Section
-   -------------------------------------------------------------------- */
-   #about .main-col .about-me {
-       margin-top: 20px;
-       p:first-of-type {
-           text-align: justify;
-       }
-    }
-
-   /* header social links */
-   header .social { font-size: 20px;}
-   header .social li { margin: 0 6px; }
-
-   #contact {
-      padding: 96px 5% 52px 5%;
-
-      form {
-          padding: 0;
-      }
-   }
-
-   /* footer
-   ------------------------------------------------------------------------ */
-   /* social links */
-   footer .social-links { font-size: 20px; }
-   footer .social-links li { margin-left: 14px; }
-
-   /* alert messages
-   ------------------------------------------------------------------------ */
-   #alertMessage { width: 280px; }
-
-   /* portfolio
-   ------------------------------------------------------------------------ */
-   #portfolio {
-       .flexslider {
-           width: 88%;
-           .title p {
-               font-style: oblique;    nt-size: 19px;
-               padding: 0 10px;
-           }
        }
    }
 

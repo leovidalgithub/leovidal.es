@@ -1,0 +1,20 @@
+/* ================================================================== */
+/* mobile wide/smaller tablets
+---------------------------------------------------------------------- */
+/* mobile narrow
+-------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 410px) {
+    header {
+        .banner-text h1 {
+        font-size: 24px !important;
+        }
+        .banner {
+            margin-top: 50px;
+        }
+        p.scrolldown {
+            position: relative;
+            top: 70px;
+        }
+    }
+}

@@ -4,7 +4,6 @@
 
 const mainInit = () => {    
     // jQuery(document).ready(function($) { // already done by Angular when calling init.js -> mainInit()
-
     /*----------------------------------------------------*/
     /* FitText Settings for Header H1 and Portfolio H2
     /* Show Header (and Idioms) for the first time when loaded
@@ -13,7 +12,7 @@ const mainInit = () => {
         $('h1.responsive-headline').fitText(1, { minFontSize: '40px', maxFontSize: '48px' });
         $('#portfolio h2').fitText(1, { minFontSize: '30px', maxFontSize: '85px' });
         $(document.body).css('opacity', '1');
-    }, 900);
+    }, 1600);
     
     /*----------------------------------------------------*/
     /* Idioms options show/hide
@@ -41,26 +40,26 @@ const mainInit = () => {
     /* Parallax Settings (HEADER and SKILLS images)
     ------------------------------------------------------ */
     const randomImage = () => {
-        let x = Math.floor(Math.random() * 10); // between 0 & 9
+        let x = Math.floor(Math.random() * 8); // between 0 & 7
         return `./images/header-8912${x}.jpg`;
     };
 
     $('header').parallax({
         imageSrc: randomImage(),
-        speed: .4,
+        speed: .2,
         position: 'center center',
         zIndex: '0',
-        androidFix: false,
-        iosFix: false
+        androidFix: true,
+        iosFix: true
     });
 
     $('#mySkills').parallax({
         imageSrc: './images/collage-4.png',
-         speed: .8,
+         speed: .4,
          position:'center center',
          zIndex:'0',
-         androidFix: false,
-         iosFix: false
+         androidFix: true,
+         iosFix: true
     });
 
     // change header image every timelapse
