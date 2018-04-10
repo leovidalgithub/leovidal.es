@@ -6,6 +6,11 @@ const db                            = require('./public/config/db');
 
 app.use(header);
 
+app.get('/', (req, res, next) => { // localhost:3000/?URL_ENV=development
+    global.URL_ENV = req.query.URL_ENV || 'production';
+    next();
+});
+
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));

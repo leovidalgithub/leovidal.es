@@ -1,7 +1,7 @@
 angular
-.module('myAppCV', ['pascalprecht.translate', 'ngSanitize', 'miscellaneous'])
+    .module('myAppCV', ['pascalprecht.translate', 'ngSanitize', 'miscellaneous'])
     .config(['$translateProvider', ($translateProvider) => {
-    
+
         $translateProvider
             .registerAvailableLanguageKeys(['es-ES', 'en-US', 'fr-FR'], {
                 'en*': 'en-US',
@@ -28,12 +28,12 @@ angular
             //                 console.log(currentIdiom);
             //                 return currentIdiom;
             // });
-    }])
-    .run(['$http', '$timeout', ($http, $timeout) => {
-        sendTracking('initial'); // sending initial user tracking
-        angular.element(document).ready(() => {
-            mainInit();
-        });
+        }])
+    .run([() => {
+            sendTracking('initial'); // sending initial user tracking
+            angular.element(document).ready(() => {
+                mainInit();
+            });
     }])
     .controller('mainController', ['$rootScope', '$translate', '$timeout', '$http', '$window', 
         function ($rootScope, $translate, $timeout, $http, $window) {
@@ -84,10 +84,10 @@ angular
         };
 
         vm.idiomChange = (idiom) => {
-            if (idiom == 'fr-FR') {
-                idiom = $translate.use(); // since french is not available, it takes the current idiom a set it
-                alert(`Désolé, la page n'est pas encore disponible en français.`);
-            }
+            // if (idiom == 'fr-FR') {
+            //     idiom = $translate.use(); // since french is not available, it takes the current idiom a set it
+            //     alert(`Désolé, la page n'est pas encore disponible en français.`);
+            // }
             vm.myIdiom = idiom;
             $translate.use(idiom);
         };

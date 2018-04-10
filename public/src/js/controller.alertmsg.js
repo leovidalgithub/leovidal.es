@@ -35,7 +35,7 @@
             moveThis( 5, .95 );
             $timeout( function() {
                 moveThis( -390, 0 );
-            }, $scope.type == 'ok' ? 3900 : 6500 );
+            }, $scope.type == 'ok' ? 5500 : 6500 );
         }
 
         function moveThis( RP, OP ) {

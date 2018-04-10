@@ -1,11 +1,11 @@
 {
   "name": "LeoCV",
-  "version": "1.3.13",
+  "version": "1.3.15",
   "description": "Leo Rdgz-Vidal CV",
   "main": "app.js",
   "scripts": {
-    "dev:gulp" : "cross-env EMAILPASS=Kcvq3VvrkaN9fW3DJ6 DBPASS=WAch5zA79pxp gulp",
-    "dev:nodemon" : "cross-env EMAILPASS=Kcvq3VvrkaN9fW3DJ6 DBPASS=WAch5zA79pxp nodemon app.js"
+    "dev:gulp" : "cross-env NODE_ENV=development EMAILPASS=Kcvq3VvrkaN9fW3DJ6 DBPASS=WAch5zA79pxp gulp",
+    "dev:nodemon" : "cross-env NODE_ENV=development EMAILPASS=Kcvq3VvrkaN9fW3DJ6 DBPASS=WAch5zA79pxp nodemon app.js"
   },
   "keywords": ["CV","resume","curriculum","angular","frontend","backend","node","html","css","jquery","mongodb","express","fastify"],
   "author": "Leonardo Rodríguez Vidal",

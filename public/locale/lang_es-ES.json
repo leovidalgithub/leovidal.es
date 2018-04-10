@@ -108,7 +108,7 @@
         },
         "sending": {
             "ok": "Mensaje enviado. Gracias!",
-            "err": "Oh! Tu mensaje no pudo enviarse",
+            "err": "Tu mensaje no pudo enviarse!",
             "submit": "Enviar"
         }
     }
