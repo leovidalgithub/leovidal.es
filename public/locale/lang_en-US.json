@@ -34,11 +34,11 @@
                 "date": "January 2018 - June 2020",
                 "content": "This program prepares the computer technician to locate, collect and analyze data on the users' information processing needs. Modeling and processing data to develop a code to create efficient applications according to the data collected and to anticipate needs regarding the network infrastructure. (Currently studying the third semester)."
             },
-            "une": {
-                "une": "Nueva Esparta University",
-                "title": "Bachelor's Degree in Computer Science",
-                "date": "September 1998",
-                "content": "The Computer Science graduate manages current hardware and software to assist the needs of national and international companies, and professionals from other disciplines as well. This professional is well prepared to work in a team with information systems and to adapt to new trends. They also manage cutting-edge technologies for system analysis, development and implementation."
+            "cisco": {
+                "cisco": "Cisco Systems, Inc.",
+                "title": "IT Essentials - Cisco Networking Academy® Program Certification",
+                "date": "July 31 2018",
+                "content": "Hardware and software, computer components, parts assembly, operating systems administration, troubleshoot, connectivity and networking. Working with desktops laptops and mobile devices. Wireless connectivity, security, safety, environmental issues and communication skills."
             },
             "skylab": {
                 "skylab": "Skylab Coders Academy",
@@ -51,6 +51,12 @@
                 "title": "WEB Developers",
                 "date": "September 2013",
                 "content": "HTML5, CSS3, jQuery, Javascript and Dreamweaver WEB development course."
+            },
+            "une": {
+                "une": "Nueva Esparta University",
+                "title": "Bachelor's Degree in Computer Science",
+                "date": "September 1998",
+                "content": "The Computer Science graduate manages current hardware and software to assist the needs of national and international companies, and professionals from other disciplines as well. This professional is well prepared to work in a team with information systems and to adapt to new trends. They also manage cutting-edge technologies for system analysis, development and implementation."
             }
         },
         "work": {

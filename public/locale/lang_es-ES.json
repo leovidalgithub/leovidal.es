@@ -34,11 +34,11 @@
                 "date": "Enero 2018 - Junio 2020",
                 "content": "Este programa capacita al técnico en computación para ubicar, recopilar y analizar datos sobre las necesidades de procesamiento de información de los usuarios. Modelar, procesar datos y desarrollar código para crear aplicaciones eficientes acorde a los datos recolectados y prever las necesidades en cuanto a la infraestrcutra de redes. (Actualmente cursando el tercer semestre)."
             },
-            "une": {
-                "une": "Universidad Nueva Esparta",
-                "title": "Licenciado en Computación",
-                "date": "Septiembre 1998",
-                "content": "El Licenciado en Computación maneja hardware y software de actualidad para dar asistencia a las necesidades de empresas nacionales e internacionales, asiste a profesionales de otras disciplinas, está preparado para trabajar en equipo en sistemas de la información y para adaptarse a las tendencias. También maneja tecnologías de punta en el análisis, desarrollo e implantación de sistemas."
+            "cisco": {
+                "cisco": "Cisco Systems, Inc.",
+                "title": "IT Essentials - Cisco Networking Academy® Program Certification",
+                "date": "Julio 31 2018",
+                "content": "Hardware y software, componentes informáticos, ensamblaje de piezas, administración de sistemas operativos, resolución de problemas, conectividad y redes. Equipos informáticos de escritorio, portátiles y dispositivos de móviles. Conectividad inalámbrica, seguridad, temas ambientales y habilidades de comunicación."
             },
             "skylab": {
                 "skylab": "Skylab Coders Academy",
@@ -51,6 +51,12 @@
                 "title": "Desarrollador WEB",
                 "date": "Septiembre 2013",
                 "content": "Desarrollo WEB HTML5, CSS3, jQuery, Javascript y Dreamweaver."
+            },
+            "une": {
+                "une": "Universidad Nueva Esparta",
+                "title": "Licenciado en Computación",
+                "date": "Septiembre 1998",
+                "content": "El Licenciado en Computación maneja hardware y software de actualidad para dar asistencia a las necesidades de empresas nacionales e internacionales, asiste a profesionales de otras disciplinas, está preparado para trabajar en equipo en sistemas de la información y para adaptarse a las tendencias. También maneja tecnologías de punta en el análisis, desarrollo e implantación de sistemas."
             }
         },
         "work": {

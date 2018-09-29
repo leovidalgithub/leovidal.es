@@ -34,12 +34,12 @@
                 "date": ">Janvier 2018 - Juin 2020",
                 "content": "Ce programme prépare le technicien en informatique à localiser, collecter et analyser des données sur les besoins du traitement de l'information des utilisateurs. La modélisation et le traitement des données pour développer un code pour la création d'applications efficaces en fonction des données collectées et pour anticiper les besoins en matière d'infrastructure des réseaux. (Actuellement étudiant le troisième semestre)."
             },
-            "une": {
-                "une": "Universidad Nueva Esparta",
-                "title": "Licence en informatique",
-                "date": "Septembre 1998",
-                "content": "Le diplômé en informatique gère le hardware et les logiciels pour combler les besoins des entreprises nationales et internationales, et aide aussi les professionnels d'autres disciplines. Ce professionnel est prêt à travailler en équipe avec des systèmes d'information et à s'adapter aux nouvelles tendances. Ils gèrent également des technologies de pointe pour l'analyse, le développement et la mise en œuvre des systèmes."
-            },
+            "cisco": {
+                "cisco": "Cisco Systems, Inc.",
+                "title": "IT Essentials - Cisco Networking Academy® Program Certification",
+                "date": "Juillet 31 2018",
+                "content": "Hardware et software, composants informatiques, assemblage de pièces, administration de systèmes d'exploitation, dépannage, connectivité et mise en réseau. Travailler avec des ordinateurs portables de bureau et des appareils mobiles. Connectivité sans fil, sécurité, sécurité, questions environnementales et compétences en communication."
+            },            
             "skylab": {
                 "skylab": "Skylab Coders Academy",
                 "title": "Web Development Fullstack MEAN Bootcamp",
@@ -51,6 +51,12 @@
                 "title": "Développeur Web",
                 "date": "Septembre 2013",
                 "content": "Développement Web HTML5, CSS3, jQuery, JavaScript et Dreamweaver."
+            },
+            "une": {
+                "une": "Universidad Nueva Esparta",
+                "title": "Licence en informatique",
+                "date": "Septembre 1998",
+                "content": "Le diplômé en informatique gère le hardware et les logiciels pour combler les besoins des entreprises nationales et internationales, et aide aussi les professionnels d'autres disciplines. Ce professionnel est prêt à travailler en équipe avec des systèmes d'information et à s'adapter aux nouvelles tendances. Ils gèrent également des technologies de pointe pour l'analyse, le développement et la mise en œuvre des systèmes."
             }
         },
         "work": {
