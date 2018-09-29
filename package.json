@@ -4,10 +4,24 @@
   "description": "Leo Rdgz-Vidal CV",
   "main": "app.js",
   "scripts": {
-    "dev:gulp" : "cross-env NODE_ENV=development EMAILPASS=Kcvq3VvrkaN9fW3DJ6 DBPASS=WAch5zA79pxp gulp",
-    "dev:nodemon" : "cross-env NODE_ENV=development EMAILPASS=Kcvq3VvrkaN9fW3DJ6 DBPASS=WAch5zA79pxp nodemon app.js"
+    "dev:gulp": "cross-env NODE_ENV=development EMAILPASS=Kcvq3VvrkaN9fW3DJ6 DBPASS=WAch5zA79pxp gulp",
+    "dev:nodemon": "cross-env NODE_ENV=development EMAILPASS=Kcvq3VvrkaN9fW3DJ6 DBPASS=WAch5zA79pxp nodemon app.js"
   },
-  "keywords": ["CV","resume","curriculum","angular","frontend","backend","node","html","css","jquery","mongodb","express","fastify"],
+  "keywords": [
+    "CV",
+    "resume",
+    "curriculum",
+    "angular",
+    "frontend",
+    "backend",
+    "node",
+    "html",
+    "css",
+    "jquery",
+    "mongodb",
+    "express",
+    "fastify"
+  ],
   "author": "Leonardo Rodríguez Vidal",
   "license": "ISC",
   "dependencies": {
@@ -30,7 +44,7 @@
     "gulp-ng-annotate": "^2.0.0",
     "gulp-nodemon": "^2.2.1",
     "gulp-postcss": "^7.0.0",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^3.2.1",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8"
   }

@@ -21,7 +21,7 @@
     },
     "about": {
         "about-me": "À propos de moi",
-        "content": "Les ordinateurs représentent ma carrière et ma vie, et j'ai un diplôme en informatique. Je suis une personne polyvalente qui a travaillé dans des divers domaines, toujours associés aux technologies de l'information. Je me considère un passionné de la programmation ! Depuis un très jeune âge, j'ai exploré ce domaine en langages, tels que Basic, Fortran, PL/1 et COBOL, entre autres. Par la suite, j'ai commencé à programmer en Visual Basic (plus tard, VB.net).<br>Ma spécialité -avec six ans d'expérience- est le développement d'applications Web comme développeur MEAN FullStack. Je possède des connaissances solides par rapport à ce sujet, parce que je suis une personne autodidacte et infatigable.<br>En 2016, j'ai participé au Skylab Coders Academy <span>Bootcamp</span> comme “Web Development Fullstack MEAN”. Cette expérience m'a apporté d'amples connaissances sur les nouvelles technologies et m'a aidé à renforcer des concepts importants. Je suis actuellement consacré à recevoir un <span>DEC</span> (Diplôme d'études collégiales) au <span>Collège LaSalle</span> comme <span>“Techniques de l'informatique - Informatique de gestion“.</span><br>Dans mon dernier emploi chez Zemsania Tech Services, j'ai travaillé comme le programmeur de premier plan d'une application basée sur Angular 4 et NodeJS.<br>J'ai une excellente capacité d'adaptation et je suis habituellement tout à fait perfectionniste dans tous les aspects de ma vie. En tant que professionnel, mon désir est de continuer à me préparer et à travailler parmi les meilleurs de l'industrie.",
+        "content": "Les ordinateurs représentent ma carrière et ma vie, et j'ai un diplôme en informatique. Je suis une personne polyvalente qui a travaillé dans des divers domaines, toujours associés aux technologies de l'information. Je me considère un passionné de la programmation ! Depuis un très jeune âge, j'ai exploré ce domaine en langages, tels que Basic, Fortran, PL/1 et COBOL, entre autres. Par la suite, j'ai commencé à programmer en Visual Basic (plus tard, VB.net).<br>Ma spécialité est le développement d'applications Web comme développeur MEAN FullStack. Je possède des connaissances solides par rapport à ce sujet, parce que je suis une personne autodidacte et infatigable.<br>En 2016, j'ai participé au Skylab Coders Academy <span>Bootcamp</span> comme “Web Development Fullstack MEAN”. Cette expérience m'a apporté d'amples connaissances sur les nouvelles technologies et m'a aidé à renforcer des concepts importants. Je suis actuellement consacré à recevoir mon <span>DEC</span> (Diplôme d'études collégiales) au <span>Collège LaSalle</span> comme <span>“Techniques de l'informatique - Informatique de gestion“.</span><br>Dans l'un de mes derniers emplois (Zemsania Tech Services), j'ai travaillé comme le programmeur de premier plan d'une application basée sur Angular 4 et NodeJS.<br>J'ai une excellente capacité d'adaptation et je suis habituellement tout à fait perfectionniste dans tous les aspects de ma vie. En tant que professionnel, mon désir est de continuer à me préparer et à travailler parmi les meilleurs de l'industrie.",
         "contact-details": "Coordonnées",
         "contact-me": "Contactez-moi"
     },
@@ -32,7 +32,7 @@
                 "lasalle": "Collège LaSalle Montréal",
                 "title": "Techniques de l'informatique - Informatique de gestion",
                 "date": ">Janvier 2018 - Juin 2020",
-                "content": "Ce programme prépare le technicien en informatique à localiser, collecter et analyser des données sur les besoins du traitement de l'information des utilisateurs. La modélisation et le traitement des données pour développer un code pour la création d'applications efficaces en fonction des données collectées et pour anticiper les besoins en matière d'infrastructure des réseaux."
+                "content": "Ce programme prépare le technicien en informatique à localiser, collecter et analyser des données sur les besoins du traitement de l'information des utilisateurs. La modélisation et le traitement des données pour développer un code pour la création d'applications efficaces en fonction des données collectées et pour anticiper les besoins en matière d'infrastructure des réseaux. (Actuellement étudiant le troisième semestre)."
             },
             "une": {
                 "une": "Universidad Nueva Esparta",
@@ -55,9 +55,15 @@
         },
         "work": {
             "work": "Expérience de travail",
+            "tailbase": {
+                "tailbase": "Tailbase",
+                "position": "Développeur Fullstack WEB",
+                "date": "Juin 2018 - (actuellement)",
+                "content": "Fonctions de développement de nouveaux outils et maintenance des Systèmes actuels basés sur Coldfusion et SQL Server."
+            },
             "zemsania": {
                 "zemsania": "Zemsania Tech Services & Solutions",
-                "position": " Développeur Fullstack MEAN",
+                "position": "Développeur Fullstack MEAN",
                 "date": "Février 2017 - Octobre 2017",
                 "content": "Chef de file pour la mise en place d'un système opérationnel basé sur le cadre AngularJS et NodeJS. Démarrage et mise en œuvre d'une application basée sur Angular 4, NodeJS, MongoDB, WebPack et Sonar pour le contrôle des heures de travail et des vacances du département de RH."
             },

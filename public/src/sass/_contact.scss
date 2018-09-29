@@ -51,7 +51,7 @@
     line-height: 24px;
     width: 100%;
     resize: none;
-    transition: background-color 1s ease;
+    transition: background-color .6s ease;
 }
 #contact input:hover,
 #contact textarea:hover {
@@ -60,8 +60,7 @@
 #contact input:focus,
 #contact textarea:focus {
 	color: #fff;
-	// background-color: $approvedColor;
-	background-color: #019398;
+	background-color: $approvedColor;
 }
 
 #contact form button {
