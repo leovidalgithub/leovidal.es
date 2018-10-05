@@ -60,7 +60,7 @@
             }
         },
         "work": {
-            "work": "Working experience",
+            "work": "Work experience",
             "tailbase": {
                 "tailbase": "Tailbase",
                 "position": "Fullstack Developer WEB",
@@ -71,19 +71,19 @@
                 "zemsania": "Zemsania Tech Services & Solutions",
                 "position": "Fullstack MEAN Developer",
                 "date": "February 2017 - October 2017",
-                "content": "Lead manager for the implementation of an operational system based on the AngularJS and NodeJS framework. Start-up and implementation of an application based on Angular 4, NodeJS, MongoDB, Webpack and Sonar for the Work Hours and Vacations Assignment Control of the HR department."
+                "content": "Lead manager for the implementation of an operational system based on the AngularJS and NodeJS framework. Start-up and implementation of an application based on Angular 4, NodeJS, MongoDB, Webpack and Sonar for the «Work Hours and Vacations Assignment Control of the HR department»."
             },
             "roline": {
                 "roline": "Roline System",
                 "position": "Web Applications Developer ",
                 "date": "February 2015 - June 2016",
-                "content": " I collaborated, designed and developed a whole Web application (SiPEDI) aimed at solving a specific problem about the orders periodically placed by customers to suppliers. Fully developed with MEAN Web technology (MongoDB, Express, AngularJS, Node.js)."
+                "content": "I collaborated, designed and developed a whole Web application (SiPEDI) aimed at solving a specific problem about the orders periodically placed by customers to suppliers. Fully developed with MEAN Web technology (MongoDB, Express, AngularJS, Node.js)."
             },
             "others": {
                 "others": "Other jobs and experience ",
                 "position": "Hardware and Network Administration Technician",
-                "date": "February 1992 - ",
-                "content": " In parallel with software development, I have worked for many years as a hardware and network administrator technician; and as a computer equipment seller as well."
+                "date": "From 1992",
+                "content": "As well as being a software develor, I have worked for many years as a hardware and network administrator technician; and as a computer equipment seller as well."
             }
         },
         "skills": {
