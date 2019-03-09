@@ -21,7 +21,7 @@
     },
     "about": {
         "about-me": "Acerca de mí",
-        "content": "Informático de carrera y vida obtuve el título de Licenciado en Computación. Soy una persona polivalente que se ha desempeñado en diversas áreas siempre relacionado con la informática. Me considero un apasionado de la programación habiendo incursionado desde temprana edad con lenguajes como Basic, Fortran, PL/1, Cobol, entre otros. Posteriormente comencé a programar en Visual Basic (más adelante VB.NET).<br>Estoy especializado en el Desarrollo de Aplicaciones WEB como MEAN FullStack Developer. Poseo sólidos conocimientos gracias a ser una persona autodidacta e incansable.<br>En el año 2016 realicé un <span>Bootcamp</span> en Skylab Coders Academy como “Web Development Fullstack MEAN”, el cual me aportó sólidos conocimientos sobre las nuevas tecnologías y el reforzamiento de importantes conceptos. Actualmente estoy estudiando para recibir my <span>DEC</span> (Diploma of College Studies) como <span>“Computer Science - Administrative Data Processing“</span> en <span>LaSalle College.</span><br>En uno de mis últimos empleos en Zemsania Tech Services, estuve como programador líder de una Aplicación basada en <span>Angular 4</span> y <span>NodeJS.</span><br>Poseo una gran capacidad de adaptación con todo lo que hago en mi vida. Mi deseo como profesional es continuar preparándome y trabajar junto a los mejores.",
+        "content": "Informático de carrera y vida obtuve el título de Licenciado en Computación. Soy una persona polivalente que se ha desempeñado en diversas áreas siempre relacionado con la informática. Me considero un apasionado de la programación habiendo incursionado desde temprana edad con lenguajes como Basic, Fortran, PL/1, Cobol, entre otros. Posteriormente comencé a programar en Visual Basic (más adelante VB.NET).<br>Estoy especializado en el Desarrollo de Aplicaciones WEB como MEAN FullStack Developer. Poseo sólidos conocimientos gracias a ser una persona autodidacta e incansable.<br>En el año 2016 realicé un <span>Bootcamp</span> en Skylab Coders Academy como “Web Development Fullstack MEAN”, el cual me aportó sólidos conocimientos sobre las nuevas tecnologías y el reforzamiento de importantes conceptos. Actualmente estoy estudiando para recibir my <span>DEC</span> (Diploma of College Studies) como <span>“Computer Science - Administrative Data Processing“</span> en <span>LaSalle College, Montreal.</span><br>En uno de mis últimos empleos en Zemsania Tech Services, estuve como programador líder de una Aplicación basada en <span>Angular 4</span> y <span>NodeJS.</span><br>Poseo una gran capacidad de adaptación con todo lo que hago en mi vida. Mi deseo como profesional es continuar preparándome y trabajar junto a los mejores.",
         "contact-details": "Dirección de Contacto",
         "contact-me": "Contáctame"
     },
@@ -55,7 +55,7 @@
             "une": {
                 "une": "Universidad Nueva Esparta",
                 "title": "Licenciado en Computación",
-                "date": "Septiembre 1998",
+                "date": "",
                 "content": "El Licenciado en Computación maneja hardware y software de actualidad para dar asistencia a las necesidades de empresas nacionales e internacionales, asiste a profesionales de otras disciplinas, está preparado para trabajar en equipo en sistemas de la información y para adaptarse a las tendencias. También maneja tecnologías de punta en el análisis, desarrollo e implantación de sistemas."
             }
         },
@@ -63,26 +63,26 @@
             "work": "trabajo",
             "tailbase": {
                 "tailbase": "Tailbase",
-                "position": "Desarrollador Fullstack WEB",
+                "position": "Desarrollador WEB Fullstack",
                 "date": "Junio 2018 - (actual)",
-                "content": "Funciones de desarrollo de nuevas herramientas y mantenimiento de los Sistemas actuales basados en Coldfusion y SQL Server."
+                "content": "Funciones de desarrollo de nuevas herramientas y mantenimiento de los sistemas actuales basados en ColdFusion y SQL Server. Actualmente, trabajando en el desarrollo de nuevas herramientas para limpieza segura de bases de datos y repositorios de código."
             },
             "zemsania": {
                 "zemsania": "Zemsania Tech Services & Solutions",
                 "position": "Desarrollador Fullstack MEAN",
-                "date": "Febrero 2017 - Octubre 2017",
+                "date": "",
                 "content": "Encargado líder para la puesta operativa de un sistema basado sobre el framework AngularJS y NodeJS. Inicio y puesta en marcha de aplicativo basado en Angular 4, NodeJS, MongoDB, Webpack, Sonar para el «Control de Imputación de Horas y Vacaciones para el departamento de RR.HH.»"
             },
             "roline": {
                 "roline": "Roline System",
                 "position": "Desarrollador Aplicaciones Web",
-                "date": "Febrero 2015 - Junio 2016",
+                "date": "",
                 "content": "De forma colaborativa diseñé y desarrollé en su totalidad una aplicación Web (SiPEDI) destinada a resolver un problema puntual acerca de pedidos realizados por clientes a proveedores de manera periódica. Desarrollada completamente con tecnología Web MEAN (MongoDB, Express, AngularJS, Node.js)."
             },
             "others": {
                 "others": "Otros trabajos y experiencia",
                 "position": "Técnico en Hardware y Adm. Redes",
-                "date": "Desde 1992",
+                "date": "",
                 "content": "Paralelamente al desarrollo de software he trabajado por largos años como técnico en hardware y administrador de redes; así como también en la venta de equipos informáticos."
             }
         },

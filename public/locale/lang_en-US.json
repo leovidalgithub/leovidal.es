@@ -21,7 +21,7 @@
     },
     "about": {
         "about-me": "About me",
-        "content": "Computers represent my career and my life. I have a degree in Computer Science. I am a versatile person who has performed in different areas, always associated with information technology. I consider myself a passionate Programmer. Since I was very young, I have explored this field in languages such as Basic, Fortran, PL/1 and Cobol, among others. Subsequently, I began programming in Visual Basic (later, VB.NET).<br>My specialty is developing WEB Applications as MEAN FullStack Developer. I have substantial knowledge in this subject since I am an indefatigable self-taught person.<br>In 2016, I participated in the Skylab Coders Academy <span>Bootcamp</span> as “Web Development Fullstack MEAN”. This experience brought me a solid knowledge of new technologies and helped me to reinforce important concepts. I am currently studying to receive my <span>DEC</span> (Diploma of College Studies) in <span>“Computer Science - Administrative Data Processing“</span> at <span>LaSalle College.</span><br>In one of my lastest jobs at Zemsania Tech Services, I worked as the lead programmer of an application based on <span>Angular 4</span> and <span>NodeJS</span>.<br>I have an excellent capacity to adapt and I am a very detail oriented person in every aspect of my life. As a professional, my desire is to continue preparing myself and work among the best of the industry.",
+        "content": "Computers represent my career and my life. I have a degree in Computer Science. I am a versatile person who has performed in different areas, always associated with information technology. I consider myself a passionate Programmer. Since I was very young, I have explored this field in languages such as Basic, Fortran, PL/1 and Cobol, among others. Subsequently, I began programming in Visual Basic (later, VB.NET).<br>My specialty is developing WEB Applications as MEAN FullStack Developer. I have substantial knowledge in this subject since I am an indefatigable self-taught person.<br>In 2016, I participated in the Skylab Coders Academy <span>Bootcamp</span> as “Web Development Fullstack MEAN”. This experience brought me a solid knowledge of new technologies and helped me to reinforce important concepts. I am currently studying to receive my <span>DEC</span> (Diploma of College Studies) in <span>“Computer Science - Administrative Data Processing“</span> at <span>LaSalle College, Montreal.</span><br>In one of my lastest jobs at Zemsania Tech Services, I worked as the lead programmer of an application based on <span>Angular 4</span> and <span>NodeJS</span>.<br>I have an excellent capacity to adapt and I am a very detail oriented person in every aspect of my life. As a professional, my desire is to continue preparing myself and work among the best of the industry.",
         "contact-details": "Contact address",
         "contact-me": "Contact me"
     },
@@ -55,7 +55,7 @@
             "une": {
                 "une": "Nueva Esparta University",
                 "title": "Bachelor's Degree in Computer Science",
-                "date": "September 1998",
+                "date": "",
                 "content": "The Computer Science graduate manages current hardware and software to assist the needs of national and international companies, and professionals from other disciplines as well. This professional is well prepared to work in a team with information systems and to adapt to new trends. They also manage cutting-edge technologies for system analysis, development and implementation."
             }
         },
@@ -63,26 +63,26 @@
             "work": "Work experience",
             "tailbase": {
                 "tailbase": "Tailbase",
-                "position": "Fullstack Developer WEB",
+                "position": "Fullstack WEB Developer",
                 "date": "June 2018 - (currently)",
-                "content": "Development functions of new Tools and maintenance of the current Systems based on Coldfusion and SQL Server."
+                "content": "Development functions of new Tools and maintenance of the current Systems based on ColdFusion and SQL Server. Currently, working on developing new tools for cleaning up databases and repository code."
             },                        
             "zemsania": {
                 "zemsania": "Zemsania Tech Services & Solutions",
                 "position": "Fullstack MEAN Developer",
-                "date": "February 2017 - October 2017",
+                "date": "",
                 "content": "Lead manager for the implementation of an operational system based on the AngularJS and NodeJS framework. Start-up and implementation of an application based on Angular 4, NodeJS, MongoDB, Webpack and Sonar for the «Work Hours and Vacations Assignment Control of the HR department»."
             },
             "roline": {
                 "roline": "Roline System",
                 "position": "Web Applications Developer ",
-                "date": "February 2015 - June 2016",
+                "date": "",
                 "content": "I collaborated, designed and developed a whole Web application (SiPEDI) aimed at solving a specific problem about the orders periodically placed by customers to suppliers. Fully developed with MEAN Web technology (MongoDB, Express, AngularJS, Node.js)."
             },
             "others": {
                 "others": "Other jobs and experience ",
                 "position": "Hardware and Network Administration Technician",
-                "date": "From 1992",
+                "date": "",
                 "content": "As well as being a software develor, I have worked for many years as a hardware and network administrator technician; and as a computer equipment seller as well."
             }
         },

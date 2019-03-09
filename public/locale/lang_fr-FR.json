@@ -21,7 +21,7 @@
     },
     "about": {
         "about-me": "À propos de moi",
-        "content": "Les ordinateurs représentent ma carrière et ma vie, et j'ai un diplôme en informatique. Je suis une personne polyvalente qui a travaillé dans des divers domaines, toujours associés aux technologies de l'information. Je me considère un passionné de la programmation ! Depuis un très jeune âge, j'ai exploré ce domaine en langages, tels que Basic, Fortran, PL/1 et COBOL, entre autres. Par la suite, j'ai commencé à programmer en Visual Basic (plus tard, VB.net).<br>Ma spécialité est le développement d'applications Web comme développeur MEAN FullStack. Je possède des connaissances solides par rapport à ce sujet, parce que je suis une personne autodidacte et infatigable.<br>En 2016, j'ai participé au Skylab Coders Academy <span>Bootcamp</span> comme “Web Development Fullstack MEAN”. Cette expérience m'a apporté d'amples connaissances sur les nouvelles technologies et m'a aidé à renforcer des concepts importants. Je suis actuellement consacré à recevoir mon <span>DEC</span> (Diplôme d'études collégiales) au <span>Collège LaSalle</span> comme <span>“Techniques de l'informatique - Informatique de gestion“.</span><br>Dans l'un de mes derniers emplois (Zemsania Tech Services), j'ai travaillé comme le programmeur de premier plan d'une application basée sur Angular 4 et NodeJS.<br>J'ai une excellente capacité d'adaptation et je suis habituellement tout à fait perfectionniste dans tous les aspects de ma vie. En tant que professionnel, mon désir est de continuer à me préparer et à travailler parmi les meilleurs de l'industrie.",
+        "content": "Les ordinateurs représentent ma carrière et ma vie, et j'ai un diplôme en informatique. Je suis une personne polyvalente qui a travaillé dans des divers domaines, toujours associés aux technologies de l'information. Je me considère un passionné de la programmation ! Depuis un très jeune âge, j'ai exploré ce domaine en langages, tels que Basic, Fortran, PL/1 et COBOL, entre autres. Par la suite, j'ai commencé à programmer en Visual Basic (plus tard, VB.net).<br>Ma spécialité est le développement d'applications Web comme développeur MEAN FullStack. Je possède des connaissances solides par rapport à ce sujet, parce que je suis une personne autodidacte et infatigable.<br>En 2016, j'ai participé au Skylab Coders Academy <span>Bootcamp</span> comme “Web Development Fullstack MEAN”. Cette expérience m'a apporté d'amples connaissances sur les nouvelles technologies et m'a aidé à renforcer des concepts importants. Je suis actuellement consacré à recevoir mon <span>DEC</span> (Diplôme d'études collégiales) au <span>Collège LaSalle, Montréal</span> comme <span>“Techniques de l'informatique - Informatique de gestion“.</span><br>Dans l'un de mes derniers emplois (Zemsania Tech Services), j'ai travaillé comme le programmeur de premier plan d'une application basée sur Angular 4 et NodeJS.<br>J'ai une excellente capacité d'adaptation et je suis habituellement tout à fait perfectionniste dans tous les aspects de ma vie. En tant que professionnel, mon désir est de continuer à me préparer et à travailler parmi les meilleurs de l'industrie.",
         "contact-details": "Coordonnées",
         "contact-me": "Contactez-moi"
     },
@@ -55,7 +55,7 @@
             "une": {
                 "une": "Universidad Nueva Esparta",
                 "title": "Licence en informatique",
-                "date": "Septembre 1998",
+                "date": "",
                 "content": "Le diplômé en informatique gère le hardware et les logiciels pour combler les besoins des entreprises nationales et internationales, et aide aussi les professionnels d'autres disciplines. Ce professionnel est prêt à travailler en équipe avec des systèmes d'information et à s'adapter aux nouvelles tendances. Ils gèrent également des technologies de pointe pour l'analyse, le développement et la mise en œuvre des systèmes."
             }
         },
@@ -63,26 +63,26 @@
             "work": "Expérience de travail",
             "tailbase": {
                 "tailbase": "Tailbase",
-                "position": "Développeur Fullstack WEB",
+                "position": "Développeur WEB Fullstack",
                 "date": "Juin 2018 - (actuellement)",
-                "content": "Fonctions de développement de nouveaux outils et maintenance des Systèmes actuels basés sur Coldfusion et SQL Server."
+                "content": "Fonctions de développement de nouveaux outils et maintenance des Systèmes actuels basés sur ColdFusion et SQL Server. Travaille actuellement au développement de nouveaux outils pour le nettoyage en toute sécurité des bases de données et des référentiels de code."
             },
             "zemsania": {
                 "zemsania": "Zemsania Tech Services & Solutions",
                 "position": "Développeur Fullstack MEAN",
-                "date": "Février 2017 - Octobre 2017",
+                "date": "",
                 "content": "Chef de file pour la mise en place d'un système opérationnel basé sur le cadre AngularJS et NodeJS. Démarrage et mise en œuvre d'une application basée sur Angular 4, NodeJS, MongoDB, WebPack et Sonar pour «Le contrôle des heures de travail et des vacances du département de RH.»"
             },
             "roline": {
                 "roline": "Roline System",
                 "position": "Développeur d'applications Web",
-                "date": "Février 2015 - Juin 2016",
+                "date": "",
                 "content": "J'ai collaboré, conçu et développé toute une application Web (SiPEDI) visant à résoudre un problème spécifique au sujet des commandes faites par les clients aux fournisseurs sur une base régulière. Cette application a été entièrement développée avec la technologie Web MEAN (MongoDB, Express, AngularJS, Node.js)."
             },
             "others": {
                 "others": "Autres emplois et expérience",
                 "position": "Technicien en administration de matériel et de réseau",
-                "date": "Depuis 1992",
+                "date": "",
                 "content": "Parallèlement au développement de logiciels, j'ai travaillé pendant de nombreuses années comme technicien de matériel et d'administrateur réseau; ainsi que dans la vente de matériel informatique."
             }
         },
