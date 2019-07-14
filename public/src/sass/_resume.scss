@@ -92,7 +92,7 @@
         background-color: rgba(black, .085);
         height: 22px;
         border-radius: 3px;
-        &:nth-child(1) { transform: rotate(.6deg); } // Angular 1 & 4
+        &:nth-child(1) { transform: rotate(.6deg); } // AngularJS & Angular 8
         &:nth-child(2) { transform: rotate(1.1deg); }
         &:nth-child(3) { transform: rotate(.5deg); }
         &:nth-child(4) { transform: rotate(-1deg); }

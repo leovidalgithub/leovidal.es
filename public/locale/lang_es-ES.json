@@ -34,6 +34,12 @@
                 "date": "Enero 2018 - Junio 2020",
                 "content": "Este programa capacita al técnico en computación para ubicar, recopilar y analizar datos sobre las necesidades de procesamiento de información de los usuarios. Modelar, procesar datos y desarrollar código para crear aplicaciones eficientes acorde a los datos recolectados y prever las necesidades en cuanto a la infraestrcutra de redes. (Actualmente cursando el tercer semestre)."
             },
+            "technologia": {
+                "technologia": "Technologia, Formation - Conseil",
+                "title": "Agile Project Management - SCRUM",
+                "date": "Julio 2019",
+                "content": "Proporcionar el conocimiento requerido para una comprensión profunda de los roles, aspectos y atributos del enfoque Scrum y adquirir la certificación PSM I."
+            },
             "cisco": {
                 "cisco": "Cisco Systems, Inc.",
                 "title": "IT Essentials - Cisco Networking Academy® Program Certification",
@@ -62,10 +68,10 @@
         "work": {
             "work": "trabajo",
             "tailbase": {
-                "tailbase": "Tailbase",
-                "position": "Desarrollador WEB Fullstack",
+                "tailbase": "Tailbase  Inc.",
+                "position": "Lead Fullstack Developer",
                 "date": "Junio 2018 - (actual)",
-                "content": "Funciones de desarrollo de nuevas herramientas y mantenimiento de los sistemas actuales basados en ColdFusion y SQL Server. Actualmente, trabajando en el desarrollo de nuevas herramientas para limpieza segura de bases de datos y repositorios de código."
+                "content": "Gestionando un equipo en el mantenimiento y desarrollo de nuevas funcionalidades para nuestra plataforma basada en ColdFusion, SQL y .NET. Y, en forma paralela, colaborando en el desarrollo de una plataforma completamente nueva utilizando tecnologías recientes como Angular, React, NodeJS y MongoDB, entre otras."
             },
             "zemsania": {
                 "zemsania": "Zemsania Tech Services & Solutions",

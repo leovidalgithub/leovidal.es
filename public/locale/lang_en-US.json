@@ -34,6 +34,12 @@
                 "date": "January 2018 - June 2020",
                 "content": "This program prepares the computer technician to locate, collect and analyze data on the users' information processing needs. Modeling and processing data to develop a code to create efficient applications according to the data collected and to anticipate needs regarding the network infrastructure. (Currently studying the third semester)."
             },
+            "technologia": {
+                "technologia": "Technologia, Formation - Conseil",
+                "title": "Agile Project Management - SCRUM",
+                "date": "July 2019",
+                "content": "To provide the knowledge required for in-depth understanding of the roles, aspects and attributes of the Scrum approach and acquire PSM I Certification."
+            },
             "cisco": {
                 "cisco": "Cisco Systems, Inc.",
                 "title": "IT Essentials - Cisco Networking Academy® Program Certification",
@@ -62,10 +68,10 @@
         "work": {
             "work": "Work experience",
             "tailbase": {
-                "tailbase": "Tailbase",
-                "position": "Fullstack WEB Developer",
+                "tailbase": "Tailbase Inc.",
+                "position": "Lead Fullstack Developer",
                 "date": "June 2018 - (currently)",
-                "content": "Development functions of new Tools and maintenance of the current Systems based on ColdFusion and SQL Server. Currently, working on developing new tools for cleaning up databases and repository code."
+                "content": "Managing a team in the maintenance and developing of new features for our platform based on ColdFusion, SQL and .NET. And, in parallel form, working on development of a completely new platform using recent technologies such as Angular, React, NodeJS and MongoDB, among others."
             },                        
             "zemsania": {
                 "zemsania": "Zemsania Tech Services & Solutions",
