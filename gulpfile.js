@@ -16,46 +16,46 @@ const babel        = require( 'gulp-babel' );
 // "babel-loader": "^7.1.1",
 // "babel-preset-env": "^1.6.0",
 
-// ********************************* BROWSER-SYNC *********************************
-gulp.task('browser-sync', ['nodemon'], function() {
-  bs.init({
-    proxy: "http://localhost:80",  // local node app address (80)
-    port: 3000,  // use *different* port than above
-    notify: true
-  });
-});
-
 // ********************************* NODEMON *********************************
 gulp.task('nodemon', function (cb) {
-  // env({
-  //   // file: '.env.json',
-  //   vars: {
-  //     MYVAR : '1234'
-  //   }
-  // });
-  let called = false;
-  return nodemon({
-    script: 'app.js',
-    ignore: [
-      'gulpfile.js',
-      'node_modules/',
-      'public/' // para que no recargue al modificar cualquier .js dentro de 'public'
-    ],
-    delay: 500
-  })
-  .on('start', function () {
-    if (!called) {
-      called = true;
-      cb();
-    }
-  })
-  .on('restart', function () {
-    setTimeout(function () {
-        console.log('reloading!');
-        bs.reload({once: true});
-    }, 500);
-  });
+    // env({
+    //   // file: '.env.json',
+    //   vars: {
+    //     MYVAR : '1234'
+    //   }
+    // });
+    let called = false;
+    return nodemon({
+        script: 'app.js',
+        ignore: [
+            'gulpfile.js',
+            'node_modules/',
+            'public/' // para que no recargue al modificar cualquier .js dentro de 'public'
+        ],
+        delay: 500
+    })
+        .on('start', function () {
+            if (!called) {
+                called = true;
+                cb();
+            }
+        })
+        .on('restart', function () {
+            setTimeout(function () {
+                console.log('reloading!');
+                bs.reload({ once: true });
+            }, 500);
+        });
 });
+
+// ********************************* BROWSER-SYNC *********************************
+gulp.task('browser-sync', gulp.series('nodemon', function () {
+    return bs.init({
+        proxy: "http://localhost:80",  // local node app address (80)
+        port: 3000,  // use *different* port than above
+        notify: true
+    });
+}));
 
 // ********************************* SASS *********************************
 gulp.task( 'sass', function () {
@@ -83,11 +83,11 @@ gulp.task( 'js', function () {
 });
 
 // ********************************* WATCH *********************************
-gulp.task( 'watch', ['browser-sync'], function() {
-	gulp.watch( 'public/src/sass/**/*.scss', [ 'sass' ] );
-	gulp.watch( 'public/src/js/*.js', ['js'] );
-	gulp.watch( 'public/*.html' ).on('change', bs.reload);
-});
+gulp.task('watch', gulp.series('browser-sync', function () {
+    gulp.watch('public/src/sass/**/*.scss', ['sass']);
+    gulp.watch('public/src/js/*.js', ['js']);
+    gulp.watch('public/*.html').on('change', bs.reload);
+}));
 
  // ********************************* VENDOR:CSS *********************************
 gulp.task( 'vendor:css', function () {
@@ -121,4 +121,4 @@ gulp.task( 'vendor:js', function () {
 });
 
 // ********************************* DEFAULT TASK *********************************
-gulp.task('default', ['browser-sync', 'watch']);
+gulp.task('default', gulp.series('browser-sync', 'watch'));
