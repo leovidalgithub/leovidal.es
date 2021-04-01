@@ -1,6 +1,6 @@
 // ***************************** COLORS
 $rejectedColor : #f12919;
-$approvedColor : #117eb0; // original color #3AA33E and then #11ABB0
+$approvedColor : #36afc3; // original color #3AA33E and then #11ABB0
 
 $warningColor  : #f9c011;
 $infoColor     : #1864d7;
@@ -13,48 +13,48 @@ $background-2  : #f7f7f2;
 $background-3  : #2B2B2B; // lighter gray
 
 // ***************************** APTITUDE SKILLS BAR
-$Angular : 85%;
-$NodeJS : 83%;
-$JavaScript : 81%;
+$Angular : 97%;
+$NodeJS : 99%;
+$JavaScript : 99%;
 $Sass : 95%;
 $jQuery : 90%;
-$MongoDB : 89%;
-$HTML_CSS : 90%;
-$Git : 85%;
-$Gulp : 81%;
-$PHP : 88%;
-$Scrum : 67%;
-$Jasmine : 60%;
+$MongoDB : 93%;
+$HTML_CSS : 97%;
+$Git : 94%;
+$Gulp : 93%;
+$PHP : 98%;
+$Scrum : 99%;
+$Jasmine : 94%;
 
 @mixin mySkillBarKeyframes($value) {
-    0%   { width: 0%; }
-    25%  { width: 1%; }
-    50%  { width: 96%; }
-    100% { width: $value; }
+	0%   { width: 0%; }
+	25%  { width: 1%; }
+	50%  { width: 96%; }
+	100% { width: $value; }
 }
 
 // ***************************** BUTTONS
 @mixin myButton() {
-    font-family: 'opensans-bold', sans-serif;
-    display: inline-block;
-    padding: 14px;
-    border-radius: 3px;
-    background-color: #333;
-    color: white;
-    transition: all .6s ease;
-    text-decoration: none;
-    &:hover {
-        background-color: white;
-        color: #333;
-    }
+	font-family: 'opensans-bold', sans-serif;
+	display: inline-block;
+	padding: 14px;
+	border-radius: 3px;
+	background-color: #333;
+	color: white;
+	transition: all .6s ease;
+	text-decoration: none;
+	&:hover {
+		background-color: white;
+		color: #333;
+	}
 }
 
 .myBlueLinks {
-    display: inline-block;
-    text-decoration: none;
-    color: $approvedColor;
-    transition: .3s color ease-in-out;
-    &:hover {
-        color: lighten( $approvedColor, 18% );
-    }
+	display: inline-block;
+	text-decoration: none;
+	color: $approvedColor;
+	transition: .3s color ease-in-out;
+	&:hover {
+		color: lighten( $approvedColor, 18% );
+	}
 }

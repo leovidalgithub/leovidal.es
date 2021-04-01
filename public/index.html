@@ -2,692 +2,701 @@
 <html ng-app="myAppCV">
 
 <head>
-    <!-- ?v=1.19 no-cache-->
-    <meta charset="utf-8">
-    <title>Leo Résumé</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <meta name="theme-color" content="black">
-    <link rel="stylesheet" href="./build/vendor/css/vendor.css?v=1.19">
-    <link rel="stylesheet" href="./build/css/default.css?v=1.19">
+	<!-- ?v=1.21 no-cache-->
+	<meta charset="utf-8">
+	<title>Leo Résumé</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="theme-color" content="black">
+	<link rel="stylesheet" href="./build/vendor/css/vendor.css?v=1.21">
+	<link rel="stylesheet" href="./build/css/default.css?v=1.21">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-79494707-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'UA-79494707-1');
-    </script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-79494707-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'UA-79494707-1');
+	</script>
 </head>
 
 <body ng-controller="mainController as vm">
 
-    <!-- HEADER
-        ================================================== -->
-    <header id="header">
-        <nav id="nav-wrap">
+	<!-- HEADER
+		================================================== -->
+	<header id="header">
+		<nav id="nav-wrap">
 
-            <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-            <!-- <a class="mobile-btn" href="#_" title="Hide navigation">Hide navigation</a> -->
+			<a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+			<!-- <a class="mobile-btn" href="#_" title="Hide navigation">Hide navigation</a> -->
 
-            <ul id="nav" class="nav">
-                <li class="current">
-                    <a class="smoothscroll" href="#header">{{'header.navbar.home' | translate}}</a>
-                </li>
-                <li>
-                    <a class="smoothscroll" href="#about">{{'header.navbar.about' | translate}}</a>
-                </li>
-                <li>
-                    <a class="smoothscroll" href="#resume">{{'header.navbar.resume' | translate}}</a>
-                </li>
-                <li>
-                    <a class="smoothscroll" href="#portfolio">{{'header.navbar.portfolio' | translate}}</a>
-                </li>
-                <li>
-                    <a class="smoothscroll" href="#contact">{{'header.navbar.contact' | translate}}</a>
-                </li>
-            </ul>
-            <!-- end #nav -->
+			<ul id="nav" class="nav">
+				<li class="current">
+					<a class="smoothscroll" href="#header">{{'header.navbar.home' | translate}}</a>
+				</li>
+				<li>
+					<a class="smoothscroll" href="#about">{{'header.navbar.about' | translate}}</a>
+				</li>
+				<li>
+					<a class="smoothscroll" href="#resume">{{'header.navbar.resume' | translate}}</a>
+				</li>
+				<li>
+					<a class="smoothscroll" href="#portfolio">{{'header.navbar.portfolio' | translate}}</a>
+				</li>
+				<li>
+					<a class="smoothscroll" href="#contact">{{'header.navbar.contact' | translate}}</a>
+				</li>
+			</ul>
+			<!-- end #nav -->
 
-        </nav>
-        <!-- end #nav-wrap -->
+		</nav>
+		<!-- end #nav-wrap -->
 
-        <div class="banner">
-            <div class="banner-text">
-                <h1 class="responsive-headline">{{'header.title.iam' | translate}} Leonardo Rdgz-Vidal</h1>
-                <h3 ng-bind-html="'header.intro.intro' | translate"></h3>
-                <!-- for sanitize html tags inside json -->
-                <h3 class="navigate">
-                    {{'header.intro.start.start' | translate}}
-                    <a class="smoothscroll" href="#about">{{'header.intro.start.navigate' | translate}}</a>
-                    {{'header.intro.start.knowme' | translate}}
-                </h3>
-                <hr>
-                <ul class="social">
-                    <li>
-                        <a href="https://www.facebook.com/leordgz" target="blank" title="facebook">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/LeoRdgzVidal" title="Twitter" target="blank">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/leonardo-rodríguez-vidal-a5542a124/" target="blank" title="Linkedin">
-                            <i class="fa fa-linkedin"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/leovidalgithub/" target="blank" title="GitHub">
-                            <i class="fa fa-github"></i>
-                        </a>
-                    </li>
-                    <!-- <li>
-                        <a href="https://www.instagram.com/leoamiguo" target="blank" title="Instagram">
-                            <i class="fa fa-instagram"></i>
-                        </a>
-                    </li> -->
-                    <li>
-                        <a href="mailto:info@leovidal.es?Subject=leordgz_CV-" target="_top" title="eMail">
-                            <i class="fa fa-envelope-o"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="skype:leordgz?call" title="Skype">
-                            <i class="fa fa-skype"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+		<div class="banner">
+			<div class="banner-text">
+				<h1 class="responsive-headline">{{'header.title.iam' | translate}} Leonardo Rdgz-Vidal</h1>
+				<h3 ng-bind-html="'header.intro.intro' | translate"></h3>
+				<!-- for sanitize html tags inside json -->
+				<h3 class="navigate">
+					{{'header.intro.start.start' | translate}}
+					<a class="smoothscroll" href="#about">{{'header.intro.start.navigate' | translate}}</a>
+					{{'header.intro.start.knowme' | translate}}
+				</h3>
+				<hr>
+				<ul class="social">
+					<li>
+						<a href="https://www.facebook.com/leordgz" target="blank" title="facebook">
+							<i class="fa fa-facebook"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/LeoRdgzVidal" title="Twitter" target="blank">
+							<i class="fa fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/leonardo-rodríguez-vidal-a5542a124/" target="blank" title="Linkedin">
+							<i class="fa fa-linkedin"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/leovidalgithub/" target="blank" title="GitHub">
+							<i class="fa fa-github"></i>
+						</a>
+					</li>
+					<!-- <li>
+						<a href="https://www.instagram.com/leoamiguo" target="blank" title="Instagram">
+							<i class="fa fa-instagram"></i>
+						</a>
+					</li> -->
+					<li>
+						<a href="mailto:info@leovidal.es?Subject=leordgz_CV-" target="_top" title="eMail">
+							<i class="fa fa-envelope-o"></i>
+						</a>
+					</li>
+					<li>
+						<a href="skype:leordgz?call" title="Skype">
+							<i class="fa fa-skype"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
 
-        <p class="scrolldown">
-            <a class="smoothscroll" href="#about">
-                <i class="fa fa-arrow-circle-down"></i>
-            </a>
-        </p>
-    </header>
-    <!-- Header End -->
+		<p class="scrolldown">
+			<a class="smoothscroll" href="#about">
+				<i class="fa fa-arrow-circle-down"></i>
+			</a>
+		</p>
+	</header>
+	<!-- Header End -->
 
-    <!-- ABOUT SECTION
-        ================================================== -->
-    <section id="about">
-        <div class="row main-col">
-            <div class="col-md-3">
-                <img class="profile-pic img-responsive center-block" src="images/me2.jpg" alt="This is my photo" />
-            </div>
+	<!-- ABOUT SECTION
+		================================================== -->
+	<section id="about">
+		<div class="row main-col">
+			<div class="col-md-3">
+				<img class="profile-pic img-responsive center-block" src="images/me2.jpg" alt="This is my photo" />
+			</div>
 
-            <div class="col-md-9 about-me">
-                <h2>{{'about.about-me' | translate}}</h2>
-                <p ng-bind-html="'about.content' | translate"></p>
+			<div class="col-md-9 about-me">
+				<h2>{{'about.about-me' | translate}}</h2>
+				<p ng-bind-html="'about.content' | translate"></p>
 
-                <div class="row contact-details">
-                    <div class="col-md-7">
-                        <h2>{{'about.contact-details' | translate}}</h2>
-                        <div class="address">
-                            <p>Leonardo Rdgz-Vidal</p>
-                            <p>Laval, H7T 1V3 QC Canada</p>
-                            <p>+1 (514) 250-3002</p>
-                            <a href="mailto:leo@leovidal.es">leo@leovidal.es</a>
-                        </div>
-                    </div>
-                    <div class="col-md-5 download">
-                        <p>
-                            <a href="#contact" class="smoothscroll">
-                                <i class="fa fa-share"></i>&nbsp;{{'about.contact-me' | translate}}
-                            </a>
-                        </p>
-                    </div>
-                </div>
-                <!-- end row -->
-            </div>
-        </div>
-        <!-- end .main-col -->
-    </section>
-    <!-- About Section End-->
+				<div class="row contact-details">
+					<div class="col-md-7">
+						<h2>{{'about.contact-details' | translate}}</h2>
+						<div class="address">
+							<p>Leonardo Rdgz-Vidal</p>
+							<p>Laval, H7T 1V3 QC Canada</p>
+							<p>+1 (514) 250-3002</p>
+							<a href="mailto:leo@leovidal.es">leo@leovidal.es</a>
+						</div>
+					</div>
+					<div class="col-md-5 download">
+						<p>
+							<a href="#contact" class="smoothscroll">
+								<i class="fa fa-share"></i>&nbsp;{{'about.contact-me' | translate}}
+							</a>
+						</p>
+					</div>
+				</div>
+				<!-- end row -->
+			</div>
+		</div>
+		<!-- end .main-col -->
+	</section>
+	<!-- About Section End-->
 
-    <!-- RESUME SECTION
-        ================================================== -->
-    <section id="resume">
-        <div class="content">
+	<!-- RESUME SECTION
+		================================================== -->
+	<section id="resume">
+		<div class="content">
 
-            <!-- Education
-            ================================================== -->
-            <div class="row education">
+			<!-- Education
+			================================================== -->
+			<div class="row education">
 
-                <div class="col-md-3 header-col">
-                    <h1>
-                        <span>{{'resume.education.education' | translate}}</span>
-                    </h1>
-                </div>
+				<div class="col-md-3 header-col">
+					<h1>
+						<span>{{'resume.education.education' | translate}}</span>
+					</h1>
+				</div>
 
-                <div class="col-md-9 main-col">
-                    <!-- LASALLE -->
-                    <div class="row item">
-                        <div class="col-xs-12">
-                            <h3>{{'resume.education.lasalle.lasalle' | translate}} -
-                                <a href="http://www.lasallecollege.com/business-and-technologies-school/dec-computer-science-courses-data-processing" target="blank">LaSalle</a>
-                            </h3>
-                            <p class="info">{{'resume.education.lasalle.title' | translate}}
-                                <span>&bull;</span>
-                                <em class="date">{{'resume.education.lasalle.date' | translate}}</em>
-                            </p>
-                            <p>{{'resume.education.lasalle.content' | translate}}</p>
-                        </div>
-                    </div>
-                    <!-- item end -->
+				<div class="col-md-9 main-col">
+					<!-- LASALLE -->
+					<div class="row item">
+						<div class="col-xs-12">
+							<h3>{{'resume.education.lasalle.lasalle' | translate}} -
+								<a href="http://www.lasallecollege.com/business-and-technologies-school/dec-computer-science-courses-data-processing" target="blank">LaSalle</a>
+							</h3>
+							<p class="info">{{'resume.education.lasalle.title' | translate}}
+								<span>&bull;</span>
+								<em class="date">{{'resume.education.lasalle.date' | translate}}</em>
+							</p>
+							<p>{{'resume.education.lasalle.content' | translate}}</p>
 
-                    <!-- AGILE SCRUM CERTIFICATION -->
-                    <div class="row item">
-                        <div class="col-xs-12">
-                            <h3>{{'resume.education.technologia.technologia' | translate}} -
-                                <a href="http://www.technologia.com/" target="blank">Technologia</a>
-                            </h3>
-                            <p class="info">{{'resume.education.technologia.title' | translate}}
-                                <span>&bull;</span>
-                                <em class="date">{{'resume.education.technologia.date' | translate}}</em>
-                            </p>
-                            <p>{{'resume.education.technologia.content' | translate}}</p>
+							<!-- Image thumbnail and Modal -->
+							<img class="modal-image" id="myImg" src="images/lasalle_diplome.jpg" alt="College LaSalle Diploma">
+						</div>
+					</div>
+					<!-- item end -->
 
-                            <!-- Image thumbnail and Modal -->
-                            <img class="pepito" id="myImg" src="images/agile_scrum.jpg" alt="Agile Project Management">
-                            <div id="myModal" class="modal">
-                                djnedjken
-                                <span class="close">&times;</span>
-                                <img class="modal-content" src="images/agile_scrum.jpg" id="img01">
-                                <div id="caption"></div>
-                            </div>
+					<!-- AGILE SCRUM CERTIFICATION -->
+					<div class="row item">
+						<div class="col-xs-12">
+							<h3>{{'resume.education.technologia.technologia' | translate}} -
+								<a href="http://www.technologia.com/" target="blank">Technologia</a>
+							</h3>
+							<p class="info">{{'resume.education.technologia.title' | translate}}
+								<span>&bull;</span>
+								<em class="date">{{'resume.education.technologia.date' | translate}}</em>
+							</p>
+							<p>{{'resume.education.technologia.content' | translate}}</p>
 
-                        </div>
-                    </div>
-                    <!-- item end -->
+							<!-- Image thumbnail and Modal -->
+							<img class="modal-image" id="myImg" src="images/agile_scrum.jpg" alt="Agile Project Management">
+<!--
+	<div id="myModal" class="modal">
+		<span class="close">&times;</span>
+		<img class="modal-content" src="images/agile_scrum.jpg" id="img01">
+		<div id="caption"></div>
+	</div>
+-->
 
-                    <!-- CISCO CERTIFICATION -->
-                    <div class="row item">
-                        <div class="col-xs-12">
-                            <h3>{{'resume.education.cisco.cisco' | translate}} -
-                                <a href="https://www.netacad.com/" target="blank">Cisco Networking Academy</a>
-                            </h3>
-                            <p class="info">{{'resume.education.cisco.title' | translate}}
-                                <span>&bull;</span>
-                                <em class="date">{{'resume.education.cisco.date' | translate}}</em>
-                            </p>
-                            <p>{{'resume.education.cisco.content' | translate}}</p>
-                        </div>
-                    </div>
-                    <!-- item end -->
+						</div>
+					</div>
+					<!-- item end -->
 
-                    <!-- SKYLAB -->
-                    <div class="row item">
-                        <div class="col-xs-12">
-                            <h3>{{'resume.education.skylab.skylab' | translate}} -
-                                <a href="http://www.skylabcoders.com/en" target="blank">Skylab</a>
-                            </h3>
-                            <p class="info">{{'resume.education.skylab.title' | translate}}
-                                <span>&bull;</span>
-                                <em class="date">{{'resume.education.skylab.date' | translate}}</em>
-                            </p>
-                            <p>{{'resume.education.skylab.content' | translate}}</p>
-                        </div>
-                    </div>
-                    <!-- item end -->
+					<!-- CISCO CERTIFICATION -->
+					<div class="row item">
+						<div class="col-xs-12">
+							<h3>{{'resume.education.cisco.cisco' | translate}} -
+								<a href="https://www.netacad.com/" target="blank">Cisco Networking Academy</a>
+							</h3>
+							<p class="info">{{'resume.education.cisco.title' | translate}}
+								<span>&bull;</span>
+								<em class="date">{{'resume.education.cisco.date' | translate}}</em>
+							</p>
+							<p>{{'resume.education.cisco.content' | translate}}</p>
+						</div>
+					</div>
+					<!-- item end -->
 
-                    <!-- ABISA -->
-                    <div class="row item">
-                        <div class="col-xs-12">
-                            <h3>{{'resume.education.abisa.abisa' | translate}} -
-                                <a href="http://www.inforbooks.com" target="blank">Inforbooks</a>
-                            </h3>
-                            <p class="info">{{'resume.education.abisa.title' | translate}}
-                                <span>&bull;</span>
-                                <em class="date">{{'resume.education.abisa.date' | translate}}</em>
-                            </p>
-                            <p>{{'resume.education.abisa.content' | translate}}</p>
-                        </div>
-                    </div>
-                    <!-- item end -->
+					<!-- SKYLAB -->
+					<div class="row item">
+						<div class="col-xs-12">
+							<h3>{{'resume.education.skylab.skylab' | translate}} -
+								<a href="http://www.skylabcoders.com/en" target="blank">Skylab</a>
+							</h3>
+							<p class="info">{{'resume.education.skylab.title' | translate}}
+								<span>&bull;</span>
+								<em class="date">{{'resume.education.skylab.date' | translate}}</em>
+							</p>
+							<p>{{'resume.education.skylab.content' | translate}}</p>
+						</div>
+					</div>
+					<!-- item end -->
 
-                    <!-- UNE -->
-                    <div class="row item">
-                        <div class="col-xs-12">
-                            <h3>{{'resume.education.une.une' | translate}} -
-                                <a href="http://www.une.edu.ve" target="blank">UNE</a>
-                            </h3>
-                            <p class="info">{{'resume.education.une.title' | translate}}
-                                <span>&bull;</span>
-                                <em class="date">{{'resume.education.une.date' | translate}}</em>
-                            </p>
-                            <p>{{'resume.education.une.content' | translate}}</p>
-                        </div>
-                    </div>
-                    <!-- item end -->
+					<!-- ABISA -->
+					<div class="row item">
+						<div class="col-xs-12">
+							<h3>{{'resume.education.abisa.abisa' | translate}} -
+								<a href="http://www.inforbooks.com" target="blank">Inforbooks</a>
+							</h3>
+							<p class="info">{{'resume.education.abisa.title' | translate}}
+								<span>&bull;</span>
+								<em class="date">{{'resume.education.abisa.date' | translate}}</em>
+							</p>
+							<p>{{'resume.education.abisa.content' | translate}}</p>
+						</div>
+					</div>
+					<!-- item end -->
 
-                </div>
-                <!-- main-col end -->                
-            </div>
-            <!-- End Education -->
+					<!-- UNE -->
+					<div class="row item">
+						<div class="col-xs-12">
+							<h3>{{'resume.education.une.une' | translate}} -
+								<a href="http://www.une.edu.ve" target="blank">UNE</a>
+							</h3>
+							<p class="info">{{'resume.education.une.title' | translate}}
+								<span>&bull;</span>
+								<em class="date">{{'resume.education.une.date' | translate}}</em>
+							</p>
+							<p>{{'resume.education.une.content' | translate}}</p>
+						</div>
+					</div>
+					<!-- item end -->
 
-            <!-- Work
-                ================================================ -->
-            <div class="row work">
+				</div>
+				<!-- main-col end -->
+			</div>
+			<!-- End Education -->
 
-                <div class="col-md-3 header-col">
-                    <h1>
-                        <span>{{'resume.work.work' | translate}}</span>
-                    </h1>
-                </div>
+			<!-- Work
+				================================================ -->
+			<div class="row work">
 
-                <div class="col-md-9 main-col">
-                    <!-- TAILBASE -->
-                    <div class="row item">
-                        <div class="col-xs-12">
+				<div class="col-md-3 header-col">
+					<h1>
+						<span>{{'resume.work.work' | translate}}</span>
+					</h1>
+				</div>
 
-                            <h3>{{'resume.work.tailbase.tailbase' | translate}} -
-                                <a href="http://www.tailbase.com" target="blank">Tailbase</a>
-                            </h3>
-                            <p class="info">{{'resume.work.tailbase.position' | translate}}
-                                <span>&bull;</span>
-                                <em class="date">{{'resume.work.tailbase.date' | translate}}</em>
-                            </p>
-                            <p>{{'resume.work.tailbase.content' | translate}}</p>
-                        </div>
-                    </div>
-                    <!-- item end -->
+				<div class="col-md-9 main-col">
+					<!-- TAILBASE -->
+					<div class="row item">
+						<div class="col-xs-12">
 
-                    <!-- ZEMSANIA -->
-                    <div class="row item">
-                        <div class="col-xs-12">
+							<h3>{{'resume.work.tailbase.tailbase' | translate}} -
+								<a href="https://www.tailbase.com" target="blank">Tailbase</a> |
+								<a href="https://www.harriscomputer.com/en/" target="blank">Harris Computer</a>
+							</h3>
+							<p class="info">{{'resume.work.tailbase.position' | translate}}
+								<span>&bull;</span>
+								<em class="date">{{'resume.work.tailbase.date' | translate}}</em>
+							</p>
+							<p>{{'resume.work.tailbase.content' | translate}}</p>
+						</div>
+					</div>
+					<!-- item end -->
 
-                            <h3>{{'resume.work.zemsania.zemsania' | translate}} -
-                                <a href="http://www.zemsania.com" target="blank">Zemsania</a>                             
-                            </h3>
-                            <p class="info">{{'resume.work.zemsania.position' | translate}}
-                                <span>&bull;</span>
-                                <em class="date">{{'resume.work.zemsania.date' | translate}}</em>
-                            </p>
-                            <p>{{'resume.work.zemsania.content' | translate}}</p>
-                        </div>
-                    </div>
-                    <!-- item end -->
+					<!-- ZEMSANIA -->
+					<div class="row item">
+						<div class="col-xs-12">
 
-                    <!-- ROLINE -->
-                    <div class="row item">
-                        <div class="col-xs-12">
-                            <h3>{{'resume.work.roline.roline' | translate}} -
-                                <a href="http://www.rolinesystem.com" target="blank">Roline</a>
-                            </h3>
-                            <p class="info">{{'resume.work.roline.position' | translate}}
-                                <span>&bull;</span>
-                                <em class="date">{{'resume.work.roline.date' | translate}}</em>
-                            </p>
-                            <p>{{'resume.work.roline.content' | translate}}
-                                <a class="smoothscroll" href="#portfolio">SiPEDI</a>
-                            </p>
-                        </div>
-                    </div>
-                    <!-- item end -->
+							<h3>{{'resume.work.zemsania.zemsania' | translate}} -
+								<a href="http://www.zemsania.com" target="blank">Zemsania</a>
+							</h3>
+							<p class="info">{{'resume.work.zemsania.position' | translate}}
+								<span>&bull;</span>
+								<em class="date">{{'resume.work.zemsania.date' | translate}}</em>
+							</p>
+							<p>{{'resume.work.zemsania.content' | translate}}</p>
+						</div>
+					</div>
+					<!-- item end -->
 
-                    <!-- REST OF THE JOBS -->
-                    <div class="row item">
-                        <div class="col-xs-12">
-                            <h3>{{'resume.work.others.others' | translate}} -
-                                <a href="http://mpcsys.com" target="blank">MPC Systems</a>
-                            </h3>
-                            <p class="info">{{'resume.work.others.position' | translate}}
-                                <span>&bull;</span>
-                                <em class="date">{{'resume.work.others.date' | translate}}</em>
-                            </p>
-                            <p>{{'resume.work.others.content' | translate}}</p>
-                        </div>
-                    </div>
-                    <!-- item end -->
+					<!-- ROLINE -->
+					<div class="row item">
+						<div class="col-xs-12">
+							<h3>{{'resume.work.roline.roline' | translate}} -
+								<a href="http://www.rolinesystem.com" target="blank">Roline</a>
+							</h3>
+							<p class="info">{{'resume.work.roline.position' | translate}}
+								<span>&bull;</span>
+								<em class="date">{{'resume.work.roline.date' | translate}}</em>
+							</p>
+							<p>{{'resume.work.roline.content' | translate}}
+								<a class="smoothscroll" href="#portfolio">SiPEDI</a>
+							</p>
+						</div>
+					</div>
+					<!-- item end -->
 
-                </div>
-                <!-- main-col end -->
+					<!-- REST OF THE JOBS -->
+					<div class="row item">
+						<div class="col-xs-12">
+							<h3>{{'resume.work.others.others' | translate}} -
+								<a href="http://mpcsys.com" target="blank">MPC Systems</a>
+							</h3>
+							<p class="info">{{'resume.work.others.position' | translate}}
+								<span>&bull;</span>
+								<em class="date">{{'resume.work.others.date' | translate}}</em>
+							</p>
+							<p>{{'resume.work.others.content' | translate}}</p>
+						</div>
+					</div>
+					<!-- item end -->
 
-            </div>
-            <!-- End Work -->
+				</div>
+				<!-- main-col end -->
 
-            <!-- Skills
-           ================================================= -->
-            <div class="col-md-3 header-col mySkills">
-                <h1>
-                    <span>{{'resume.skills.skills' | translate}}</span>
-                </h1>
-            </div>
-            <br><br>
+			</div>
+			<!-- End Work -->
 
-            <!-- <div data-zIndex="10" class="parallax-window" data-speed=".4" data-parallax="scroll" data-image-src="./images/header-background.jpg"> -->
-            <!-- <div class="parallax-window jsInit" data-parallax="scroll"> -->
-            <!-- <div class="jsInit"> -->
-            <div id="mySkills" class="row skill">
+			<!-- Skills
+		================================================= -->
+			<div class="col-md-3 header-col mySkills">
+				<h1>
+					<span>{{'resume.skills.skills' | translate}}</span>
+				</h1>
+			</div>
+			<br><br>
 
-                <div class="col-md-9 col-md-offset-3 main-col">
+			<!-- <div data-zIndex="10" class="parallax-window" data-speed=".4" data-parallax="scroll" data-image-src="./images/header-background.jpg"> -->
+			<!-- <div class="parallax-window jsInit" data-parallax="scroll"> -->
+			<!-- <div class="jsInit"> -->
+			<div id="mySkills" class="row skill">
 
-                    <div class="bars">
+				<div class="col-xs-12 main-col">
+					<div class="bars">
 
-                        <ul class="skills">
-                            <li>
-                                <span class="bar-expand"></span>
-                                <em>AngularJS &#38; Angular 8</em>
-                            </li>
-                            <li>
-                                <span class="bar-expand"></span>
-                                <em>NodeJS - ExpressJS - Fastify</em>
-                            </li>
-                            <li>
-                                <span class="bar-expand"></span>
-                                <em>JavaScript</em>
-                            </li>
-                            <li>
-                                <span class="bar-expand"></span>
-                                <em>Sass</em>
-                            </li>
-                            <li>
-                                <span class="bar-expand"></span>
-                                <em>jQuery - Bootstrap</em>
-                            </li>
-                            <li>
-                                <span class="bar-expand"></span>
-                                <em>MongoDB - MySQL - SQL</em>
-                            </li>
-                            <li>
-                                <span class="bar-expand"></span>
-                                <em>HTML5 - CSS3</em>
-                            </li>
-                            <li>
-                                <span class="bar-expand"></span>
-                                <em>Git - Github</em>
-                            </li>
-                            <li>
-                                <span class="bar-expand"></span>
-                                <em>Gulp - Webpack - NPM - Bower</em>
-                            </li>
-                            <li>
-                                <span class="bar-expand"></span>
-                                <em>PHP - .NET - Coldfusion</em>
-                            </li>
-                            <li>
-                                <span class="bar-expand"></span>
-                                <em>Scrum</em>
-                            </li>
-                            <li>
-                                <span class="bar-expand"></span>
-                                <em>Jasmine - Mocha - Karma</em>
-                            </li>
-                        </ul>
+						<ul class="skills">
+							<li>
+								<span class="bar-expand"></span>
+								<em>Vue.js - Angular</em>
+							</li>
+							<li>
+								<span class="bar-expand"></span>
+								<em>Node.js - Express - Fastify</em>
+							</li>
+							<li>
+								<span class="bar-expand"></span>
+								<em>JavaScript ES6 - jQuery</em>
+							</li>
+							<li>
+								<span class="bar-expand"></span>
+								<em>C# .Net - Coldfusion - PHP</em>
+							</li>
+							<li>
+								<span class="bar-expand"></span>
+								<em>REST Api - GraphQL</em>
+							</li>
+							<li>
+								<span class="bar-expand"></span>
+								<em>Bootstrap - Vuetify - Material Design</em>
+							</li>
+							<li>
+								<span class="bar-expand"></span>
+								<em>SQL - MongoDB - MySQL</em>
+							</li>
+							<li>
+								<span class="bar-expand"></span>
+								<em>Sass - HTML5 - CSS3 - Pug</em>
+							</li>
+							<li>
+								<span class="bar-expand"></span>
+								<em>Git - Bitbucket - DevOps</em>
+							</li>
+							<li>
+								<span class="bar-expand"></span>
+								<em>Gulp - Webpack - NPM - Bower</em>
+							</li>
+							<li>
+								<span class="bar-expand"></span>
+								<em>Agile/Scrum - DevOps - Jira - Jenkins</em>
+							</li>
+							<li>
+								<span class="bar-expand"></span>
+								<em>Jasmine - Mocha - Karma</em>
+							</li>
+						</ul>
 
-                    </div>
-                    <!-- end skill-bars -->
+					</div>
+					<!-- end skill-bars -->
 
-                </div>
-                <!-- main-col end -->
+				</div>
+				<!-- main-col end -->
 
-            </div>
-            <!-- End skills -->
-            <!-- </div> -->
-            <!-- End parallax -->
+			</div>
+			<!-- End skills -->
+			<!-- </div> -->
+			<!-- End parallax -->
 
-        </div>
-        <!-- End content -->
-    </section>
-    <!-- Resume Section End-->
+		</div>
+		<!-- End content -->
+	</section>
+	<!-- Resume Section End-->
 
-    <!-- PORTFOLIO SECTION
-        ================================================== -->
-    <section id="portfolio">
-        <h1>{{'portfolio.title' | translate}}</h1>
-        <div class="myContainer">
-            <!-- <div class="row row-eq-height"> -->
-            <div id="sipedi" class="item" ng-click="vm.openUrl(1)">
-                <div class="title">
-                    <h2>SiPEDI&copy; NG1</h2>
-                    <p>{{'portfolio.apps.sipedi.title' | translate}}</p>
-                </div>
-                <div class="technologies">
-                        <span>Angular 1 - </span>
-                        <span>jQuery - Boostrap - </span>
-                        <span>NodeJS - Express - </span>
-                        <span>MongoDB - Mongoose - </span>
-                        <span>Socket.io - </span>
-                        <span>JWToken - </span>
-                        <span>Browserify</span>
-                </div>
-                <div class="demo">DEMO
-                    <div>
-                        <p><i class="fa fa-user"></i> supplier@supplier.com</p>
-                        <p><i class="fa fa-key"></i> demo</p>
-                        <hr>
-                        <p><i class="fa fa-user"></i> client@client.com</p>
-                        <p><i class="fa fa-key"></i> demo</p>
-                        <p class="note">{{'portfolio.apps.sipedi.note' | translate}}</p>
-                    </div>
-                </div>
-                <a><i class="fa fa-check"></i> {{'portfolio.tryme' | translate}}</a>
-            </div>
+	<!-- PORTFOLIO SECTION
+		================================================== -->
+	<section id="portfolio">
+		<h1>{{'portfolio.title' | translate}}</h1>
+		<div class="myContainer">
+			<!-- <div class="row row-eq-height"> -->
+			<div id="sipedi" class="item" ng-click="vm.openUrl(1)">
+				<div class="title">
+					<h2>SiPEDI&copy; NG1</h2>
+					<p>{{'portfolio.apps.sipedi.title' | translate}}</p>
+				</div>
+				<div class="technologies">
+						<span>Angular 1 - </span>
+						<span>jQuery - Boostrap - </span>
+						<span>NodeJS - Express - </span>
+						<span>MongoDB - Mongoose - </span>
+						<span>Socket.io - </span>
+						<span>JWToken - </span>
+						<span>Browserify</span>
+				</div>
+				<div class="demo">DEMO
+					<div>
+						<p><i class="fa fa-user"></i> supplier@supplier.com</p>
+						<p><i class="fa fa-key"></i> demo</p>
+						<hr>
+						<p><i class="fa fa-user"></i> client@client.com</p>
+						<p><i class="fa fa-key"></i> demo</p>
+						<p class="note">{{'portfolio.apps.sipedi.note' | translate}}</p>
+					</div>
+				</div>
+				<a><i class="fa fa-check"></i> {{'portfolio.tryme' | translate}}</a>
+			</div>
 
-            <div id="zemtime_ng1" class="item" ng-click="vm.openUrl(2)">
-                <div class="title">
-                    <h2>Zemtime&copy; NG1</h2>
-                    <p>{{'portfolio.apps.zemtime_ng1.title' | translate}}</p>
-                </div>
-                <div class="technologies">
-                        <span>Angular 1 - </span>
-                        <span>NodeJS - Express - </span>
-                        <span>MongoDB - Mongoose - </span>
-                        <span>Gulp - Bower - </span>
-                        <span>Bootstrap - jQuery - Font Awesome - </span>
-                        <span>ejs</span>
-                </div>
-                <div class="demo">DEMO
-                    <div>
-                        <p><i class="fa fa-user"></i> supervisor@supervisor.com</p>
-                        <p><i class="fa fa-key"></i> demo</p>
-                        <hr>
-                        <p><i class="fa fa-user"></i> employee@employee.com</p>
-                        <p><i class="fa fa-key"></i> demo</p>
-                    </div>
-                </div>
-                <a><i class="fa fa-check"></i> {{'portfolio.tryme' | translate}}</a>
-            </div>
+			<div id="zemtime_ng1" class="item" ng-click="vm.openUrl(2)">
+				<div class="title">
+					<h2>Zemtime&copy; NG1</h2>
+					<p>{{'portfolio.apps.zemtime_ng1.title' | translate}}</p>
+				</div>
+				<div class="technologies">
+						<span>Angular 1 - </span>
+						<span>NodeJS - Express - </span>
+						<span>MongoDB - Mongoose - </span>
+						<span>Gulp - Bower - </span>
+						<span>Bootstrap - jQuery - Font Awesome - </span>
+						<span>ejs</span>
+				</div>
+				<div class="demo">DEMO
+					<div>
+						<p><i class="fa fa-user"></i> supervisor@supervisor.com</p>
+						<p><i class="fa fa-key"></i> demo</p>
+						<hr>
+						<p><i class="fa fa-user"></i> employee@employee.com</p>
+						<p><i class="fa fa-key"></i> demo</p>
+					</div>
+				</div>
+				<a><i class="fa fa-check"></i> {{'portfolio.tryme' | translate}}</a>
+			</div>
 
-            <div id="zemtime_ng4" class="item" ng-click="vm.openUrl(3)">
-                <div class="title">
-                    <h2>Zemtime&copy; NG4</h2>
-                    <p>{{'portfolio.apps.zemtime_ng4.title' | translate}}</p>
-                </div>
-                <div class="technologies">
-                    <span>Angular 4 - </span>
-                    <span>NG Material - TypeScript</span>
-                    <span>NodeJS - Fastity - </span>
-                    <span>MongoDB - Swagger - ECMAScript6</span>
-                </div>
-                <div class="demo">DEMO
-                    <div>
-                        <p><i class="fa fa-user"></i> demo</p>
-                        <p><i class="fa fa-key"></i> demo</p>
-                    </div>
-                </div>
-                <a><i class="fa fa-check"></i> {{'portfolio.tryme' | translate}}</a>
-            </div>
-        </div>
-    </section>
+			<div id="zemtime_ng4" class="item" ng-click="vm.openUrl(3)">
+				<div class="title">
+					<h2>Zemtime&copy; NG4</h2>
+					<p>{{'portfolio.apps.zemtime_ng4.title' | translate}}</p>
+				</div>
+				<div class="technologies">
+					<span>Angular 4 - </span>
+					<span>NG Material - TypeScript</span>
+					<span>NodeJS - Fastity - </span>
+					<span>MongoDB - Swagger - ECMAScript6</span>
+				</div>
+				<div class="demo">DEMO
+					<div>
+						<p><i class="fa fa-user"></i> demo</p>
+						<p><i class="fa fa-key"></i> demo</p>
+					</div>
+				</div>
+				<a><i class="fa fa-check"></i> {{'portfolio.tryme' | translate}}</a>
+			</div>
+		</div>
+	</section>
 
-    <!-- Contact Section
-        ================================================== -->
-    <section id="contact">
+	<!-- Contact Section
+		================================================== -->
+	<section id="contact">
 
-        <div class="section-head">
-            <div class="touchIcon"></div>
-            <h1>{{'contact.getintouch' | translate}}</h1>
-        </div>
+		<div class="section-head">
+			<div class="touchIcon"></div>
+			<h1>{{'contact.getintouch' | translate}}</h1>
+		</div>
 
-        <div class="row">
+		<div class="row">
 
-            <div class="col-md-offset-1 col-md-10">
+			<div class="col-md-offset-1 col-md-10">
 
-                <!-- form -->
-                <form ng-submit="vm.submit()" id="contactForm" name="contactForm">
-                    <fieldset>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <label for="contactName">{{'contact.form.name' | translate}}
-                                    <span class="required">*</span>
-                                </label>
-                            </div>
-                            <div class="col-md-9">
-                                <input type="text" maxlength="30" ng-model="vm.data.name" required />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <label for="contactEmail">{{'contact.form.email' | translate}}
-                                    <span class="required">*</span>
-                                </label>
-                            </div>
-                            <div class="col-md-9">
-                                <input type="email" maxlength="30" ng-model="vm.data.email" required />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <label for="contactSubject">{{'contact.form.subject' | translate}}</label>
-                            </div>
-                            <div class="col-md-9">
-                                <input type="text" maxlength="50" ng-model="vm.data.subject">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <label for="contactMessage">{{'contact.form.message' | translate}}
-                                    <span class="required">*</span>
-                                </label>
-                            </div>
-                            <div class="col-md-9">
-                                <textarea cols="50" rows="12" maxlength="720" ng-model="vm.data.msg" required></textarea>
-                            </div>
-                        </div>
+				<!-- form -->
+				<form ng-submit="vm.submit()" id="contactForm" name="contactForm">
+					<fieldset>
+						<div class="row">
+							<div class="col-md-3">
+								<label for="contactName">{{'contact.form.name' | translate}}
+									<span class="required">*</span>
+								</label>
+							</div>
+							<div class="col-md-9">
+								<input type="text" maxlength="30" ng-model="vm.data.name" required />
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3">
+								<label for="contactEmail">{{'contact.form.email' | translate}}
+									<span class="required">*</span>
+								</label>
+							</div>
+							<div class="col-md-9">
+								<input type="email" maxlength="30" ng-model="vm.data.email" required />
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3">
+								<label for="contactSubject">{{'contact.form.subject' | translate}}</label>
+							</div>
+							<div class="col-md-9">
+								<input type="text" maxlength="50" ng-model="vm.data.subject">
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-3">
+								<label for="contactMessage">{{'contact.form.message' | translate}}
+									<span class="required">*</span>
+								</label>
+							</div>
+							<div class="col-md-9">
+								<textarea cols="50" rows="12" maxlength="720" ng-model="vm.data.msg" required></textarea>
+							</div>
+						</div>
 
-                        <div class="row">
-                            <div class="col-md-offset-3 col-md-3">
-                                <button id="www" type="submit">
-                                    <i class="fa" ng-class="{'fa-send':!vm.data.sending, 'fa-refresh fa-spin':vm.data.sending}"></i>
-                                    &nbsp;{{'contact.sending.submit' | translate}}
-                                </button>
-                            </div>
-                        </div>
+						<div class="row">
+							<div class="col-md-offset-3 col-md-3">
+								<button id="www" type="submit">
+									<i class="fa" ng-class="{'fa-send':!vm.data.sending, 'fa-refresh fa-spin':vm.data.sending}"></i>
+									&nbsp;{{'contact.sending.submit' | translate}}
+								</button>
+							</div>
+						</div>
 
 
-                    </fieldset>
-                </form>
-                <!-- Form End -->
+					</fieldset>
+				</form>
+				<!-- Form End -->
 
-            </div>
+			</div>
 
-        </div>
-    </section>
-    <!-- Contact Section End-->
+		</div>
+	</section>
+	<!-- Contact Section End-->
 
-    <!-- footer
-        ================================================== -->
-    <footer>
+	<!-- footer
+		================================================== -->
+	<footer>
 
-        <div class="row">
+		<div class="row">
 
-            <div class="twelve columns">
+			<div class="twelve columns">
 
-                <ul class="social-links">
-                    <li>
-                        <a href="https://www.facebook.com/leordgz" target="blank" title="facebook">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/LeoRdgzVidal" title="Twitter" target="blank">
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/leonardo-rodríguez-vidal-a5542a124/" target="blank" title="Linkedin">
-                            <i class="fa fa-linkedin"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/leovidalgithub/" target="blank" title="GitHub">
-                            <i class="fa fa-github"></i>
-                        </a>
-                    </li>
-                    <!-- <li>
-                        <a href="https://www.instagram.com/leoamiguo" target="blank" title="Instagram">
-                            <i class="fa fa-instagram"></i>
-                        </a>
-                    </li> -->
-                    <li>
-                        <a href="mailto:leo@leovidal.es?Subject=leordgz_CV-" target="_top" title="eMail">
-                            <i class="fa fa-envelope-o"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="skype:leordgz?call" title="Skype">
-                            <i class="fa fa-skype"></i>
-                        </a>
-                    </li>
-                </ul>
+				<ul class="social-links">
+					<li>
+						<a href="https://www.facebook.com/leordgz" target="blank" title="facebook">
+							<i class="fa fa-facebook"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/LeoRdgzVidal" title="Twitter" target="blank">
+							<i class="fa fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.linkedin.com/in/leonardo-rodríguez-vidal-a5542a124/" target="blank" title="Linkedin">
+							<i class="fa fa-linkedin"></i>
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/leovidalgithub/" target="blank" title="GitHub">
+							<i class="fa fa-github"></i>
+						</a>
+					</li>
+					<!-- <li>
+						<a href="https://www.instagram.com/leoamiguo" target="blank" title="Instagram">
+							<i class="fa fa-instagram"></i>
+						</a>
+					</li> -->
+					<li>
+						<a href="mailto:leo@leovidal.es?Subject=leordgz_CV-" target="_top" title="eMail">
+							<i class="fa fa-envelope-o"></i>
+						</a>
+					</li>
+					<li>
+						<a href="skype:leordgz?call" title="Skype">
+							<i class="fa fa-skype"></i>
+						</a>
+					</li>
+				</ul>
 
-                <ul class="copyright">
-                    <li>&copy; Copyright 2016</li>
-                    <li>Design by
-                        <a title="Styleshout" href="http://leovidal.es/">Leo Rdgz-Vidal</a>
-                    </li>
-                </ul>
+				<ul class="copyright">
+					<li>&copy; Copyright 2016</li>
+					<li>Design by
+						<a title="Styleshout" href="http://leovidal.es/">Leo Rdgz-Vidal</a>
+					</li>
+				</ul>
 
-            </div>
+			</div>
 
-            <p class="scrollup">
-                <a class="smoothscroll" href="#header">
-                    <i class="fa fa-arrow-circle-up"></i>
-                </a>
-            </p>
-        </div>
-    </footer>
-    <!-- Footer End-->
+			<p class="scrollup">
+				<a class="smoothscroll" href="#header">
+					<i class="fa fa-arrow-circle-up"></i>
+				</a>
+			</p>
+		</div>
+	</footer>
+	<!-- Footer End-->
 
-    <!-- idiom box
-        ================================================== -->
-    <div id="idioms">
-        <div class="selected">
-            <div class="btn-group" role="group">
-                <!-- <img src="./css/flags/blank.png" class="flag flag-us" alt="EN" /> -->
-                <button type="button" class="btn btn-secondary">
-                    <i ng-show="vm.myIdiom=='en-US'" class="flag flag-gb"></i>
-                    <i ng-show="vm.myIdiom=='es-ES'" class="flag flag-es"></i>
-                    <i ng-show="vm.myIdiom=='fr-FR'" class="flag flag-fr"></i>
-                </button>
-            </div>
-        </div>
-        <div class="choose">
-            <div class="btn-group" role="group">
-                <button type="button" class="btn btn-secondary" ng-click="vm.idiomChange('en-US')">
-                    <i class="flag flag-gb" title="English"></i>
-                </button>
-                <button type="button" class="btn btn-secondary" ng-click="vm.idiomChange('es-ES')">
-                    <i class="flag flag-es" title="Español"></i>
-                </button>
-                <button type="button" class="btn btn-secondary" ng-click="vm.idiomChange('fr-FR')">
-                    <i class="flag flag-fr" title="Fran&ccedil;ais"></i>
-                </button>
-            </div>
-        </div>
-    </div>
+	<!-- idiom box
+		================================================== -->
+	<div id="idioms">
+		<div class="selected">
+			<div class="btn-group" role="group">
+				<!-- <img src="./css/flags/blank.png" class="flag flag-us" alt="EN" /> -->
+				<button type="button" class="btn btn-secondary">
+					<i ng-show="vm.myIdiom=='en-US'" class="flag flag-gb"></i>
+					<i ng-show="vm.myIdiom=='es-ES'" class="flag flag-es"></i>
+					<i ng-show="vm.myIdiom=='fr-FR'" class="flag flag-fr"></i>
+				</button>
+			</div>
+		</div>
+		<div class="choose">
+			<div class="btn-group" role="group">
+				<button type="button" class="btn btn-secondary" ng-click="vm.idiomChange('en-US')">
+					<i class="flag flag-gb" title="English"></i>
+				</button>
+				<button type="button" class="btn btn-secondary" ng-click="vm.idiomChange('es-ES')">
+					<i class="flag flag-es" title="Español"></i>
+				</button>
+				<button type="button" class="btn btn-secondary" ng-click="vm.idiomChange('fr-FR')">
+					<i class="flag flag-fr" title="Fran&ccedil;ais"></i>
+				</button>
+			</div>
+		</div>
+	</div>
 
-    <!-- ALERT MESSAGES -->
-    <alert-message></alert-message>
-    
-    <script src="./build/vendor/js/vendor.js?v=1.19"></script>
-    <script src="./build/js/built.js?v=1.19"></script>
+	<!-- ALERT MESSAGES -->
+	<alert-message></alert-message>
 
+	<!-- modal window -->
+	<div id="main-modal" class="modal">
+		<span class="close">&times;</span>
+		<img class="modal-content" src="">
+		<div class="caption"></div>
+	</div>
+
+	<script src="./build/vendor/js/vendor.js?v=1.21"></script>
+	<script src="./build/js/built.js?v=1.21"></script>
 </body>
-
 </html>

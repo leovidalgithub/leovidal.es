@@ -1,8 +1,8 @@
 const gulp         = require( 'gulp' );
-const sass         = require( 'gulp-sass' );
+// const sass         = require( 'gulp-sass' );
 const minifyCSS    = require( 'gulp-csso' );
 const concat       = require( 'gulp-concat' );
-const uglify       = require( 'gulp-uglify' );
+// const uglify       = require( 'gulp-uglify' );
 const autoprefixer = require( 'autoprefixer' ); // autoprefixer
 const postcss      = require( 'gulp-postcss' ); // autoprefixer
 const nodemon      = require( 'gulp-nodemon' );
@@ -18,103 +18,103 @@ const babel        = require( 'gulp-babel' );
 
 // ********************************* NODEMON *********************************
 gulp.task('nodemon', function (cb) {
-    // env({
-    //   // file: '.env.json',
-    //   vars: {
-    //     MYVAR : '1234'
-    //   }
-    // });
-    let called = false;
-    return nodemon({
-        script: 'app.js',
-        ignore: [
-            'gulpfile.js',
-            'node_modules/',
-            'public/' // para que no recargue al modificar cualquier .js dentro de 'public'
-        ],
-        delay: 500
-    })
-        .on('start', function () {
-            if (!called) {
-                called = true;
-                cb();
-            }
-        })
-        .on('restart', function () {
-            setTimeout(function () {
-                console.log('reloading!');
-                bs.reload({ once: true });
-            }, 500);
-        });
+	// env({
+	//   // file: '.env.json',
+	//   vars: {
+	//     MYVAR : '1234'
+	//   }
+	// });
+	let called = false;
+	return nodemon({
+		script: 'app.js',
+		ignore: [
+			'gulpfile.js',
+			'node_modules/',
+			'public/' // para que no recargue al modificar cualquier .js dentro de 'public'
+		],
+		delay: 500
+	})
+		.on('start', function () {
+			if (!called) {
+				called = true;
+				cb();
+			}
+		})
+		.on('restart', function () {
+			setTimeout(function () {
+				console.log('reloading!');
+				bs.reload({ once: true });
+			}, 500);
+		});
 });
 
 // ********************************* BROWSER-SYNC *********************************
 gulp.task('browser-sync', gulp.series('nodemon', function () {
-    return bs.init({
-        proxy: "http://localhost:80",  // local node app address (80)
-        port: 3000,  // use *different* port than above
-        notify: true
-    });
+	return bs.init({
+		proxy: "http://localhost:80",  // local node app address (80)
+		port: 3000,  // use *different* port than above
+		notify: true
+	});
 }));
 
 // ********************************* SASS *********************************
 gulp.task( 'sass', function () {
-    return gulp.src( 'public/src/sass/**/*.scss' )
-        .pipe( sass().on( 'error', sass.logError))
-    	  .pipe( concat( 'default.css' ))
-        .pipe(postcss([ autoprefixer({ browsers: ["> 0%"] }) ]))
-        .pipe( minifyCSS())
-        .pipe( gulp.dest( 'public/build/css' ))
-        .pipe(bs.reload({stream: true}));
+	return gulp.src( 'public/src/sass/**/*.scss' )
+		.pipe( sass().on( 'error', sass.logError))
+		.pipe( concat( 'default.css' ))
+		.pipe(postcss([ autoprefixer({ browsers: ["> 0%"] }) ]))
+		.pipe( minifyCSS())
+		.pipe( gulp.dest( 'public/build/css' ))
+		.pipe(bs.reload({stream: true}));
 });
 
 // ********************************* JS *********************************
 gulp.task( 'js', function () {
 	return gulp.src( 'public/src/js/*.js' )
 		.pipe( concat( 'built.js' ))
-    .pipe(ngAnnotate({add:true}))
-    .pipe(babel({
-      presets: ['env']
-    }))
-    .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
-		.pipe( uglify() )
+	.pipe(ngAnnotate({add:true}))
+	.pipe(babel({
+	presets: ['env']
+	}))
+	.on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
+		// .pipe( uglify() )
 		.pipe( gulp.dest( 'public/build/js' ))
-    .pipe(bs.reload({stream: true}));
+	.pipe(bs.reload({stream: true}));
 });
 
 // ********************************* WATCH *********************************
 gulp.task('watch', gulp.series('browser-sync', function () {
-    gulp.watch('public/src/sass/**/*.scss', ['sass']);
-    gulp.watch('public/src/js/*.js', ['js']);
-    gulp.watch('public/*.html').on('change', bs.reload);
+	gulp.watch('public/src/sass/**/*.scss', ['sass']);
+	gulp.watch('public/src/js/*.js', ['js']);
+	gulp.watch('public/*.html').on('change', bs.reload);
 }));
 
- // ********************************* VENDOR:CSS *********************************
+// ********************************* VENDOR:CSS *********************************
 gulp.task( 'vendor:css', function () {
 	return gulp.src( [
-            // 'public/src/vendor/css/flexslider.css',
-            'public/src/vendor/css/bootstrap.min.css',
-            'public/src/vendor/css/font-awesome.min.css',
-            'public/src/vendor/css/flags.min.css'
-          ] )
+			// 'public/src/vendor/css/flexslider.css',
+			'public/src/vendor/css/bootstrap.min.css',
+			'public/src/vendor/css/font-awesome.min.css',
+			'public/src/vendor/css/flags.min.css'
+		] )
 		.pipe( concat( 'vendor.css' ))
-        // .pipe( minifyCSS())
-        .pipe( gulp.dest( 'public/build/vendor/css' ));
+		// .pipe( minifyCSS())
+		.pipe( gulp.dest( 'public/build/vendor/css' ));
 });
 
- //********************************* VENDORS JS (angular, jquery, bootstrap)
+//********************************* VENDORS JS (angular, jquery, bootstrap)
 gulp.task( 'vendor:js', function () {
 	return gulp.src( [
-                'public/src/vendor/js/jquery-2.2.4.min.js',
-                'public/src/vendor/js/angular.min.js',
-                'public/src/vendor/js/angular-sanitize.min.js',
-                'public/src/vendor/js/angular-translate.min.js',
-                'public/src/vendor/js/angular-translate-loader-static-files.min.js',
-                'public/src/vendor/js/waypoint/jquery.waypoints.min.js',
-                'public/src/vendor/js/jquery.fittext.js',
-                'public/src/vendor/js/parallax.min.js'
-                // 'public/src/vendor/js/jquery.flexslider-min.js',
-                    ])
+				'public/src/vendor/js/jquery-2.2.4.min.js',
+				'public/src/vendor/js/angular.min.js',
+				'public/src/vendor/js/angular-sanitize.min.js',
+				'public/src/vendor/js/angular-translate.min.js',
+				'public/src/vendor/js/angular-translate-loader-static-files.min.js',
+				'public/src/vendor/js/waypoint/jquery.waypoints.min.js',
+				'public/src/vendor/js/jquery.fittext.js',
+				'public/src/vendor/js/parallax.min.js'
+				// 'public/src/vendor/js/jquery.flexslider-min.js',
+					])
 		.pipe( concat( 'vendor.js' ))
 		// .pipe( uglify() )
 		.pipe( gulp.dest( 'public/build/vendor/js' ))

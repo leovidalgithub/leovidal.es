@@ -1,27 +1,20 @@
-var modal = document.getElementById("myModal");
+const modal = $('#main-modal');
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function () {
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
+function closeModal(e) {
+	modal.css('display', 'none');
 }
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+$('.modal-image').on('click', function(e) {
+	const src = $(this).attr('src');
+	const caption = $(this).attr('alt');
+	modal.find('img').attr('src', src);
+	modal.find('.caption').text(caption);
+	modal.css('display', 'block');
+})
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function () {
-    modal.style.display = "none";
-}
-
-// //when add more than one image, you can use this code (it is not complete)
-// $('.pepito').click(function () {
-//     $(this).next('.modal').css('display', 'block');
-// })
-// $('.close').click(function () {
-//     $(this).parent().css('display', 'none');
-// })
+// closing modal
+$('span.close').on('click', closeModal);
+$(document).on('keyup', function(e) {
+	if(e.key === 'Escape')
+		closeModal();
+})
