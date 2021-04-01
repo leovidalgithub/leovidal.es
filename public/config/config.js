@@ -11,7 +11,7 @@ const config = {
         next();
     },
     transporter : nodemailer.createTransport({
-        host: 'smtp.sipedi.net',
+        host: 'smtp.leovidal.es',
         port: 465,
         secure: true, // use SSL
         auth: {
