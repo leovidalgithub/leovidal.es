@@ -71,14 +71,14 @@ const mainInit = () => {
 	/*----------------------------------------------------*/
 	/* Smooth Scrolling
 	------------------------------------------------------ */
-	$('.smoothscroll').on('click',function (e) {
-		e.preventDefault(); // this prevents from href="#about" to go
+	$('.smoothscroll').on('click',function(e) {
+		e.preventDefault();
 		let target = this.hash;
 		let $target = $(target);
 		$('html, body').stop().animate({
 			'scrollTop': $target.offset().top
 		}, 1100, 'swing', () => {
-			window.location.hash = target; // ???
+			// window.location.hash = target;
 		});
 	});
 
@@ -183,7 +183,19 @@ const mainInit = () => {
 		}
 	});
 
-	// }); // jQuery.document.ready
+	/*----------------------------------------------------*/
+	/*	Mobile hambuger menu
+		ESC key event in modal.js
+	------------------------------------------------------*/
+	$(document).on('click', function(e) {
+		// e.preventDefault();
+		if($(e.target).hasClass('mobile-btn')) {
+			$('#nav.nav').toggleClass('open')
+		} else {
+			$('#nav.nav').removeClass('open')
+		}
+	})
+
 } // mainInit()
 
 	/*----------------------------------------------------*/

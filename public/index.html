@@ -25,11 +25,9 @@
 	<!-- HEADER
 		================================================== -->
 	<header id="header">
+
 		<nav id="nav-wrap">
-
-			<a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-			<!-- <a class="mobile-btn" href="#_" title="Hide navigation">Hide navigation</a> -->
-
+			<a class="mobile-btn" href="" title="Show navigation"></a>
 			<ul id="nav" class="nav">
 				<li class="current">
 					<a class="smoothscroll" href="#header">{{'header.navbar.home' | translate}}</a>
@@ -47,8 +45,6 @@
 					<a class="smoothscroll" href="#contact">{{'header.navbar.contact' | translate}}</a>
 				</li>
 			</ul>
-			<!-- end #nav -->
-
 		</nav>
 		<!-- end #nav-wrap -->
 
@@ -128,7 +124,7 @@
 						<h2>{{'about.contact-details' | translate}}</h2>
 						<div class="address">
 							<p>Leonardo Rdgz-Vidal</p>
-							<p>Laval, H7T 1V3 QC Canada</p>
+							<p>Montreal, Canada</p>
 							<p>+1 (514) 250-3002</p>
 							<a href="mailto:leo@leovidal.es">leo@leovidal.es</a>
 						</div>
@@ -238,17 +234,32 @@
 					</div>
 					<!-- item end -->
 
-					<!-- ABISA -->
+					<!-- CIPSA -->
 					<div class="row item">
 						<div class="col-xs-12">
-							<h3>{{'resume.education.abisa.abisa' | translate}} -
-								<a href="http://www.inforbooks.com" target="blank">Inforbooks</a>
+							<h3>{{'resume.education.cipsa.cipsa' | translate}} -
+								<a href="https://cipsa.net/" target="blank">cipsa.net</a>
 							</h3>
-							<p class="info">{{'resume.education.abisa.title' | translate}}
+							<p class="info">{{'resume.education.cipsa.title' | translate}}
 								<span>&bull;</span>
-								<em class="date">{{'resume.education.abisa.date' | translate}}</em>
+								<em class="date">{{'resume.education.cipsa.date' | translate}}</em>
 							</p>
-							<p>{{'resume.education.abisa.content' | translate}}</p>
+							<p>{{'resume.education.cipsa.content' | translate}}</p>
+						</div>
+					</div>
+					<!-- item end -->
+
+					<!-- CEPI-BASE -->
+					<div class="row item">
+						<div class="col-xs-12">
+							<h3>{{'resume.education.cepi-base.cepi-base' | translate}} -
+								<a href="https://cepibase.com/" target="blank">CEPI-BASE</a>
+							</h3>
+							<p class="info">{{'resume.education.cepi-base.title' | translate}}
+								<span>&bull;</span>
+								<em class="date">{{'resume.education.cepi-base.date' | translate}}</em>
+							</p>
+							<p>{{'resume.education.cepi-base.content' | translate}}</p>
 						</div>
 					</div>
 					<!-- item end -->
@@ -387,7 +398,7 @@
 							</li>
 							<li>
 								<span class="bar-expand"></span>
-								<em>C# .Net - Coldfusion - PHP</em>
+								<em>C# .Net - Coldfusion/Model-Glue - PHP</em>
 							</li>
 							<li>
 								<span class="bar-expand"></span>
@@ -665,7 +676,7 @@
 			<div class="btn-group" role="group">
 				<!-- <img src="./css/flags/blank.png" class="flag flag-us" alt="EN" /> -->
 				<button type="button" class="btn btn-secondary">
-					<i ng-show="vm.myIdiom=='en-US'" class="flag flag-gb"></i>
+					<i ng-show="vm.myIdiom=='en-US'" class="flag flag-ca"></i>
 					<i ng-show="vm.myIdiom=='es-ES'" class="flag flag-es"></i>
 					<i ng-show="vm.myIdiom=='fr-FR'" class="flag flag-fr"></i>
 				</button>
@@ -674,7 +685,7 @@
 		<div class="choose">
 			<div class="btn-group" role="group">
 				<button type="button" class="btn btn-secondary" ng-click="vm.idiomChange('en-US')">
-					<i class="flag flag-gb" title="English"></i>
+					<i class="flag flag-ca" title="English"></i>
 				</button>
 				<button type="button" class="btn btn-secondary" ng-click="vm.idiomChange('es-ES')">
 					<i class="flag flag-es" title="Español"></i>

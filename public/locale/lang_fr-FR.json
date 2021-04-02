@@ -1,133 +1,139 @@
 {
-    "header": {
-        "navbar": {
-            "home": "Accueil",
-            "about": "À propos de moi",
-            "resume": "Résumé",
-            "portfolio": "Portfolio",
-            "contact": "Contact"
-        },
-        "title": {
-            "iam": "Je suis"
-        },
-        "intro": {
-            "intro": "Établi à <span>Montréal</span> en tant que développeur Web <span>Fullstack MEAN</span>, je m'amuse dans ce coin magnifique du monde pendant que je fais ce que j'aime le plus : développer des <span>Applications et des Pages Web <span> , toujours en essayant de me dépasser et de donner le meilleur que je peux offrir.",
-            "start": {
-                "start": "Commencez à",
-                "navigate": "naviguer",
-                "knowme": "pour savoir d'avantage sur moi."
-            }
-        }
-    },
-    "about": {
-        "about-me": "À propos de moi",
-        "content": "Les ordinateurs représentent ma carrière et ma vie, et j'ai un diplôme en informatique. Je suis une personne polyvalente qui a travaillé dans des divers domaines, toujours associés aux technologies de l'information. Je me considère un passionné de la programmation ! Depuis un très jeune âge, j'ai exploré ce domaine en langages, tels que Basic, Fortran, PL/1 et COBOL, entre autres. Par la suite, j'ai commencé à programmer en Visual Basic (plus tard, VB.net).<br>Ma spécialité est le développement d'applications Web comme développeur MEAN FullStack. Je possède des connaissances solides par rapport à ce sujet, parce que je suis une personne autodidacte et infatigable.<br>En 2016, j'ai participé au Skylab Coders Academy <span>Bootcamp</span> comme “Web Development Fullstack MEAN”. Cette expérience m'a apporté d'amples connaissances sur les nouvelles technologies et m'a aidé à renforcer des concepts importants. Je suis actuellement consacré à recevoir mon <span>DEC</span> (Diplôme d'études collégiales) au <span>Collège LaSalle, Montréal</span> comme <span>“Techniques de l'informatique - Informatique de gestion“.</span><br>Dans l'un de mes derniers emplois (Zemsania Tech Services), j'ai travaillé comme le programmeur de premier plan d'une application basée sur Angular 4 et NodeJS.<br>J'ai une excellente capacité d'adaptation et je suis habituellement tout à fait perfectionniste dans tous les aspects de ma vie. En tant que professionnel, mon désir est de continuer à me préparer et à travailler parmi les meilleurs de l'industrie.",
-        "contact-details": "Coordonnées",
-        "contact-me": "Contactez-moi"
-    },
-    "resume": {
-        "education": {
-            "education": "éducation",
-            "lasalle": {
-                "lasalle": "Collège LaSalle Montréal",
-                "title": "Techniques de l'informatique - Informatique de gestion",
-                "date": ">Janvier 2018 - Juin 2020",
-                "content": "Ce programme prépare le technicien en informatique à localiser, collecter et analyser des données sur les besoins du traitement de l'information des utilisateurs. La modélisation et le traitement des données pour développer un code pour la création d'applications efficaces en fonction des données collectées et pour anticiper les besoins en matière d'infrastructure des réseaux. (Actuellement étudiant le troisième semestre)."
-            },
-            "technologia": {
-                "technologia": "Technologia, Formation - Conseil",
-                "title": "Agile Project Management - SCRUM",
-                "date": "Juillet 2019",
-                "content": "Être en mesure d’avoir une compréhension en profondeur de tous les rôles, aspects et attributs de l’approche Scrum et d’acquérir la certification PSM I."
-            },
-            "cisco": {
-                "cisco": "Cisco Systems, Inc.",
-                "title": "IT Essentials - Cisco Networking Academy® Program Certification",
-                "date": "Juillet 31 2018",
-                "content": "Hardware et software, composants informatiques, assemblage de pièces, administration de systèmes d'exploitation, dépannage, connectivité et mise en réseau. Travailler avec des ordinateurs portables de bureau et des appareils mobiles. Connectivité sans fil, sécurité, sécurité, questions environnementales et compétences en communication."
-            },            
-            "skylab": {
-                "skylab": "Skylab Coders Academy",
-                "title": "Web Development Fullstack MEAN Bootcamp",
-                "date": "Octobre 2016",
-                "content": "Situé à Barcelone, en Espagne, Skylab Coders Academy est un des principaux centres de formation des développeurs Web. Les classes intensives de développement d'applications Web sont enseignées en utilisant HTML5, CSS3, jQuery, JavaScript, Angular, NodeJS, MongoDB, React Scrum et Git, entre autres."
-            },
-            "abisa": {
-                "abisa": "ABISA Institute & Inforbooks",
-                "title": "Développeur Web",
-                "date": "Septembre 2013",
-                "content": "Développement Web HTML5, CSS3, jQuery, JavaScript et Dreamweaver."
-            },
-            "une": {
-                "une": "Universidad Nueva Esparta",
-                "title": "Licence en informatique",
-                "date": "",
-                "content": "Le diplômé en informatique gère le hardware et les logiciels pour combler les besoins des entreprises nationales et internationales, et aide aussi les professionnels d'autres disciplines. Ce professionnel est prêt à travailler en équipe avec des systèmes d'information et à s'adapter aux nouvelles tendances. Ils gèrent également des technologies de pointe pour l'analyse, le développement et la mise en œuvre des systèmes."
-            }
-        },
-        "work": {
-            "work": "Expérience de travail",
-            "tailbase": {
-                "tailbase": "Tailbase  Inc.",
-                "position": "Researh & Developer Programmer",
-                "date": "Juin 2018 - (actuellement)",
-                "content": "Gestion d'une équipe chargée de la maintenance et du développement de nouvelles fonctionnalités pour notre plate-forme basée sur ColdFusion, SQL et .NET. Et, parallèlement, nous travaillons au développement d’une plate-forme entièrement nouvelle utilisant des technologies récentes telles que Angular, React, NodeJS et MongoDB, parmi d'autres."
-            },
-            "zemsania": {
-                "zemsania": "Zemsania Tech Services & Solutions",
-                "position": "Développeur Fullstack MEAN",
-                "date": "",
-                "content": "Chef de file pour la mise en place d'un système opérationnel basé sur le cadre AngularJS et NodeJS. Démarrage et mise en œuvre d'une application basée sur Angular 4, NodeJS, MongoDB, WebPack et Sonar pour «Le contrôle des heures de travail et des vacances du département de RH.»"
-            },
-            "roline": {
-                "roline": "Roline System",
-                "position": "Développeur d'applications Web",
-                "date": "",
-                "content": "J'ai collaboré, conçu et développé toute une application Web (SiPEDI) visant à résoudre un problème spécifique au sujet des commandes faites par les clients aux fournisseurs sur une base régulière. Cette application a été entièrement développée avec la technologie Web MEAN (MongoDB, Express, AngularJS, Node.js)."
-            },
-            "others": {
-                "others": "Autres emplois et expérience",
-                "position": "Technicien en administration de matériel et de réseau",
-                "date": "",
-                "content": "Parallèlement au développement de logiciels, j'ai travaillé pendant de nombreuses années comme technicien de matériel et d'administrateur réseau; ainsi que dans la vente de matériel informatique."
-            }
-        },
-        "skills": {
-            "skills": "Aptitudes"
-        }
-    },
-    "portfolio": {
-        "title": "Découvre quelques-uns de mes derniers travaux",
-        "login": "Identifiant",
-        "pass": "Mot de passe",
-        "tryme": "Essayez-moi",
-        "apps": {
-            "sipedi": {
-                "title": "Système de commande pour les compagnies de distribution",
-                "note": "(idéal pour être testé avec deux utilisateurs essayent en même temps sur des différents dispositifs)"
-            },
-            "zemtime_ng1": {
-                "title": "Affectation des heures - Angular 1",
-                "note": "()"
-            },
-            "zemtime_ng4": {
-                "title": " Affectation des heures - Angular 4",
-                "note": "()"
-            }
-        }
-    },
-    "contact": {
-        "getintouch": "GET IN TOUCH",
-        "form": {
-            "name": "Prénom et Nom",
-            "email": "Courriel",
-            "subject": "Sujet",
-            "message": "Message"
-        },
-        "sending": {
-            "ok": "Message envoyé. Merci!",
-            "err": "Malheureusement, votre message n'a pas été envoyé",
-            "submit": "Envoyer"
-        }
-    }
+	"header": {
+		"navbar": {
+			"home": "Accueil",
+			"about": "À propos de moi",
+			"resume": "Résumé",
+			"portfolio": "Portfolio",
+			"contact": "Contact"
+		},
+		"title": {
+			"iam": "Je suis"
+		},
+		"intro": {
+			"intro": "Établi à <span>Montréal</span> en tant que développeur Web <span>Fullstack</span>, je m'amuse dans ce coin magnifique du monde pendant que je fais ce que j'aime le plus : développer des <span>Applications et des Pages Web <span> , toujours en essayant de me dépasser et de donner le meilleur que je peux offrir.",
+			"start": {
+				"start": "Commencez à",
+				"navigate": "naviguer",
+				"knowme": "pour savoir d'avantage sur moi."
+			}
+		}
+	},
+	"about": {
+		"about-me": "À propos de moi",
+		"content": "Les ordinateurs représentent ma carrière et ma vie, et j'ai un diplôme en informatique. Je suis une personne polyvalente qui a travaillé dans des divers domaines, toujours associés aux technologies de l'information. Je me considère un passionné de la programmation ! Depuis un très jeune âge, j'ai exploré ce domaine en langages, tels que Basic, Fortran, PL/1 et COBOL, entre autres. Par la suite, j'ai commencé à programmer en Visual Basic (plus tard, VB.net).<br>Ma spécialité est le développement d'applications Web comme développeur FullStack. Je possède des connaissances solides par rapport à ce sujet, parce que je suis une personne autodidacte et infatigable.<br>En 2016, j'ai participé au Skylab Coders Academy <span>Bootcamp</span> comme “Web Development Fullstack MEAN”. Cette expérience m'a apporté d'amples connaissances sur les nouvelles technologies et m'a aidé à renforcer des concepts importants. En juin 2020, j'ai eu un <span>DEC</span> (Diplôme d'études collégiales) au <span>Collège LaSalle, Montréal</span> comme <span>“Techniques de l'informatique - Informatique de gestion“.</span><br>Dans l'un de mes derniers emplois (Zemsania Tech Services), j'ai travaillé comme programmeur d'une application basée sur Angular et Node.js.<br>J'ai une excellente capacité d'adaptation et je suis habituellement tout à fait perfectionniste dans tous les aspects de ma vie. En tant que professionnel, mon désir est de continuer à me préparer et à travailler parmi les meilleurs de l'industrie.",
+		"contact-details": "Coordonnées",
+		"contact-me": "Contactez-moi"
+	},
+	"resume": {
+		"education": {
+			"education": "éducation",
+			"lasalle": {
+				"lasalle": "Collège LaSalle Montréal",
+				"title": "Techniques de l'informatique - Informatique de gestion",
+				"date": ">Janvier 2018 - Juin 2020",
+				"content": "Ce programme prépare le technicien en informatique à localiser, collecter et analyser des données sur les besoins du traitement de l'information des utilisateurs. La modélisation et le traitement des données pour développer un code pour la création d'applications efficaces en fonction des données collectées et pour anticiper les besoins en matière d'infrastructure des réseaux. (Actuellement étudiant le troisième semestre)."
+			},
+			"technologia": {
+				"technologia": "Technologia, Formation - Conseil",
+				"title": "Agile Project Management - SCRUM",
+				"date": "Juillet 2019",
+				"content": "Être en mesure d’avoir une compréhension en profondeur de tous les rôles, aspects et attributs de l’approche Scrum et d’acquérir la certification PSM I."
+			},
+			"cisco": {
+				"cisco": "Cisco Systems, Inc.",
+				"title": "IT Essentials - Cisco Networking Academy® Program Certification",
+				"date": "Juillet 31 2018",
+				"content": "Hardware et software, composants informatiques, assemblage de pièces, administration de systèmes d'exploitation, dépannage, connectivité et mise en réseau. Travailler avec des ordinateurs portables de bureau et des appareils mobiles. Connectivité sans fil, sécurité, sécurité, questions environnementales et compétences en communication."
+			},
+			"skylab": {
+				"skylab": "Skylab Coders Academy",
+				"title": "Web Development Fullstack MEAN Bootcamp",
+				"date": "Octobre 2016",
+				"content": "Situé à Barcelone, en Espagne, Skylab Coders Academy est un des principaux centres de formation des développeurs Web. Les classes intensives de développement d'applications Web sont enseignées en utilisant HTML5, CSS3, jQuery, JavaScript, Angular, NodeJS, MongoDB, React Scrum et Git, entre autres."
+			},
+			"cipsa": {
+				"cipsa": "CIPSA École d'informatique professionnelle, Barcelona",
+				"title": "Backend / Frontend",
+				"date": "Février 2014",
+				"content": "PHP avec MySQL, Ajax, HTML, CSS, Bootstrap, jQuery."
+			},
+			"cepi-base": {
+				"cepi-base": "CEPI_BASE Études avancées en informatique, Barcelona",
+				"title": "Conception et programmation Web - éditorial Inforbooks",
+				"date": "Septiembre 2013",
+				"content": "Développement WEB HTML5, CSS3, jQuery, WordPress, Javascript, Dreamweaver."
+			},
+			"une": {
+				"une": "Universidad Nueva Esparta",
+				"title": "Licence en informatique",
+				"date": "",
+				"content": "Le diplômé en informatique gère le hardware et les logiciels pour combler les besoins des entreprises nationales et internationales, et aide aussi les professionnels d'autres disciplines. Ce professionnel est prêt à travailler en équipe avec des systèmes d'information et à s'adapter aux nouvelles tendances. Ils gèrent également des technologies de pointe pour l'analyse, le développement et la mise en œuvre des systèmes."
+			}
+		},
+		"work": {
+			"work": "Expérience de travail",
+			"tailbase": {
+				"tailbase": "Tailbase-Informat",
+				"position": "Programmer fullstack - Researh & Developer",
+				"date": "Depuis Juin 2018 - (actuellement)",
+				"content": "En utilisant Agile Scrum et DevOps, l'équipe de programmeurs assure le support, la maintenance et le développement constant de notre plateforme Web basée sur ColdFusion et .NET, gérant les bases de données SQL, l'API Rest, divers outils à la fois pour un usage interne et pour nos clients, et plus de 600 sites Web de commerce électronique au Canada et aux États-Unis."
+			},
+			"zemsania": {
+				"zemsania": "Zemsania Tech Services & Solutions",
+				"position": "Développeur Fullstack",
+				"date": "",
+				"content": "Collaborer à la mise en œuvre opérationnelle d'un système basé basé sur le cadre Angular et Node.js. Démarrage et mise en œuvre d'une application basée sur Angular 4, NodeJS, MongoDB, WebPack et Sonar pour «Le contrôle des heures de travail et des vacances du département de RH.»"
+			},
+			"roline": {
+				"roline": "Roline System",
+				"position": "Développeur d'applications Web",
+				"date": "",
+				"content": "J'ai collaboré, conçu et développé toute une application Web (SiPEDI) visant à résoudre un problème spécifique au sujet des commandes faites par les clients aux fournisseurs sur une base régulière. Cette application a été entièrement développée avec la technologie Web MEAN (MongoDB, Express, AngularJS, Node.js)."
+			},
+			"others": {
+				"others": "Autres emplois et expérience",
+				"position": "Technicien en administration de matériel et de réseau",
+				"date": "",
+				"content": "Parallèlement au développement de logiciels, j'ai travaillé pendant de nombreuses années comme technicien de matériel et d'administrateur réseau; ainsi que dans la vente de matériel informatique."
+			}
+		},
+		"skills": {
+			"skills": "Aptitudes"
+		}
+	},
+	"portfolio": {
+		"title": "Découvre quelques-uns de mes derniers travaux",
+		"login": "Identifiant",
+		"pass": "Mot de passe",
+		"tryme": "Essayez-moi",
+		"apps": {
+			"sipedi": {
+				"title": "Système de commande pour les compagnies de distribution",
+				"note": "(idéal pour être testé avec deux utilisateurs essayent en même temps sur des différents dispositifs)"
+			},
+			"zemtime_ng1": {
+				"title": "Affectation des heures - Angular 1",
+				"note": "()"
+			},
+			"zemtime_ng4": {
+				"title": " Affectation des heures - Angular 4",
+				"note": "()"
+			}
+		}
+	},
+	"contact": {
+		"getintouch": "GET IN TOUCH",
+		"form": {
+			"name": "Prénom et Nom",
+			"email": "Courriel",
+			"subject": "Sujet",
+			"message": "Message"
+		},
+		"sending": {
+			"ok": "Message envoyé. Merci!",
+			"err": "Malheureusement, votre message n'a pas été envoyé",
+			"submit": "Envoyer"
+		}
+	}
 }

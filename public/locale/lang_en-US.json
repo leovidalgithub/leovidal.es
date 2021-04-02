@@ -11,7 +11,7 @@
 			"iam": "I am"
 		},
 		"intro": {
-			"intro": "I live in <span>Montreal</span> as a<span> Fullstack MEAN</span> Web developer, enjoying this spectacular corner of the world and doing what I love the most: developing <span>Applications and Web Pages,</span> always trying to exceed myself and giving the best I have.",
+			"intro": "I live in <span>Montreal</span> as a<span> Fullstack</span> Web developer, enjoying this spectacular corner of the world and doing what I love the most: developing <span>Applications and Web Pages,</span> always trying to exceed myself and giving the best I have.",
 			"start": {
 				"start": "Start",
 				"navigate": "browsing",
@@ -21,7 +21,7 @@
 	},
 	"about": {
 		"about-me": "About me",
-		"content": "Computers represent my career and my life. I have a degree in Computer Science. I am a versatile person who has performed in different areas, always associated with information technology. I consider myself a passionate Programmer. Since I was very young, I have explored this field in languages such as Basic, Fortran, PL/1 and Cobol, among others. Subsequently, I began programming in Visual Basic (later, VB.NET).<br>My specialty is developing WEB Applications as MEAN FullStack Developer. I have substantial knowledge in this subject since I am an indefatigable self-taught person.<br>In 2016, I participated in the Skylab Coders Academy <span>Bootcamp</span> as “Web Development Fullstack MEAN”. This experience brought me a solid knowledge of new technologies and helped me to reinforce important concepts. I am currently studying to receive my <span>DEC</span> (Diploma of College Studies) in <span>“Computer Science - Administrative Data Processing“</span> at <span>LaSalle College, Montreal.</span><br>In one of my lastest jobs at Zemsania Tech Services, I worked as the lead programmer of an application based on <span>Angular 4</span> and <span>NodeJS</span>.<br>I have an excellent capacity to adapt and I am a very detail oriented person in every aspect of my life. As a professional, my desire is to continue preparing myself and work among the best of the industry.",
+		"content": "Computers represent my career and my life. I have a degree in Computer Science. I am a versatile person who has performed in different areas, always associated with information technology. I consider myself a passionate Programmer. Since I was very young, I have explored this field in languages such as Basic, Fortran, PL/1 and Cobol, among others. Subsequently, I began programming in Visual Basic (later, VB.NET).<br>My specialty is developing WEB Applications as FullStack. I have substantial knowledge in this subject since I am an indefatigable self-taught person.<br>In 2016, I participated in the Skylab Coders Academy <span>Bootcamp</span> as “Web Development Fullstack MEAN”. This experience brought me a solid knowledge of new technologies and helped me to reinforce important concepts. In June 2020, I got a <span>DEC</span> (Diploma of College Studies) in <span>“Computer Science - Administrative Data Processing“</span> at <span>LaSalle College, Montreal.</span><br>In one of my lastest jobs at Zemsania Tech Services, I worked as  programmer of an application based on <span>Angular</span> and <span>Node.js</span>.<br>I have an excellent capacity to adapt and I am a very detail oriented person in every aspect of my life. As a professional, my desire is to continue preparing myself and work among the best of the industry.",
 		"contact-details": "Contact address",
 		"contact-me": "Contact me"
 	},
@@ -52,11 +52,17 @@
 				"date": "October 2016",
 				"content": "Located in Barcelona, Spain, Skylab Coders Academy is a leading center in Web developer training. Intensive Web application development classes are taught using HTML5, CSS3, jQuery, Javascript, Angular, NodeJS, MongoDB, React, Scrum and Git, among others."
 			},
-			"abisa": {
-				"abisa": "ABISA Institute & Inforbooks",
-				"title": "WEB Developers",
+			"cipsa": {
+				"cipsa": "CIPSA Academy of Professional Informatics, Barcelona",
+				"title": "Backend / Frontend",
+				"date": "February 2014",
+				"content": "PHP with MySQL, Ajax, HTML, CSS, Bootstrap, jQuery."
+			},
+			"cepi-base": {
+				"cepi-base": "CEPI_BASE Advanced Computer Studies, Barcelona",
+				"title": "Web Design and Programming - Inforbooks editorial",
 				"date": "September 2013",
-				"content": "HTML5, CSS3, jQuery, Javascript and Dreamweaver WEB development course."
+				"content": "WEB development HTML5, CSS3, jQuery, WordPress, Javascript, Dreamweaver."
 			},
 			"une": {
 				"une": "Nueva Esparta University",
@@ -68,16 +74,16 @@
 		"work": {
 			"work": "Work experience",
 			"tailbase": {
-				"tailbase": "Tailbase Inc.",
-				"position": "Researh & Developer Programmer",
-				"date": "June 2018 - (currently)",
-				"content": "Managing a team in the maintenance and developing of new features for our platform based on ColdFusion, SQL and .NET. And, in parallel form, working on development of a completely new platform using recent technologies such as Angular, React, NodeJS and MongoDB, among others."
-			},                        
+				"tailbase": "Tailbase-Informat",
+				"position": "Programmer fullstack - Researh & Developer",
+				"date": "Since June 2018 - (currently)",
+				"content": "Using Agile Scrum and DevOps, the team of programmers provide support, maintenance and constant development to our Web platform based on ColdFusion and .NET, managing SQL databases, Rest APIs, various tools both for internal use and for our clients, and more than 600 e-commerce websites in Canada and the US."
+			},
 			"zemsania": {
 				"zemsania": "Zemsania Tech Services & Solutions",
-				"position": "Fullstack MEAN Developer",
+				"position": "Fullstack Developer",
 				"date": "",
-				"content": "Lead manager for the implementation of an operational system based on the AngularJS and NodeJS framework. Start-up and implementation of an application based on Angular 4, NodeJS, MongoDB, Webpack and Sonar for the «Work Hours and Vacations Assignment Control of the HR department»."
+				"content": "Colaborating for the implementation of an operational system based on the AngularJS and NodeJS framework. Start-up and implementation of an application based on Angular, Node.js, MongoDB, Webpack and Sonar for the «Work Hours and Vacations Assignment Control of the HR department»."
 			},
 			"roline": {
 				"roline": "Roline System",

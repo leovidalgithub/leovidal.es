@@ -17,4 +17,5 @@ $('span.close').on('click', closeModal);
 $(document).on('keyup', function(e) {
 	if(e.key === 'Escape')
 		closeModal();
+		$('#nav.nav').removeClass('open');
 })

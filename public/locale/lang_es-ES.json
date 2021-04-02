@@ -1,133 +1,139 @@
 {
-    "header": {
-        "navbar": {
-            "home": "Inicio",
-            "about": "Sobre mí",
-            "resume": "Résumé",
-            "portfolio": "Portafolio",
-            "contact": "Contacto"
-        },
-        "title": {
-            "iam": "Soy"
-        },
-        "intro": {
-            "intro": "Establecido en <span>Montreal</span> como desarrollador Web <span>Fullstack MEAN</span>, disfrutando en este magnífico rincón del mundo y haciendo lo que más gusta: desarrollar <span>Aplicaciones y Páginas Web,</span> intentando siempre superarme a mí mismo y dar lo mejor.",
-            "start": {
-                "start": "Empieza a",
-                "navigate": "navegar",
-                "knowme": "y conoce mucho más acerca de mí."
-            }
-        }
-    },
-    "about": {
-        "about-me": "Acerca de mí",
-        "content": "Informático de carrera y vida obtuve el título de Licenciado en Computación. Soy una persona polivalente que se ha desempeñado en diversas áreas siempre relacionado con la informática. Me considero un apasionado de la programación habiendo incursionado desde temprana edad con lenguajes como Basic, Fortran, PL/1, Cobol, entre otros. Posteriormente comencé a programar en Visual Basic (más adelante VB.NET).<br>Estoy especializado en el Desarrollo de Aplicaciones WEB como MEAN FullStack Developer. Poseo sólidos conocimientos gracias a ser una persona autodidacta e incansable.<br>En el año 2016 realicé un <span>Bootcamp</span> en Skylab Coders Academy como “Web Development Fullstack MEAN”, el cual me aportó sólidos conocimientos sobre las nuevas tecnologías y el reforzamiento de importantes conceptos. Actualmente estoy estudiando para recibir my <span>DEC</span> (Diploma of College Studies) como <span>“Computer Science - Administrative Data Processing“</span> en <span>LaSalle College, Montreal.</span><br>En uno de mis últimos empleos en Zemsania Tech Services, estuve como programador líder de una Aplicación basada en <span>Angular 4</span> y <span>NodeJS.</span><br>Poseo una gran capacidad de adaptación con todo lo que hago en mi vida. Mi deseo como profesional es continuar preparándome y trabajar junto a los mejores.",
-        "contact-details": "Dirección de Contacto",
-        "contact-me": "Contáctame"
-    },
-    "resume": {
-        "education": {
-            "education": "educación",
-            "lasalle": {
-                "lasalle": "LaSalle College Montreal",
-                "title": "Computer Science - Administrative Data Processing",
-                "date": "Enero 2018 - Junio 2020",
-                "content": "Este programa capacita al técnico en computación para ubicar, recopilar y analizar datos sobre las necesidades de procesamiento de información de los usuarios. Modelar, procesar datos y desarrollar código para crear aplicaciones eficientes acorde a los datos recolectados y prever las necesidades en cuanto a la infraestrcutra de redes. (Actualmente cursando el tercer semestre)."
-            },
-            "technologia": {
-                "technologia": "Technologia, Formation - Conseil",
-                "title": "Agile Project Management - SCRUM",
-                "date": "Julio 2019",
-                "content": "Proporcionar el conocimiento requerido para una comprensión profunda de los roles, aspectos y atributos del enfoque Scrum y adquirir la certificación PSM I."
-            },
-            "cisco": {
-                "cisco": "Cisco Systems, Inc.",
-                "title": "IT Essentials - Cisco Networking Academy® Program Certification",
-                "date": "Julio 31 2018",
-                "content": "Hardware y software, componentes informáticos, ensamblaje de piezas, administración de sistemas operativos, resolución de problemas, conectividad y redes. Equipos informáticos de escritorio, portátiles y dispositivos de móviles. Conectividad inalámbrica, seguridad, temas ambientales y habilidades de comunicación."
-            },
-            "skylab": {
-                "skylab": "Skylab Coders Academy",
-                "title": "Bootcamp Web Development Fullstack MEAN",
-                "date": "Octubre 2016",
-                "content": "Skylab Coders Academy ubicado en Barcelona, España, es un centro líder en la formación de desarrolladores Web donde se imparten cursos intensivos de desarrollo de aplicaciones Web con HTML5, CSS3, jQuery, Javascript, Angular, NodeJS, MongoDB, React, Scrum, Git, entre otros."
-            },
-            "abisa": {
-                "abisa": "ABISA Institute & Inforbooks",
-                "title": "Desarrollador WEB",
-                "date": "Septiembre 2013",
-                "content": "Desarrollo WEB HTML5, CSS3, jQuery, Javascript y Dreamweaver."
-            },
-            "une": {
-                "une": "Universidad Nueva Esparta",
-                "title": "Licenciado en Computación",
-                "date": "",
-                "content": "El Licenciado en Computación maneja hardware y software de actualidad para dar asistencia a las necesidades de empresas nacionales e internacionales, asiste a profesionales de otras disciplinas, está preparado para trabajar en equipo en sistemas de la información y para adaptarse a las tendencias. También maneja tecnologías de punta en el análisis, desarrollo e implantación de sistemas."
-            }
-        },
-        "work": {
-            "work": "trabajo",
-            "tailbase": {
-                "tailbase": "Tailbase-Informat",
-                "position": "Web Developer - Researh & Developer",
-                "date": "Junio 2018 - (actual)",
-                "content": "Gestionando un equipo en el mantenimiento y desarrollo de nuevas funcionalidades para nuestra plataforma basada en ColdFusion, SQL y .NET. Y, en forma paralela, colaborando en el desarrollo de una plataforma completamente nueva utilizando tecnologías recientes como Angular, React, NodeJS y MongoDB, entre otras."
-            },
-            "zemsania": {
-                "zemsania": "Zemsania Tech Services & Solutions",
-                "position": "Desarrollador Fullstack MEAN",
-                "date": "",
-                "content": "Encargado líder para la puesta operativa de un sistema basado sobre el framework AngularJS y NodeJS. Inicio y puesta en marcha de aplicativo basado en Angular 4, NodeJS, MongoDB, Webpack, Sonar para el «Control de Imputación de Horas y Vacaciones para el departamento de RR.HH.»"
-            },
-            "roline": {
-                "roline": "Roline System",
-                "position": "Desarrollador Aplicaciones Web",
-                "date": "",
-                "content": "De forma colaborativa diseñé y desarrollé en su totalidad una aplicación Web (SiPEDI) destinada a resolver un problema puntual acerca de pedidos realizados por clientes a proveedores de manera periódica. Desarrollada completamente con tecnología Web MEAN (MongoDB, Express, AngularJS, Node.js)."
-            },
-            "others": {
-                "others": "Otros trabajos y experiencia",
-                "position": "Técnico en Hardware y Adm. Redes",
-                "date": "",
-                "content": "Paralelamente al desarrollo de software he trabajado por largos años como técnico en hardware y administrador de redes; así como también en la venta de equipos informáticos."
-            }
-        },
-        "skills": {
-            "skills": "Aptitudes"
-        }
-    },
-    "portfolio": {
-        "title": "Algunos de mis últimos trabajos",
-        "login": "Usuario",
-        "pass": "Contraseña",
-        "tryme": "Pruébame",
-        "apps": {
-            "sipedi": {
-                "title": "Sistema de Pedido a Empresas de Distribución",
-                "note": "(ideal para ser probado con los dos usuarios al mismo tiempo en diferentes dispositivos)"
-            },
-            "zemtime_ng1": {
-                "title": "Imputación de horas - Angular 1",
-                "note": "()"
-            },
-            "zemtime_ng4": {
-                "title": "Imputación de horas - Angular 4",
-                "note": "()"
-            }
-        }
-    },
-    "contact": {
-        "getintouch": "GET IN TOUCH",
-        "form": {
-            "name": "Nombre",
-            "email": "Correo",
-            "subject": "Asunto",
-            "message": "Mensaje"
-        },
-        "sending": {
-            "ok": "Mensaje enviado. Gracias!",
-            "err": "Tu mensaje no pudo enviarse!",
-            "submit": "Enviar"
-        }
-    }
+	"header": {
+		"navbar": {
+			"home": "Inicio",
+			"about": "Sobre mí",
+			"resume": "Résumé",
+			"portfolio": "Portafolio",
+			"contact": "Contacto"
+		},
+		"title": {
+			"iam": "Soy"
+		},
+		"intro": {
+			"intro": "Establecido en <span>Montreal</span> como desarrollador Web <span>Fullstack</span>, disfrutando en este magnífico rincón del mundo y haciendo lo que más gusta: desarrollar <span>Aplicaciones y Páginas Web,</span> intentando siempre superarme a mí mismo y dar lo mejor.",
+			"start": {
+				"start": "Empieza a",
+				"navigate": "navegar",
+				"knowme": "y conoce mucho más acerca de mí."
+			}
+		}
+	},
+	"about": {
+		"about-me": "Acerca de mí",
+		"content": "Informático de carrera y vida obtuve el título de Licenciado en Computación. Soy una persona polivalente que se ha desempeñado en diversas áreas siempre relacionado con la informática. Me considero un apasionado de la programación habiendo incursionado desde temprana edad con lenguajes como Basic, Fortran, PL/1, Cobol, entre otros. Posteriormente comencé a programar en Visual Basic (más adelante VB.NET).<br>Estoy especializado en el Desarrollo de Aplicaciones WEB como FullStack. Poseo sólidos conocimientos gracias a ser una persona autodidacta e incansable.<br>En el año 2016 realicé un <span>Bootcamp</span> en Skylab Coders Academy como “Web Development Fullstack MEAN”, el cual me aportó sólidos conocimientos sobre las nuevas tecnologías y el reforzamiento de importantes conceptos. En junio de 2020, obtuve un <span>DEC</span> (Diploma of College Studies) como <span>“Computer Science - Administrative Data Processing“</span> en <span>LaSalle College, Montreal.</span><br>En uno de mis últimos empleos en Zemsania Tech Services, estuve como programador de una Aplicación basada en <span>Angular</span> y <span>Node.js.</span><br>Poseo una gran capacidad de adaptación con todo lo que hago en mi vida. Mi deseo como profesional es continuar preparándome y trabajar junto a los mejores.",
+		"contact-details": "Dirección de Contacto",
+		"contact-me": "Contáctame"
+	},
+	"resume": {
+		"education": {
+			"education": "educación",
+			"lasalle": {
+				"lasalle": "LaSalle College Montreal",
+				"title": "Computer Science - Administrative Data Processing",
+				"date": "Enero 2018 - Junio 2020",
+				"content": "Este programa capacita al técnico en computación para ubicar, recopilar y analizar datos sobre las necesidades de procesamiento de información de los usuarios. Modelar, procesar datos y desarrollar código para crear aplicaciones eficientes acorde a los datos recolectados y prever las necesidades en cuanto a la infraestrcutra de redes. (Actualmente cursando el tercer semestre)."
+			},
+			"technologia": {
+				"technologia": "Technologia, Formation - Conseil",
+				"title": "Agile Project Management - SCRUM",
+				"date": "Julio 2019",
+				"content": "Proporcionar el conocimiento requerido para una comprensión profunda de los roles, aspectos y atributos del enfoque Scrum y adquirir la certificación PSM I."
+			},
+			"cisco": {
+				"cisco": "Cisco Systems, Inc.",
+				"title": "IT Essentials - Cisco Networking Academy® Program Certification",
+				"date": "Julio 31 2018",
+				"content": "Hardware y software, componentes informáticos, ensamblaje de piezas, administración de sistemas operativos, resolución de problemas, conectividad y redes. Equipos informáticos de escritorio, portátiles y dispositivos de móviles. Conectividad inalámbrica, seguridad, temas ambientales y habilidades de comunicación."
+			},
+			"skylab": {
+				"skylab": "Skylab Coders Academy",
+				"title": "Bootcamp Web Development Fullstack MEAN",
+				"date": "Octubre 2016",
+				"content": "Skylab Coders Academy ubicado en Barcelona, España, es un centro líder en la formación de desarrolladores Web donde se imparten cursos intensivos de desarrollo de aplicaciones Web con HTML5, CSS3, jQuery, Javascript, Angular, NodeJS, MongoDB, React, Scrum, Git, entre otros."
+			},
+			"cipsa": {
+				"cipsa": "CIPSA Escuela Superior de Informática Profesional, Barcelona",
+				"title": "Backend / Frontend",
+				"date": "Febrero 2014",
+				"content": "PHP con MySQL, Ajax, HTML, CSS, Bootstrap, jQuery."
+			},
+			"cepi-base": {
+				"cepi-base": "CEPI_BASE Estudios Avanzados de Informática, Barcelona",
+				"title": "Diseño y Programación Web - editorial Inforbooks",
+				"date": "Septiembre 2013",
+				"content": "Desarrollo WEB HTML5, CSS3, jQuery, WordPress, Javascript, Dreamweaver."
+			},
+			"une": {
+				"une": "Universidad Nueva Esparta",
+				"title": "Licenciado en Computación",
+				"date": "",
+				"content": "El Licenciado en Computación maneja hardware y software de actualidad para dar asistencia a las necesidades de empresas nacionales e internacionales, asiste a profesionales de otras disciplinas, está preparado para trabajar en equipo en sistemas de la información y para adaptarse a las tendencias. También maneja tecnologías de punta en el análisis, desarrollo e implantación de sistemas."
+			}
+		},
+		"work": {
+			"work": "trabajo",
+			"tailbase": {
+				"tailbase": "Tailbase-Informat",
+				"position": "Programador fullstack - Researh & Developer",
+				"date": "Desde junio 2018... actualmente",
+				"content": "Haciendo uso de Agile Scrum y DevOps, el equipo de programadores damos soporte, mantenimiento y constante desarrollo a nuestra plataforma Web basada en ColdFusion y .NET, gestionando bases de datos SQL, Rest API, diversas herramientas tanto de uso interno como para nuestros clientes, y más de 600 sitios web de comercio electrónico en Canadá y EE.UU."
+			},
+			"zemsania": {
+				"zemsania": "Zemsania Tech Services & Solutions",
+				"position": "Desarrollador Fullstack",
+				"date": "",
+				"content": "Colaborando para la puesta operativa de un sistema basado sobre el framework Angular y Node.js. Inicio y puesta en marcha de aplicativo basado en Angular 4, NodeJS, MongoDB, Webpack, Sonar para el «Control de Imputación de Horas y Vacaciones para el departamento de RR.HH.»"
+			},
+			"roline": {
+				"roline": "Roline System",
+				"position": "Desarrollador Aplicaciones Web",
+				"date": "",
+				"content": "De forma colaborativa diseñé y desarrollé en su totalidad una aplicación Web (SiPEDI) destinada a resolver un problema puntual acerca de pedidos realizados por clientes a proveedores de manera periódica. Desarrollada completamente con tecnología Web MEAN (MongoDB, Express, AngularJS, Node.js)."
+			},
+			"others": {
+				"others": "Otros trabajos y experiencia",
+				"position": "Técnico en Hardware y Adm. Redes",
+				"date": "",
+				"content": "Paralelamente al desarrollo de software he trabajado por largos años como técnico en hardware y administrador de redes; así como también en la venta de equipos informáticos."
+			}
+		},
+		"skills": {
+			"skills": "Aptitudes"
+		}
+	},
+	"portfolio": {
+		"title": "Algunos de mis últimos trabajos",
+		"login": "Usuario",
+		"pass": "Contraseña",
+		"tryme": "Pruébame",
+		"apps": {
+			"sipedi": {
+				"title": "Sistema de Pedido a Empresas de Distribución",
+				"note": "(ideal para ser probado con los dos usuarios al mismo tiempo en diferentes dispositivos)"
+			},
+			"zemtime_ng1": {
+				"title": "Imputación de horas - Angular 1",
+				"note": "()"
+			},
+			"zemtime_ng4": {
+				"title": "Imputación de horas - Angular 4",
+				"note": "()"
+			}
+		}
+	},
+	"contact": {
+		"getintouch": "GET IN TOUCH",
+		"form": {
+			"name": "Nombre",
+			"email": "Correo",
+			"subject": "Asunto",
+			"message": "Mensaje"
+		},
+		"sending": {
+			"ok": "Mensaje enviado. Gracias!",
+			"err": "Tu mensaje no pudo enviarse!",
+			"submit": "Enviar"
+		}
+	}
 }

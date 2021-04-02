@@ -270,14 +270,12 @@ const mainInit = () => {
   ------------------------------------------------------ */
 
   $('.smoothscroll').on('click', function (e) {
-    e.preventDefault(); // this prevents from href="#about" to go
-
+    e.preventDefault();
     let target = this.hash;
     let $target = $(target);
     $('html, body').stop().animate({
       'scrollTop': $target.offset().top
-    }, 1100, 'swing', () => {
-      window.location.hash = target; // ???
+    }, 1100, 'swing', () => {// window.location.hash = target;
     });
   });
   /*----------------------------------------------------*/
@@ -374,7 +372,21 @@ const mainInit = () => {
         nav.fadeIn(1000).addClass('opaque');
       }
     }
-  }); // }); // jQuery.document.ready
+  });
+  /*----------------------------------------------------*/
+
+  /*	Mobile hambuger menu
+  	ESC key event in modal.js
+  ------------------------------------------------------*/
+
+  $(document).on('click', function (e) {
+    // e.preventDefault();
+    if ($(e.target).hasClass('mobile-btn')) {
+      $('#nav.nav').toggleClass('open');
+    } else {
+      $('#nav.nav').removeClass('open');
+    }
+  });
 }; // mainInit()
 
 /*----------------------------------------------------*/
@@ -451,6 +463,7 @@ $('.modal-image').on('click', function (e) {
 $('span.close').on('click', closeModal);
 $(document).on('keyup', function (e) {
   if (e.key === 'Escape') closeModal();
+  $('#nav.nav').removeClass('open');
 });
 const protocol = window.location.protocol;
 const hostname = window.location.hostname;
