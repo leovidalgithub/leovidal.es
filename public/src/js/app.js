@@ -50,7 +50,7 @@ angular
 		vm.openUrl = (val) => {
 			switch (val) {
 				case 1:
-					$window.open('http://sipedi.net', '_blank');
+					$window.open('https://sipedi.leovidal.es/login', '_blank');
 					break;
 				case 2:
 					$window.open('http://zemtime.ngi.sipedi.net', '_blank');

@@ -72,7 +72,7 @@ angular.module('myAppCV', ['pascalprecht.translate', 'ngSanitize', 'miscellaneou
   vm.openUrl = val => {
     switch (val) {
       case 1:
-        $window.open('http://sipedi.net', '_blank');
+        $window.open('https://sipedi.leovidal.es/login', '_blank');
         break;
 
       case 2:

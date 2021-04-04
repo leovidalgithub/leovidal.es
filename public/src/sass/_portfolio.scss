@@ -1,167 +1,175 @@
 #portfolio {
-    width: 100%;
-    min-height: 400px;
-    padding-top: 90px;
-    padding-bottom: 60px;
-    color: $grayText;
-    font-family: 'comfortaa', sans-serif;
-    p {
-        margin: 0;
-        margin-bottom: 11px;
-    }    
+	width: 100%;
+	min-height: 400px;
+	padding-top: 90px;
+	padding-bottom: 60px;
+	color: $grayText;
+	font-family: 'comfortaa', sans-serif;
+	p {
+		margin: 0;
+		margin-bottom: 11px;
+	}
 
-    h1 {
-        font: 16px/24px 'opensans-semibold', sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        text-align: center;
-        margin-bottom: 48px;
-        color: $grayText;
-    }
+	h1 {
+		font: 16px/24px 'opensans-semibold', sans-serif;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		text-align: center;
+		margin-bottom: 48px;
+		color: $grayText;
+	}
 
-    .myContainer {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        align-items: center;
+	.myContainer {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: center;
 
-        .item {
-            position: relative;
-            width: 320px;
-            height: 385px;
-            padding: 15px;
-            background-color: darken($background-1, 10%);
-            border-radius: 7px;
-            margin-right: 15px;
-            margin-bottom: 15px;
-            transition: all .2s ease;
-            &:hover {
-                -webkit-transform: scale(1.005);
-                transform: scale(1.005);
-                background-color: darken($background-1, 15%);
-                color: lighten($grayText, 25%);
-                cursor: pointer;
-            }
-            
-            .title {
-                h2 {
-                    font-family: 'Days One', sans-serif;
-                    font-size: 1.4rem !important;
-                    text-align: center;
-                    color: $grayText;
-                    text-shadow: .5px .5px 1px white;
-                    border-bottom: 1px solid lighten($grayText, 18%);
-                    margin-bottom: 10px;
-                }
-                p {
-                    text-align: center;
-                    font-size: .9rem;
-                    color: lighten($grayText, 25%);
-                }
-            }
-            .technologies {
-                font-variant: small-caps;
-                font-size: 0.8rem;
-            }
-            .demo {
-                margin: 12px auto;
-                font-size: .8rem;
-                text-align: center;
-                hr {
-                    margin: 8px auto;
-                }
-                div {
-                    margin-top: 7px;
-                    text-indent: 25px;
-                    text-align: left;
-                    p {
-                        margin: 0;
-                    }
-                    p.note {
-                        text-align: center;
-                        font-size: .6rem;
-                        margin-top: 5px;
-                    }
-                    i {
-                        color: $approvedColor;
-                    }
-                }            
-            } // .demo
-            a {
-                position: absolute;
-                bottom: 10px;
-                left: 110px;
-                text-decoration: none;
-                color: $approvedColor;                
-            }
-        } // .item
-    } // myContainer
+		.item {
+			position: relative;
+			width: 320px;
+			height: 385px;
+			padding: 15px;
+			background-color: darken($background-1, 10%);
+			border-radius: 7px;
+			margin-right: 15px;
+			margin-bottom: 15px;
+			transition: all .2s ease;
+			&:hover {
+				-webkit-transform: scale(1.005);
+				transform: scale(1.005);
+				background-color: darken($background-1, 15%);
+				color: lighten($grayText, 25%);
+				cursor: pointer;
+			}
+
+			.title {
+				h2 {
+					font-family: 'Days One', sans-serif;
+					font-size: 1.4rem !important;
+					text-align: center;
+					color: $grayText;
+					text-shadow: .5px .5px 1px white;
+					border-bottom: 1px solid lighten($grayText, 18%);
+					margin-bottom: 10px;
+				}
+				p {
+					text-align: center;
+					font-size: .9rem;
+					color: lighten($grayText, 25%);
+				}
+			}
+			.technologies {
+				font-variant: small-caps;
+				font-size: 0.8rem;
+			}
+			.demo {
+				margin: 12px auto;
+				font-size: .8rem;
+				text-align: center;
+				hr {
+					margin: 8px auto;
+				}
+				div {
+					margin-top: 7px;
+					text-indent: 25px;
+					text-align: left;
+					p {
+						margin: 0;
+					}
+					p.note {
+						text-align: center;
+						font-size: .6rem;
+						margin-top: 5px;
+					}
+					i {
+						color: $approvedColor;
+					}
+				}
+			} // .demo
+			a {
+				position: absolute;
+				bottom: 10px;
+				left: 110px;
+				text-decoration: none;
+				color: $approvedColor;
+			}
+			&.app-offline {
+				pointer-events: none;
+				opacity: .35;
+				.demo *,
+				a, i {
+					color: grey;
+				}
+			}
+		} // .item
+	} // myContainer
 } // # portfolio
 
-        // .zemtime {
-            //     .title {
-    //         h2 {
-        //             font-family: monospace, 'Days One', sans-serif;
-        //             font-size: 3rem;
-    //             line-height: 22px;
-    //             color: #2B2B2B;
-    //         }
-    //         p {
-    //             margin: 30px auto;
-    //             font-size: 22px;
-    //             font-family: monospace;
-    //         }
-    //     }
-    // }
+		// .zemtime {
+			//     .title {
+	//         h2 {
+		//             font-family: monospace, 'Days One', sans-serif;
+		//             font-size: 3rem;
+	//             line-height: 22px;
+	//             color: #2B2B2B;
+	//         }
+	//         p {
+	//             margin: 30px auto;
+	//             font-size: 22px;
+	//             font-family: monospace;
+	//         }
+	//     }
+	// }
 
 
 // **********************************
-    // .flexslider {
-    //     width: 55%;
-    //     max-width: 600px;
-    //     height: 100%;
-    //     margin: auto;
-    //     text-align: center;
-    //     padding: 32px 1px 10px 1px;
-    //     color: #2B2B2B;
-    //     color: white;
-    //     // background-color: $approvedColor;
-    //     background-color: #666;
-    //     background-color: teal;
-    //     border: none;
-    //     .technologies {
-    //         background-color: #2B2B2B;
-    //         padding: 8px 46px;
-    //         display: flex;
-    //         flex-flow: row wrap;
-    //         justify-content: space-around;
-    //         align-items: center;
-    //         span {
-    //             color: $approvedColor;
-    //             display: inline-block;
-    //             margin: 5px 15px;
-    //         }
-    //     }
-    //     .demo {
-    //         margin-top: 20px;
-    //         // padding: 12px 30px;
-    //         display: flex;
-    //         flex-flow: row wrap;
-    //         justify-content: flex-end;
-    //         align-items: center;
-    //         * {
-    //             margin: 0 10px 0 0;
-    //         }
-    //         a {
-    //             @include myButton();
-    //         }
-    //     }
-    // } //....
+	// .flexslider {
+	//     width: 55%;
+	//     max-width: 600px;
+	//     height: 100%;
+	//     margin: auto;
+	//     text-align: center;
+	//     padding: 32px 1px 10px 1px;
+	//     color: #2B2B2B;
+	//     color: white;
+	//     // background-color: $approvedColor;
+	//     background-color: #666;
+	//     background-color: teal;
+	//     border: none;
+	//     .technologies {
+	//         background-color: #2B2B2B;
+	//         padding: 8px 46px;
+	//         display: flex;
+	//         flex-flow: row wrap;
+	//         justify-content: space-around;
+	//         align-items: center;
+	//         span {
+	//             color: $approvedColor;
+	//             display: inline-block;
+	//             margin: 5px 15px;
+	//         }
+	//     }
+	//     .demo {
+	//         margin-top: 20px;
+	//         // padding: 12px 30px;
+	//         display: flex;
+	//         flex-flow: row wrap;
+	//         justify-content: flex-end;
+	//         align-items: center;
+	//         * {
+	//             margin: 0 10px 0 0;
+	//         }
+	//         a {
+	//             @include myButton();
+	//         }
+	//     }
+	// } //....
 
-    // .row-eq-height { // all three columns the same height
-    //     display: -webkit-box;
-    //     display: -webkit-flex;
-    //     display: -ms-flexbox;
-    //     display: flex;
-    //     flex-wrap: wrap;
-    // }
+	// .row-eq-height { // all three columns the same height
+	//     display: -webkit-box;
+	//     display: -webkit-flex;
+	//     display: -ms-flexbox;
+	//     display: flex;
+	//     flex-wrap: wrap;
+	// }
