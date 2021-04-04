@@ -1,9 +1,6 @@
 const nodemailer = require('nodemailer');
 const EMAILPASS_ENV  = process.env.EMAILPASS_ENV;
 
-
-console.log('process.env.EMAILPASS_ENV;', process.env.EMAILPASS_ENV);
-
 const config = {
 	port: 80,
 	header: (req, res, next) => {
