@@ -41,7 +41,7 @@ const mainInit = () => {
 	------------------------------------------------------ */
 	const randomImage = () => {
 		let x = Math.floor(Math.random() * 8); // between 0 & 7
-		return `./images/header-8912${x}.jpg`;
+		return `./images/header-1912${x}.jpg`;
 	};
 
 	$('header').parallax({
@@ -65,8 +65,7 @@ const mainInit = () => {
 	// change header image every timelapse
 	setInterval(() => {
 		$('.parallax-slider').eq(1).attr('src', randomImage());
-	}, 30000);
-
+	}, 10000);
 
 	/*----------------------------------------------------*/
 	/* Smooth Scrolling
