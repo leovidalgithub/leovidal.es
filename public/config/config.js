@@ -3,7 +3,7 @@ const EMAILPASS_ENV  = process.env.EMAILPASS_ENV;
 
 const config = {
 	port: 80,
-	header: (req, res, next) => {
+	header: (req, res, next) => { // https://expressjs.com/en/resources/middleware/cors.html
 		res.setHeader('Access-Control-Allow-Origin', '*'); //res.header("Access-Control-Allow-Origin", "http://localhost");
 		res.setHeader('Access-Control-Request-Method', '*');
 		res.setHeader("Access-Control-Allow-Methods", "POST, PUT, OPTIONS, DELETE, GET");
