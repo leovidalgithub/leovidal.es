@@ -207,7 +207,7 @@ const mainInit = () => {
       maxFontSize: '85px'
     });
     $(document.body).css('opacity', '1');
-  }, 1600);
+  }, 600);
   /*----------------------------------------------------*/
 
   /* Idioms options show/hide
@@ -239,7 +239,7 @@ const mainInit = () => {
 
 
   const randomImage = () => {
-    let x = Math.floor(Math.random() * 8); // between 0 & 7
+    let x = Math.floor(Math.random() * 9); // between 0 & 8 inclusive
 
     return `./images/header-1912${x}.jpg`;
   };
@@ -263,7 +263,7 @@ const mainInit = () => {
 
   setInterval(() => {
     $('.parallax-slider').eq(1).attr('src', randomImage());
-  }, 10000);
+  }, 9000);
   /*----------------------------------------------------*/
 
   /* Smooth Scrolling
@@ -275,7 +275,7 @@ const mainInit = () => {
     let $target = $(target);
     $('html, body').stop().animate({
       'scrollTop': $target.offset().top
-    }, 1100, 'swing', () => {// window.location.hash = target;
+    }, 2100, 'swing', () => {// window.location.hash = target;
     });
   });
   /*----------------------------------------------------*/
