@@ -1,5 +1,5 @@
 const nodemailer = require('nodemailer');
-const EMAILPASS_ENV  = process.env.EMAILPASS_ENV;
+const EMAILPASS_ENV  = process.env.EMAILPASS_ENV || 'NOPASSWORD';
 
 const config = {
 	port: 80,
@@ -11,11 +11,11 @@ const config = {
 		next();
 	},
 	transporter : nodemailer.createTransport({
-		host: 'smtp.leovidal.es',
+		host: 'mail.leovidal.es',
 		port: 465,
 		secure: true, // use SSL
 		auth: {
-			user: 'cv@leovidal.es',
+			user: 'leo@leovidal.es',
 			pass: EMAILPASS_ENV
 		},
 		tls: {
@@ -25,3 +25,11 @@ const config = {
 }
 
 module.exports = { ...config }
+
+
+// // config.js
+// module.exports = {
+// 	NODE_ENV: process.env.NODE_ENV || 'development',
+// 	HOST: process.env.HOST || '127.0.0.1',
+// 	PORT: process.env.PORT || 3000
+//   }

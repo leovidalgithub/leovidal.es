@@ -3,7 +3,7 @@ const app = express();
 const bodyParser = require('body-parser');
 const {port, header, transporter} = require('./public/config/config');
 
-// app.use(header); // cors
+app.use(header); // cors
 
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json());
@@ -28,7 +28,7 @@ app.post('/contact', (req,res, next) => {
 const sendThisMail = (data, callback) => {
 	const mailOptions = {
 			from    : data.email,
-			to      : 'cv@leovidal.es',
+			to      : 'leo@leovidal.es',
 			subject : `leovida.es Résumé - ${data.subject}`,
 			html    : `
 						<h2>CV FORM - leovidal.es</h2>
